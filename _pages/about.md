@@ -12,4 +12,4 @@ I am currently an undergraduate student in [Shenyuan Honors College](http://sae.
 
 # Interests:
 
-Model airplane (Fixed-wing aircraft, Four-rotor drones), Photography (https://500px.me/lijinjie), Basketball, travelling.
+Model airplane (Fixed-wing aircraft, Four-rotor drones), [Photography](https://500px.me/lijinjie), Basketball, travelling.
