@@ -18,10 +18,12 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
+# If you have any plugins, put them here! The missed packge must be include here after installing.
 group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
+  gem 'tzinfo', '1.2.5' 
+  gem 'tzinfo-data', '1.2019.2'
 end

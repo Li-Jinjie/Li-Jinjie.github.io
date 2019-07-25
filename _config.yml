@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Jinjie Li"
   avatar           : "Lijinjie.png"
-  bio              : "Undergraduate student in Control Science and Engineering. Shenyuan Honors College, Beihang University"
+  bio              : "Undergraduate student in Control Science and Engineering. &#10 Shenyuan Honors College, Beihang University"
   location         : "Beijing, China"
   employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -178,16 +178,13 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  ProjectsBlogs:
     output: true
     permalink: /:collection/:path/
-  publications:
+  homework:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -212,23 +209,24 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _ProjectsBlogs
   - scope:
       path: ""
-      type: teaching
+      type: ProjectsBlogs
     values:
       layout: single
       author_profile: true
-      share: true
+      read_time: true
+      share: false
       comments: true
-  # _publications
+  # _homework
   - scope:
       path: ""
-      type: publications
+      type: homework
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -237,16 +235,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+ 
 
 # Sass/SCSS
 sass:

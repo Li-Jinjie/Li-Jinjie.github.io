@@ -1,17 +1,21 @@
 # main links links
 main:
 
-  - title: "Projects"
-    url: /Projects/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV&Contact"
-    url: /cv/
+  - title: "Projects&Blogs"
+    url: /Projects&Blogs/    
     
   - title: "Homework"
-    url: /homework-archive/
+    url: /homework/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "CV&Contact"
+    url: /cv/
+        
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+    
+  
+    
+
