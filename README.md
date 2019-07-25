@@ -1,3 +1,13 @@
+# 实现我的网页需要做的事情
+
+0. 了解collection: http://jekyllcn.com/docs/collections/
+导航栏中每一项对应的界面有两种类型,一种是一个.md文件转换过去的,另外一种是collection的形式.
+1. 修改_config.yml  控制collection的相关配置在_config.yml中,其位置及每一行命令的意义可以参考上边的链接.
+2. 在对应文件夹中添加需要展示的子界面. collection界面中的每一个文件都来自于这个collection同名的文件夹, 如 _portfolio .
+3. 修改子界面的文件头 而文件夹中的.md文件内容在collection中如何显示,则取决于这个.md文件中包含的YAML头.
+4. 如果要对网页元素进行调整,可以查看元素,去_include中进行调整. _layout文件夹中储存了一些基础模板,在单独某些页面的YAML头中会调用这些模板
+
+# 以下是原作者的README
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
