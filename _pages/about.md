@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![](https://imgchr.com/i/emkTTH)
+![](https://s2.ax1x.com/2019/07/25/emkTTH.jpg)
 
 I am currently an undergraduate student in [Shenyuan Honors College](http://sae.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. Lei Guo](https://www.buaa.edu.cn/info/1569/1582.htm). I am trying to enrich this website, maybe come several days later!
 
