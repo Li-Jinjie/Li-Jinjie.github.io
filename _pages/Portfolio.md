@@ -18,3 +18,4 @@ I love traveling around the world, enjoying the magnificent natural landscape an
 Mouse over a cluster to see where I have been!
 <iframe src="/talkmap/map.html" height="700" width="950" style="border:none;"></iframe>
 
+
