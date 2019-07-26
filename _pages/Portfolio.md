@@ -11,7 +11,10 @@ author_profile: true
 
 Hi! I am a **keen** amateur photographer! 📸
 
-I love traveling around the world, enjoying the magnificent natural landscape and talking with people everywhere🌏. And I believe pictures are the **BEST LANGUAGE** to record these wondrous journeys.  You can find my favorite works on [my photography website](https://500px.me/lijinjie)! 
+I love traveling around the world, enjoying the magnificent natural landscape and talking with people everywhere🌏. And I believe pictures are the **BEST LANGUAGE** to record these wondrous journeys.  You can find my favorite works on <a href="https://500px.me/lijinjie" target="_blank">my photography website</a>!
 
-<a href="https://500px.me/lijinjie"><img src="https://s2.ax1x.com/2019/07/25/emQMqI.png" alt="emQMqI.png" border="0" /></a>
+<a href="https://500px.me/lijinjie" target="_blank"><img src="https://s2.ax1x.com/2019/07/25/emQMqI.png" alt="emQMqI.png" border="0" /></a>
+
+Mouse over a cluster to see where I have been!
+<iframe src="/talkmap/map.html" height="700" width="950" style="border:none;"></iframe>
 
