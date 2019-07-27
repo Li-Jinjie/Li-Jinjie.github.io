@@ -2,7 +2,7 @@
 title: "Computer Control System"
 collection: homework
 permalink: /homework/Computer-control-system
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: '1 file, Language: Chinese'
 date: 2019-05-25
 ---
 
