@@ -16,6 +16,23 @@ I love traveling around the world, enjoying the magnificent natural landscape an
 <a href="https://500px.me/lijinjie" target="_blank"><img src="https://s2.ax1x.com/2019/07/25/emQMqI.png" alt="emQMqI.png" border="0" /></a>
 
 Mouse over a cluster to see where I have been!
+<!-- <iframe src="/talkmap/map.html" style="border:none;" scrolling="no" allowfullscreen="true"></iframe> -->
 <iframe src="/talkmap/map.html" height="700" width="950" style="border:none;"></iframe>
+<!-- <script>
+    // ?????
+  function autoHeight(iframe) {
+    if (iframe) {
+      var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+      if (iframeWin.document.body) {
+        iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        iframe.width = iframeWin.document.documentElement.scrollWidth || iframeWin.document.body.scrollWidth;
+      }
+    }
+  }
+  window.onload = function() {
+    autoHeight(document.getElementById('iframe'));
+  }
+</script> -->
+
 
 
