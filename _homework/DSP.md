@@ -1,0 +1,36 @@
+---
+title: "Digital Signal Processing"
+collection: homework
+permalink: /homework/DSP
+excerpt: 'Contain 2 files in Chinese.'
+venue: 'DSP'
+date: 2019-06-02
+---
+
+## Introduction
+
+|   Language   |      Chinese       |
+| :----------: | :----------------: |
+|    Credit    |  2.5(Theory)+1(Experiment)         |
+| Files number |         2          |
+|  Files type  | Experiment Reports |
+
+**Theory:**
+
+The main contents of this course include: time-domain, frequency-domain and Z-domain analysis methods for discrete-time signals and systems; sampling theory and application of discrete-time signals; basic concepts, calculation methods and typical applications of discrete Fourier transform; Filter architecture and design methods, the finite-length effect analysis of digital signal processing systems, and more.
+
+**Experiment:**
+
+1. Typical signal time domain analysis and processing experiment 
+
+2. Frequency domain analysis and processing experiments of typical signals 
+
+3. IIR and FIR digital filter design experiment 
+
+4. Analysis and processing experiments of typical engineering signals
+
+## Files
+
+The experiment reports can be download below:
+<a href="http://Li-jinjie.github.io/files/DSP/hardware experiment.pdf" target="_blank">Hardware part</a>
+<a href="http://Li-jinjie.github.io/files/DSP/software experiment.pdf.pdf" target="_blank">Software part</a>
