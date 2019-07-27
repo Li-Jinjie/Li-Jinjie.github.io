@@ -3,7 +3,7 @@ title: "Digital Signal Processing"
 collection: homework
 permalink: /homework/DSP
 excerpt: 'Contain 2 files in Chinese.'
-venue: 'DSP'
+# venue: 'DSP'
 date: 2019-06-02
 ---
 
@@ -32,5 +32,7 @@ The main contents of this course include: time-domain, frequency-domain and Z-do
 ## Files
 
 The experiment reports can be download below:
+
 <a href="http://Li-jinjie.github.io/files/DSP/hardware experiment.pdf" target="_blank">Hardware part</a> (TMS320F28335)
+
 <a href="http://Li-jinjie.github.io/files/DSP/software experiment.pdf" target="_blank">Software part</a> (MATLAB)

@@ -3,7 +3,7 @@ title: "Pattern recognition and machine learning"
 collection: homework
 permalink: /homework/Pattern recognition and machine learning
 excerpt: 'Contain 4 files in Chinese.'
-venue: 'Pattern recognition and machine learning'
+# venue: 'Pattern recognition and machine learning'
 date: 2019-06-28
 ---
 
@@ -12,7 +12,7 @@ date: 2019-06-28
 |   Language   |  Chinese   |
 | :----------: | :--------: |
 |    Credit    |    2.5     |
-| Number of files |     5      |
+| Number of files |     4      |
 |  Type  | Experiment & Assignment |
 
 This course mainly includes: basic concepts and methods of pattern recognition and machine learning; perceptron algorithm; classifier design based on Bayesian risk decision; linear discriminant function; feature extraction and selection; supervised learning; artificial neural network; support vector machine; Decision tree; unsupervised learning and semi-supervised learning.

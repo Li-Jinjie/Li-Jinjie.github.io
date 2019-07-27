@@ -3,7 +3,7 @@ title: "Computer Control System"
 collection: homework
 permalink: /homework/Computer-control-system
 excerpt: 'Contain 1 file in Chinese.'
-venue: 'Computer-control-system'
+# venue: 'Computer-control-system'
 date: 2019-05-25
 ---
 
