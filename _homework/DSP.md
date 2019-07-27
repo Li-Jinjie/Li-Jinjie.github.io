@@ -12,8 +12,8 @@ date: 2019-06-02
 |   Language   |      Chinese       |
 | :----------: | :----------------: |
 |    Credit    |  2.5(Theory)+1(Experiment)         |
-| Files number |         2          |
-|  Files type  | Experiment Reports |
+| Number of files |         2          |
+|  Type  | Experiment Reports |
 
 **Theory:**
 
@@ -32,5 +32,5 @@ The main contents of this course include: time-domain, frequency-domain and Z-do
 ## Files
 
 The experiment reports can be download below:
-<a href="http://Li-jinjie.github.io/files/DSP/hardware experiment.pdf" target="_blank">Hardware part</a>
-<a href="http://Li-jinjie.github.io/files/DSP/software experiment.pdf.pdf" target="_blank">Software part</a>
+<a href="http://Li-jinjie.github.io/files/DSP/hardware experiment.pdf" target="_blank">Hardware part</a> (TMS320F28335)
+<a href="http://Li-jinjie.github.io/files/DSP/software experiment.pdf" target="_blank">Software part</a> (MATLAB)

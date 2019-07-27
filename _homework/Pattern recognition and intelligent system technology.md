@@ -12,8 +12,8 @@ date: 2019-05-30
 |   Language   |  Chinese   |
 | :----------: | :--------: |
 |    Credit    |    2.5     |
-| Files number |     3      |
-|  Files type  | Assignment |
+| Number of files |     3      |
+|  Type  | Assignment |
 
 
 This course includes basic knowledge of the following fields:
