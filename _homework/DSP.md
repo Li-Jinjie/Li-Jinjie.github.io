@@ -9,11 +9,11 @@ date: 2019-06-21
 
 ## Introduction
 
-|   Language   |      Chinese       |
-| :----------: | :----------------: |
-|    Credit    |  2.5(Theory)+1(Experiment)         |
-| Number of files |         2          |
-|  Type  | Experiment Reports |
+|    Language     |          Chinese          |
+| :-------------: | :-----------------------: |
+|     Credit      | 2.5(Theory)+1(Experiment) |
+| Number of files |             2             |
+|      Type       |    Experiment Reports     |
 
 **Theory:**
 
@@ -22,12 +22,11 @@ The main contents of this course include: time-domain, frequency-domain and Z-do
 **Experiment:**
 
 1. Typical signal time domain analysis and processing experiment 
-
 2. Frequency domain analysis and processing experiments of typical signals 
-
 3. IIR and FIR digital filter design experiment 
-
 4. Analysis and processing experiments of typical engineering signals
+
+<img src="https://s2.ax1x.com/2019/07/28/eQbbaq.jpg" alt="eQbbaq.jpg" border="0" />
 
 ## Files
 

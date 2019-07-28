@@ -24,10 +24,9 @@ There are two cooling strategies:
 2. Wait for the hot drink to cool to a specific temperature, then pour the ice water into it.
 
 By establishing a mathematical model find which strategy allows the hot drinks to cool as quickly as possible.
+<img src="https://s2.ax1x.com/2019/07/28/eQQWUs.gif" alt="eQQWUs.gif" border="0" />
 
 ## Files
-
-<img src="https://s2.ax1x.com/2019/07/28/eQQWUs.gif" alt="eQQWUs.gif" border="0" />
 
 <a href="http://Li-jinjie.github.io/files/Mathematical Modeling/Final assignment.pdf" target="_blank">Report</a>
 
