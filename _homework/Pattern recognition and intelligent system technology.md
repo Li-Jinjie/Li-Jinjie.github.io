@@ -24,11 +24,11 @@ This course includes basic knowledge of the following fields:
 ## Files
 
 1. Learn and classify data by Perception algorithm, SVM algorithm, and Full connected Neural Networks algorithm
-   <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Pattern Recognition.pdf" target="_blank">Download</a>
+   <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Pattern Recognition.pdf" target="_blank">Report</a>
 2. Palmprint identification by Gabor filters 
-  <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Digital Image Processing.pdf" target="_blank">Download</a>
+  <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Digital Image Processing.pdf" target="_blank">Report</a>
 3. Priests and Devils problem
-   <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Artificial Intelligence.pdf" target="_blank">Download</a>  or <a href="https://github.com/Li-Jinjie/Priests-and-Devils-problem-by-MATLAB" target="_blank">Code</a>
+   <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Artificial Intelligence.pdf" target="_blank">Report</a>  or <a href="https://github.com/Li-Jinjie/Priests-and-Devils-problem-by-MATLAB" target="_blank">Code</a>
 
 
 

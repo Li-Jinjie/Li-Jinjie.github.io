@@ -18,7 +18,7 @@ date: 2019-05-24
 This course mainly includes: Introduction, Mathematical modeling, Time domain analysis, Root locus method, Frequency response, Control Systems design, Sampling system theory, State space analysis method for linear continuous systems and Nonlinear system theory.
 
 ## Files
-The report of 8 automatic control experiments can be downloaded from the link below:
+The report of 8 automatic control experiments can be opened from the links below:
 
    <a href="http://Li-jinjie.github.io/files/Principle of automatic control A/experiment1-2.pdf" target="_blank">Experiment 1-2</a>
 

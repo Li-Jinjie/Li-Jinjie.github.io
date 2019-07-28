@@ -20,4 +20,4 @@ This course is mainly to solve the computer control problems in the fast dynamic
 
 ## Files
 
-The report of my final assignment can be download <a href="http://Li-jinjie.github.io/files/Computer control system/The great assignment.pdf" target="_blank">here</a>
+The report of my final assignment can be opened <a href="http://Li-jinjie.github.io/files/Computer control system/The great assignment.pdf" target="_blank">here</a>

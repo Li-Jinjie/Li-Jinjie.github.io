@@ -31,7 +31,7 @@ The main contents of this course include: time-domain, frequency-domain and Z-do
 
 ## Files
 
-The experiment reports can be download below:
+The experiment reports can be opened from the links below:
 
 <a href="http://Li-jinjie.github.io/files/DSP/hardware experiment.pdf" target="_blank">Hardware part</a> (TMS320F28335)
 
