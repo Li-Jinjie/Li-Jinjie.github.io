@@ -1,6 +1,6 @@
 ---
-title: "Design of Settable Constant Temperature Controller"
-excerpt: "Short description of ProjectsBlogs item number 1<br/><iframe width="908" height="511" src="https://www.youtube.com/embed/2ZQEtcWF97I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+title: "Design of A Settable Constant Temperature Controller"
+excerpt: My first electrical project<br/><img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" width="500" />"
 collection: ProjectsBlogs
 date: 2018-06-25
 tags:
@@ -89,7 +89,7 @@ Pt resistance (Pt 100) is selected to measure temperature. Pt 100 can convert te
 
 We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follows:
 
-<img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" />
+<img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" style="float:middle"/>
 
 Therefore, `T = 72.643×U-19.723`
 
@@ -143,9 +143,9 @@ Therefore, `T = 72.643×U-19.723`
 
 | Step 1                                                       | Step 2                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://s2.ax1x.com/2019/08/04/e6OWXq.jpg" alt="e6OWXq.jpg" border="0" height="280" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" /> |
+| <img src="https://s2.ax1x.com/2019/08/04/e6OWXq.jpg" alt="e6OWXq.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" width="400" /> |
 | **Step 3**                                                   | **Step 4**                                                   |
-| <img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" /> | <img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" /> |
+| <img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" width="400" /> |
 
 ## Downloads
 
