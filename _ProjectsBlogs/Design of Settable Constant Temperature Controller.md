@@ -1,6 +1,6 @@
 ---
 title: "Design of Settable Constant Temperature Controller"
-excerpt: "Short description of ProjectsBlogs item number 1<br/><img src='https://s2.ax1x.com/2019/07/25/emu7WQ.md.jpg'>"
+excerpt: "Short description of ProjectsBlogs item number 1<br/><iframe width="908" height="511" src="https://www.youtube.com/embed/2ZQEtcWF97I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
 collection: ProjectsBlogs
 date: 2018-06-25
 tags:
@@ -42,7 +42,7 @@ Program an Android app and a WeChat Mini Program; solder circuit boards; test th
 
 ## Our plan
 
-![1564882643702](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564882643702.png)
+<img src="https://s2.ax1x.com/2019/08/04/e6qzKx.png" alt="e6qzKx.png" border="0" />
 
 There are three buttons on the top of our tank, namely 'SET', 'UP' and 'DOWN'. If you want to set the temperature, press the 'SET' button, and the digital tube starts to flicker and displays target temperature. Continue to press the 'SET' key to select the digit, and adjust values through the 'UP' and 'DOWN' keys. After choosing the temperature and stopping operation for three seconds, the digital tube displays the current temperature and warms up or cools down to the target temperature. The heat can also be set by an Android cellphone.
 
@@ -75,9 +75,9 @@ Therefore, we choose STM32ZET6 core board as our MCU.
 
 In this course, the proportion of analog circuit will become a scoring factor, so we use an analog PID circuit for temperature control.
 
-| ![1564907939231](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564907939231.png) |
+| <img src="https://s2.ax1x.com/2019/08/04/e6LERA.png" alt="e6LERA.png" border="0" /> |
 | ------------------------------------------------------------ |
-| ![1564906685248](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564906685248.png) |
+| <img src="https://s2.ax1x.com/2019/08/04/e6LWdO.png" alt="e6LWdO.png" border="0" /> |
 
 Initially, we did not design limiting circuit for integral circuits, which had terrible consequences in practical control. The maximum voltage of OP07 is ±10V. If not design limiting circuit, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range. The PID value can be changed by adjusting the potentiometers.
 
@@ -85,13 +85,13 @@ Initially, we did not design limiting circuit for integral circuits, which had t
 
 Pt resistance (Pt 100) is selected to measure temperature. Pt 100 can convert temperature signal into an analog voltage signal, and then through A/D conversion, it can be converted into a digital signal which can be processed by MCU.
 
-![](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564885712300.png)
+<img src="https://s2.ax1x.com/2019/08/04/e6LfoD.png" alt="e6LfoD.png" border="0" />
 
 We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follows:
 
-![](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564885685191.png)
+<img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" />
 
-T = 72.643*U-19.723
+Therefore, `T = 72.643×U-19.723`
 
 3. Display and buttons circuits
 
@@ -99,13 +99,13 @@ T = 72.643*U-19.723
 
    | Display                                                      | Buttons                                                      |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | ![1564887679393](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564887679393.png) | ![1564888133131](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564919475759.png) |
+   | <img src="https://s2.ax1x.com/2019/08/04/e6LXTS.png" alt="e6LXTS.png" border="0" /> | <img src="https://s2.ax1x.com/2019/08/04/e6LVxI.png" alt="e6LVxI.png" border="0" /> |
 
 4. Power circuit
 
    The power supply needs to convert 220V 50Hz AC power into ±12V to supply operation amplifiers, into + 12V to cooling module, and + 5V to control circuit.
 
-   ![1564889710792](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564889710792.png)
+   <img src="https://s2.ax1x.com/2019/08/04/e6LvFg.png" alt="e6LvFg.png" border="0" />
 
 5. Bluetooth and APP
 
@@ -119,7 +119,7 @@ T = 72.643*U-19.723
 
    PID control method needs to adjust the power of the heating plate. We connect the relay to the heating circuit and control the relay's switching-on and off by generating PWM wave (5V) through the 555 timer circuit. By changing the duty cycle of the PWM wave, the power of the heating plate can be changed.
 
-   ![1564904419629](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564904419629.png)
+   <img src="https://s2.ax1x.com/2019/08/04/e6LzWj.png" alt="e6LzWj.png" border="0" />
 
 7. Cooling module
 
@@ -131,21 +131,21 @@ T = 72.643*U-19.723
 
 |                            PCB_1                             |                            PCB_2                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![1564906499656](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564906499656.png) | ![1564906509968](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564906509968.png) |
+| <img src="https://s2.ax1x.com/2019/08/04/e6O9ln.png" alt="e6O9ln.png" border="0" height="380" width="380" /> | <img src="https://s2.ax1x.com/2019/08/04/e6OATU.png" alt="e6OATU.png" border="0" height="380" width="380" /> |
 
 
 
 10. Structure
 
-![1564910945622](C:\Users\Lijinjie\AppData\Roaming\Typora\typora-user-images\1564910945622.png)
+<img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" />
 
 ### Process Recording
 
-| Step 1                                                       | Step 2                                                      |
-| ------------------------------------------------------------ | ----------------------------------------------------------- |
-| ![version1_qq_circuit](C:\Users\Lijinjie\Desktop\模电\相册\version1_qq_circuit.png) | ![IMG_012](C:\Users\Lijinjie\Desktop\模电\相册\IMG_012.jpg) |
-| **Step 3**                                                   | **Step 4**                                                  |
-| ![IMG_033](C:\Users\Lijinjie\Desktop\模电\相册\IMG_033.jpg)  | ![图片2](C:\Users\Lijinjie\Desktop\模电\相册\图片2.jpg)     |
+| Step 1                                                       | Step 2                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://s2.ax1x.com/2019/08/04/e6OWXq.jpg" alt="e6OWXq.jpg" border="0" height="280" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" /> |
+| **Step 3**                                                   | **Step 4**                                                   |
+| <img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" /> | <img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" /> |
 
 ## Downloads
 
