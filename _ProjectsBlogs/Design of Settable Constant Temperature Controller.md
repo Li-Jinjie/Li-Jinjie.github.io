@@ -1,6 +1,6 @@
 ---
 title: "Design of A Settable Constant Temperature Controller"
-excerpt: My first electrical project<br/><img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" width="500" />"
+excerpt: My first electrical project ! <br/><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" />
 collection: ProjectsBlogs
 date: 2018-06-25
 tags:
@@ -9,11 +9,11 @@ tags:
 
 ## Requirements
 
-Design and manufacture a constant temperature control system that can be set to the specific temperature, as follows:
+Design and manufacture a constant temperature control system that can be set to the specific temperature:
 
 1. Setting the temperature in grades (at least three)
 2. The range of heat is from 50 to 100 degrees, and the error should not exceed ±5 degrees. (Score according to the accuracy)
-3. A cellphone can set and display the temperature.
+3. Use a cellphone to set and display the temperature.
 4. Powered by 220V AC.
 
 ## Final achievement
@@ -26,7 +26,7 @@ We shot this video to present the functions. Enjoy！😃
 
 **Jinjie Li (Team leader)** : 
 
-Design, simulate, and test the MCU and the analog PID control circuit; measure the PID parameters; draw the PCB board; program the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
+Design, simulate, and test the MCU and the analog PID control circuits; measure the PID parameters; draw the PCB board; program the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
 
 **Tongtong Lei**: 
 
@@ -73,13 +73,13 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 Therefore, we choose STM32ZET6 core board as our MCU.
 
-In this course, the proportion of analog circuit will become a scoring factor, so we use an analog PID circuit for temperature control.
+In this course, the proportion of analog circuits will become a scoring factor, so we use an analog PID circuit for temperature control.
 
 | <img src="https://s2.ax1x.com/2019/08/04/e6LERA.png" alt="e6LERA.png" border="0" /> |
 | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/08/04/e6LWdO.png" alt="e6LWdO.png" border="0" /> |
 
-Initially, we did not design limiting circuit for integral circuits, which had terrible consequences in practical control. The maximum voltage of OP07 is ±10V. If not design limiting circuit, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range. The PID value can be changed by adjusting the potentiometers.
+Initially, we did not design limiting circuit for integral circuits, which had terrible consequences in practical application. The maximum voltage of OP07 is ±10V. If not design limiting circuit, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range. The PID value can be changed by adjusting the potentiometers.
 
 2. Temperature measurement circuit
 
@@ -87,7 +87,7 @@ Pt resistance (Pt 100) is selected to measure temperature. Pt 100 can convert te
 
 <img src="https://s2.ax1x.com/2019/08/04/e6LfoD.png" alt="e6LfoD.png" border="0" />
 
-We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follows:
+We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follow:
 
 <img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" style="float:middle"/>
 
@@ -95,7 +95,7 @@ Therefore, `T = 72.643×U-19.723`
 
 3. Display and buttons circuits
 
-   Choose 74LS139D as decoder, and four seven-segment digital tubes to show the temperature (XX.X). 
+   Choose 74LS139D as decoder, and four seven-segment digital tubes to show the temperature `XXX.X`. 
 
    | Display                                                      | Buttons                                                      |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -111,7 +111,7 @@ Therefore, `T = 72.643×U-19.723`
 
    Select HC-08 module, which adopts the serial communication protocol and BLE4.0 to support Android and IOS system.
 
-   Use Android Studio to develop an Android App. The built-in Bluetooth API is used to connect the App with HC-08 module. Complete the function of displaying and controlling the temperature on the cellphone.
+   Use Android Studio to develop an Android App. Use the built-in Bluetooth API to connect the App with HC-08 module. Complete the function of displaying and controlling the temperature on the cellphone.
 
 6. Healing module
 
@@ -123,9 +123,9 @@ Therefore, `T = 72.643×U-19.723`
 
 7. Cooling module
 
-   To cool water quickly, we chose a refrigeration module to speed up the heat dissipation of the system. At first, we used 12V 140W 1275 semiconductor chiller. After testing,  the cooling effect was not good. Later, we use two fans to accelerate the heat dissipation, which significantly accelerated the cooling speed.
+   To cool water quickly, we design a refrigeration module to speed up the heat dissipation of the system. At first, we used 12V 140W 1275 semiconductor chiller. After testing,  the cooling effect was not good. Later, we use two fans instead to accelerate the heat dissipation, which significantly accelerated the cooling speed.
 
-9. PCB board
+8. PCB board
 
    We draw two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board).	
 
@@ -149,10 +149,16 @@ Therefore, `T = 72.643×U-19.723`
 
 ## Downloads
 
-[Program](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master)
+<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master" target="_blank">Program</a>
 
-[PCB boards](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board)
+<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board" target="_blank">PCB boards</a>
 
-Files: Opening report (Chinese), Interim Report (Chinese), Final Report (Only my part, Chinese)
+Files: 
 
-PPT: Interim version
+<a href="http://Li-jinjie.github.io/files/Temperature controller/Opening_reports.pdf" target="_blank">Opening report (Chinese)</a>
+
+<a href="http://Li-jinjie.github.io/files/Temperature controller/Interim_report.pdf" target="_blank">Interim Report (Chinese)</a>
+
+<a href="http://Li-jinjie.github.io/files/Temperature controller/Final_report.pdf" target="_blank">Final Report (Only my part, Chinese)</a>
+
+<a href="http://Li-jinjie.github.io/files/Temperature controller/PPT1.pdf" target="_blank">PPT (Interim version)</a>
