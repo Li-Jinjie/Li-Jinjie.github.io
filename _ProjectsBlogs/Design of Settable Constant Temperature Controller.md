@@ -149,9 +149,9 @@ Therefore, `T = 72.643×U-19.723`
 
 ## Downloads
 
-<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master" target="_blank">Program</a>
+<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller" target="_blank">Program</a>
 
-<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board" target="_blank">PCB boards</a>
+<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/PCB Board/" target="_blank">PCB boards</a>
 
 Files: 
 
