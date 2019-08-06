@@ -125,7 +125,7 @@ Therefore, `T = 72.643×U-19.723`
 
    To cool water quickly, we design a refrigeration module to speed up the heat dissipation of the system. At first, we used 12V 140W 1275 semiconductor chiller. After testing,  the cooling effect was not good. Later, we use two fans instead to accelerate the heat dissipation, which significantly accelerated the cooling speed.
 
-8. PCB board
+8. PCB boards
 
    We draw two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board).	
 
@@ -135,7 +135,7 @@ Therefore, `T = 72.643×U-19.723`
 
 
 
-10. Structure
+9. Structure
 
 <img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" />
 
