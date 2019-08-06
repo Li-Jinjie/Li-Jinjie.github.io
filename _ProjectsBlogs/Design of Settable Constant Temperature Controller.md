@@ -60,40 +60,40 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 ### implementation
 
-1. MCU & PID control system
+1. **MCU & PID control system**
 
-|         Function          |  Name   | Number |
-| :-----------------------: | :-----: | :----: |
-|      Display circuit      |   IO    |   7    |
-|      Button circuit       |   IO    |   3    |
-|  Temperature measurement  |   ADC   |   2    |
-|          DS18B20          |   IO    |   1    |
-| PWM wave generate circuit |   IO    |   4    |
-|        PID circuit        | DAC/ADC |  2/1   |
+   |         Function          |  Name   | Number |
+   | :-----------------------: | :-----: | :----: |
+   |      Display circuit      |   IO    |   7    |
+   |      Button circuit       |   IO    |   3    |
+   |  Temperature measurement  |   ADC   |   2    |
+   |          DS18B20          |   IO    |   1    |
+   | PWM wave generate circuit |   IO    |   4    |
+   |        PID circuit        | DAC/ADC |  2/1   |
 
-Therefore, we choose STM32ZET6 core board as our MCU.
+   Therefore, we choose STM32ZET6 core board as our MCU.
 
-In this course, the proportion of analog circuits will become a scoring factor, so we use an analog PID circuit for temperature control.
+   In this course, the proportion of analog circuits will become a scoring factor, so we use an analog PID circuit for temperature control.
 
-| <img src="https://s2.ax1x.com/2019/08/04/e6LERA.png" alt="e6LERA.png" border="0" /> |
-| ------------------------------------------------------------ |
-| <img src="https://s2.ax1x.com/2019/08/04/e6LWdO.png" alt="e6LWdO.png" border="0" /> |
+   | <img src="https://s2.ax1x.com/2019/08/04/e6LERA.png" alt="e6LERA.png" border="0" /> |
+   | ------------------------------------------------------------ |
+   | <img src="https://s2.ax1x.com/2019/08/04/e6LWdO.png" alt="e6LWdO.png" border="0" /> |
 
-Initially, we did not design limiting circuit for integral circuits, which had terrible consequences in practical application. The maximum voltage of OP07 is ±10V. If not design limiting circuit, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range. The PID value can be changed by adjusting the potentiometers.
+   Initially, we did not design limiting circuit for integral circuits, which had terrible consequences in practical application. The maximum voltage of OP07 is ±10V. If not design limiting circuit, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range. The PID value can be changed by adjusting the potentiometers.
 
-2. Temperature measurement circuit
+2. **Temperature measurement circuit**
 
-Pt resistance (Pt 100) is selected to measure temperature. Pt 100 can convert temperature signal into an analog voltage signal, and then through A/D conversion, it can be converted into a digital signal which can be processed by MCU.
+   Pt resistance (Pt 100) is selected to measure temperature. Pt 100 can convert temperature signal into an analog voltage signal, and then through A/D conversion, it can be converted into a digital signal which can be processed by MCU.
 
-<img src="https://s2.ax1x.com/2019/08/04/e6LfoD.png" alt="e6LfoD.png" border="0" />
+   <img src="https://s2.ax1x.com/2019/08/04/e6LfoD.png" alt="e6LfoD.png" border="0" />
 
-We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follow:
+   We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follow:
 
-<img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" style="float:middle"/>
+   <img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" style="float:middle"/>
 
-Therefore, `T = 72.643×U-19.723`
+   Therefore, `T = 72.643×U-19.723`
 
-3. Display and buttons circuits
+3. **Display and buttons circuits**
 
    Choose 74LS139D as decoder, and four seven-segment digital tubes to show the temperature `XXX.X`. 
 
@@ -101,19 +101,19 @@ Therefore, `T = 72.643×U-19.723`
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
    | <img src="https://s2.ax1x.com/2019/08/04/e6LXTS.png" alt="e6LXTS.png" border="0" /> | <img src="https://s2.ax1x.com/2019/08/04/e6LVxI.png" alt="e6LVxI.png" border="0" /> |
 
-4. Power circuit
+4. **Power circuit**
 
    The power supply needs to convert 220V 50Hz AC power into ±12V to supply operation amplifiers, into + 12V to cooling module, and + 5V to control circuit.
 
    <img src="https://s2.ax1x.com/2019/08/04/e6LvFg.png" alt="e6LvFg.png" border="0" />
 
-5. Bluetooth and APP
+5. **Bluetooth and APP**
 
    Select HC-08 module, which adopts the serial communication protocol and BLE4.0 to support Android and IOS system.
 
    Use Android Studio to develop an Android App. Use the built-in Bluetooth API to connect the App with HC-08 module. Complete the function of displaying and controlling the temperature on the cellphone.
 
-6. Healing module
+6. **Healing module**
 
    We use a 220V, 600W heating plate to heat the tank. The heating plate is pasted at the bottom to increase the contact area between the heater and the system and make the heating more uniform. After testing, the heating efficiency is 2 ℃/min.
 
@@ -121,23 +121,21 @@ Therefore, `T = 72.643×U-19.723`
 
    <img src="https://s2.ax1x.com/2019/08/04/e6LzWj.png" alt="e6LzWj.png" border="0" />
 
-7. Cooling module
+7. **Cooling module**
 
    To cool water quickly, we design a refrigeration module to speed up the heat dissipation of the system. At first, we used 12V 140W 1275 semiconductor chiller. After testing,  the cooling effect was not good. Later, we use two fans instead to accelerate the heat dissipation, which significantly accelerated the cooling speed.
 
-8. PCB board
+8. **PCB boards**
 
    We draw two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board).	
 
-|                            PCB_1                             |                            PCB_2                             |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://s2.ax1x.com/2019/08/04/e6O9ln.png" alt="e6O9ln.png" border="0" height="380" width="380" /> | <img src="https://s2.ax1x.com/2019/08/04/e6OATU.png" alt="e6OATU.png" border="0" height="380" width="380" /> |
+   |                            PCB_1                             |                            PCB_2                             |
+   | :----------------------------------------------------------: | :----------------------------------------------------------: |
+   | <img src="https://s2.ax1x.com/2019/08/04/e6O9ln.png" alt="e6O9ln.png" border="0" height="380" width="380" /> | <img src="https://s2.ax1x.com/2019/08/04/e6OATU.png" alt="e6OATU.png" border="0" height="380" width="380" /> |
 
+9. **Structure**
 
-
-10. Structure
-
-<img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" />
+    <img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" />
 
 ### Process Recording
 
