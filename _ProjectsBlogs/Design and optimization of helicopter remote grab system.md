@@ -1,0 +1,63 @@
+---
+title: "Design and optimization of helicopter remote grab system"
+excerpt: need more infomation <br/> <a href="http://localhost:4000/ProjectsBlogs/Design%20of%20Settable%20Constant%20Temperature%20Controller/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a>
+collection: ProjectsBlogs
+date: 2017-08-01
+tags:
+  - projects
+  - CADC
+---
+## Overview
+The project requires us to perform the following functions: the model helicopter takes off from the take-off and landing area, flies to the relief material storage area, and then finds, selects, and automatically picks up a specific relief material by image equipments on the helicopter. After flying over the obstacle, the rescued material will be placed on the particular objects in the area to complete a search and rescue mission. The cycle continues until the end of the round (5 mins). The team who accomplishes the task most quickly and accurately is the winner.
+
+## Achievements
+
+<img src="https://s2.ax1x.com/2019/10/03/u046ET.jpg" alt="u046ET.jpg" border="0" />
+
+Finally, we won the **champion** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge!
+
+This is the video of the competition.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7R1W2pjVvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### The technical requirements
+
+1. Model helicopters are allowed to be powered by internal combustion engines or electric motors. The internal combustion engine's volume should be below 15 𝑐𝑐(91) (including 91), and no-load voltage of the battery must be under 51 𝑉. No autopilot is allowed. Each flight group can use up to 2 models in the race.
+2. The model helicopter shall search the target through the wireless image equipment on the helicopter.
+3. Only mechanical devices are allowed to pick up and release relief materials, and manual means are not allowed.
+4. Every team must use the automatic capture and delivery devices in the picking process. The definition of automatic capture is: humans cannot participate in the direct control of the capture system, that is, the catch and release of rescue materials are required to be completed automatically after issuing the trigger command to start operation.
+5. The model helicopter should pick up the rescue materials after landing in the storage area and release them automatically through the mechanical device after landing in the delivery area.
+
+Please refer to the complete rulebook (Chinese) for other information such as venue Settings, athlete requirements, etc.
+
+The field setting is as follows:
+
+<img src="https://s2.ax1x.com/2019/10/03/u04X2d.png" alt="u04X2d.png" border="0" />
+
+### Solutions
+
+Please watch the video below to know more information about our plan.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CFfCpMxMR4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**I. Principles of self-recognition grasping**
+1. Judge the state of the image
+2. Search for the balls in the image
+3. Select the circles
+4. Assign colors' priority to the found circle
+5. Convert from pixel coordinates of the image to physical space coordinates
+6. Build the capture loop
+   
+**II. Mechanical structure design**
+1. The length of polar coordinates is controlled by a stepper motor and synchronous belt wheel.
+2. The linear bearing can reduce friction and increase the reaction speed of the mechanism.
+3. Cylinder pneumatic controls the expansion of the z-axis grab sleeve.
+
+### Division
+
+Team 1: Li Jinjie, Li Duye, Yang Dianhui, Li Zhenyang
+
+Team 2: Yi Ruizhi (Captain), Liu Jiaxin, Wu Chengyi, Liu Xiaodong
+
+I was responsible for manufacturing the mechanical structure and making videos.
+
+

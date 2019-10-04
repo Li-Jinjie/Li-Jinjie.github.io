@@ -1,6 +1,6 @@
 ---
 title: "Design of A Settable Constant Temperature Controller"
-excerpt: My first electrical project ! <br/><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" />
+excerpt: My first electrical project ! <br/> <a href="http://localhost:4000/ProjectsBlogs/Design%20of%20Settable%20Constant%20Temperature%20Controller/"><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" /></a>
 collection: ProjectsBlogs
 date: 2018-06-25
 tags:
@@ -21,7 +21,6 @@ Design and manufacture a constant temperature control system that can be set to 
 We shot this video to present the functions. Enjoy！😃
 
 <iframe width="908" height="511" src="https://www.youtube.com/embed/2ZQEtcWF97I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Division
 
 **Jinjie Li (Team leader)** : 
@@ -39,6 +38,8 @@ Design, simulate, and test the power supply, the relay drive circuits; select an
 **Manxin Yang**: 
 
 Program an Android app and a WeChat Mini Program; solder circuit boards; test the display circuit; measure the PID parameters; design and manufacture the tank; prepare for the defense.
+
+**Instructor: Prof. Yao Tang**
 
 ## Our plan
 
@@ -139,10 +140,10 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 ### Process Recording
 
-| Step 1                                                       | Step 2                                                       |
+| Stage 1                                                       | Stage 2                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/08/04/e6OWXq.jpg" alt="e6OWXq.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" width="400" /> |
-| **Step 3**                                                   | **Step 4**                                                   |
+| **Stage 3**                                                   | **Stage 4 ? Finish?**                                                  |
 | <img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" width="400" /> |
 
 ## Downloads
