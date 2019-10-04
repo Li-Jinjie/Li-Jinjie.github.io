@@ -11,7 +11,12 @@ redirect_from:
 
 {% include base_path %}
 
-# Contact
+## CV
+
+My CV can be downloaded here: <a href="https://Li-Jinjie.github.io/files/lijinjieCV-v2.2.pdf" target="_blank">English version</a>
+
+## Contact
+
 **Address**: BeiHang University, XueYuan Road No.37, HaiDian District, BeiJing, 100191, China
 
 **Email**: lijinjie [at] buaa.edu.cn, lijinjie362 [at] outlook.com
