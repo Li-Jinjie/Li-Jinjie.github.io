@@ -16,6 +16,8 @@ The project requires us to perform the following functions: the model helicopter
 
 Finally, we won the **champion** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge!
 
+<img src="https://s2.ax1x.com/2019/10/04/uB1ry6.jpg" alt="uB1ry6.jpg" border="0" />
+
 This is the video of the competition.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7R1W2pjVvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
