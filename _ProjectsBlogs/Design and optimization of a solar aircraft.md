@@ -1,6 +1,6 @@
 ---
 title: "Design and Optimization of A Solar Aircraft"
-excerpt: need more infomation <br/> <a href="http://localhost:4000/ProjectsBlogs/Design%20of%20Settable%20Constant%20Temperature%20Controller/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
+excerpt: need more infomation <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20a%20solar%20aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
 collection: ProjectsBlogs
 date: 2018-10-1
 tags:

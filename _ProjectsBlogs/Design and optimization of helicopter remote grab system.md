@@ -1,6 +1,6 @@
 ---
 title: "Design and optimization of helicopter remote grab system"
-excerpt: need more infomation <br/> <a href="http://localhost:4000/ProjectsBlogs/Design%20of%20Settable%20Constant%20Temperature%20Controller/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a>
+excerpt: need more infomation <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20helicopter%20remote%20grab%20system/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a>
 collection: ProjectsBlogs
 date: 2017-08-01
 tags:
@@ -27,7 +27,8 @@ This is the video of the competition.
 4. Every team must use the automatic capture and delivery devices in the picking process. The definition of automatic capture is: humans cannot participate in the direct control of the capture system, that is, the catch and release of rescue materials are required to be completed automatically after issuing the trigger command to start operation.
 5. The model helicopter should pick up the rescue materials after landing in the storage area and release them automatically through the mechanical device after landing in the delivery area.
 
-Please refer to the complete rulebook (Chinese) for other information such as venue Settings, athlete requirements, etc.
+Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2017_Rules.pdf" target="_blank">rulebook (CN)</a> for other information such as venue Settings, athlete requirements, etc.
+
 
 The field setting is as follows:
 
