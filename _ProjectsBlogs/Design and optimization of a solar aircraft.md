@@ -1,6 +1,6 @@
 ---
 title: "Design and Optimization of A Solar Aircraft"
-excerpt: need more infomation <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20a%20solar%20aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
+excerpt: My first time to be a pilot! <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20a%20solar%20aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
 collection: ProjectsBlogs
 date: 2018-10-1
 tags:
@@ -8,116 +8,123 @@ tags:
   - CADC
 ---
 
-
-
 ## Overview
 
-This project is designed for the solar aircraft project in the 2018 China Aeromodelling Design
-Challenge (CADC) competition. In this project, we designed and manufactured an aircraft with an empty weight between 2 and 3 kg, which relies entirely on solar panels to provide power and the aircraft must take off in a slipping manner.
+This project is designed for **the Solar Aircraft project** in the 2018 China Aeromodelling Design Challenge (CADC) competition. In this project, we designed and manufactured an aircraft with an empty weight between 2 and 3 kg, which relies entirely on **solar panels** to provide power. The aircraft must take off in a slipping manner.
 
-The aircraft adopts a canard configuration, double-engine, double-tailed, wing-tip aileron design, and a 6.15m wing uses the double-beam diagonal bracing structure and composite material spar. The maximum of loading mass is 7kg under the ideal illumination of 120,000 lux.
+The aircraft adopts a **canard configuration, double-engine, double-tailed, wing-tip aileron design, and a 6.15m wing** uses the double-beam diagonal bracing structure and composite material spar. The maximum of loading mass is 7kg under the ideal illumination of 120,000 lux (based on our detector).
 
-In this project, I am responsible for the production of the wing spar and as a pilot to participate in the competition. I overcame psychological pressure of no second chance and finally we won the Third Award of China Aeromodelling Design Challenge (Solar Aircraft project) !
-
-This is not an open source program.
+In this project, I am responsible for the production of the wing spar and as a **pilot** to fly the airplane. I overcame huge psychological pressure and finally we won the Third Award of China Aeromodelling Design Challenge (Solar Aircraft project) .
 
 ### **Division**
 
-**Structural design and production**: Zhengxiao Ma (**group leader**), Yang Xu, Jinjie Li, Yuhang Xi, Jieyin Ma, Qi Zhang, Yating Hu, Xi Li, Man Huang, Sihan Huang, 
+All members come from **Beihang Aeromodelling Team**.
+
+**Structural design and production**: Zhengxiao Ma (team leader), Yang Xu (team leader), **Jinjie Li**, Yuhang Xi, Jieyin Ma, Qi Zhang, Yating Hu, Xi Li, Man Huang, Sihan Huang
 
 **Circuit design and solar panel welding**: Zhengxiao Ma, Yuhang Xi, Sihan Huang, Qi Zhang, Yating Hu
 
-**Pilot**: Jinjie Li
+**Pilot**: **Jinjie Li**
 
-**Instructor**: Zhiqiang Wan, Yongxin Li, Funan Wang
+**Instructor**: Prof. Zhiqiang Wan, Yongxin Li, Funan Wang
 
 ## Final Achievement
 
-合影+最终太阳能比赛两次飞行的视频。
+Look at our team!
 
 <img src="https://s2.ax1x.com/2019/08/08/e7grCD.jpg" alt="e7grCD.jpg" height="500" border="0" />
 
+The video of the first round. 👇
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6qMAcYAwtVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video of the Second round. 👇
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YEtDgiWG6yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ##  A Brief Introduction to Rules
 
-1. The weight of the empty airplane is between 2 and 3 kg.
+1. The weight of the empty airplane should be between 2 and 3 kg.
 2. The aircraft relies entirely on solar panels to provide power,  and no other energy storage devices are allowed to power the aircraft.
-3. the aircraft must take off in a slipping manner.  Running tools can be used, which must not provide the running power of the aircraft, and the running tools do not count the empty weight of the aircraft;
-4. The longer the time to stay in the air (maximum 600s), the higher the ratio of the weight of the water carrier to the mass of the empty machine, the higher the score. 需要计分公式！！！
+3. the aircraft must take off in a slipping manner. Running tools can be used, which must not provide the running power of the aircraft. And the running tools do not count the empty weight of the aircraft.
+4. The longer the time to fly (maximum 600s) and the higher the ratio of water weight/empty weight, the higher the score.
 
-   ## 太阳能飞机介绍
+Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2017_Rules.pdf" target="_blank">rulebook (CN)</a> **(改链接！)** for more information.
 
-### 概述
+## An Introduction to our Solar Airplane
 
-太阳能飞机采用双发、单机身、双垂尾布局。特点如下：
+The aircraft adopts a canard configuration, double-engine, double-tailed, wing-tip aileron design. The features are as follows:
 
-- 设计新颖的半椭圆翼尖副翼，巧妙地在减小诱导阻力的同时解决了副翼反效的问题。
-- 通过减速齿轮提升动力系统效率。
-- 利用张线增加机身的扭转刚度。
-- 引入陀螺仪增稳，提升飞行性能。
+- Design a **semi-elliptic wing-tip aileron** to solve the problem of aileron reversal while reducing the induced drag.
+- Improve power system efficiency through **reduction gears**.
+- Increase the torsional stiffness of the fuselage by **tensioning lines**.
+- Add a **gyroscope** to enhance stability and flight performance.
 
-基本设计参数如下：
+Basic design parameters:
 
-1. 设计空机质量：3kg；
+1. Designed empty weight: 3kg
 
-2. 设计最大装载质量：7kg；
+2. Designed maximum take-off weight：11kg
 
-3. 设计翼载荷：6.1kg/m2;
+3. Designed wing loading：6.1kg/m2
 
-4. 太阳能电池板总数：120
+4. Total number of solar panels：120
 
-飞机三视图：
+**Three-view drawing of the airplane**
 
 <img src="https://s2.ax1x.com/2019/08/11/ej1m0e.jpg" alt="ej1m0e.jpg" border="0" />
 
-### 气动外形设计简述
+## How to become a pilot
 
-#### 布局设计
+In the race, all projects need to be completed by the pilots. If you want to become a pilot, you need to sign up firstly and pass strict training and examinations. Because it is related to the result of the whole team, the pilot needs to overcome the enormous psychological pressure and finishes the game with a calm mind. I was also trained and selected to be a pilot of the Solar Airplane Project in 2018.
 
-1、鸭式与正常式飞机相比，在飞机的配平过程中，鸭翼产生正升力，而水平尾翼产生负升力，可见，鸭翼产生的额外升力可以提高装载质量；
+1. **Beginner stage**
 
-2、鸭式布局飞机在起飞瞬间，飞机抬头，鸭翼迎角变大，升力增大，便于飞机的顺利起飞；
+   We started with a flight simulator. Then we made some training models and used them to practice flying skills inside our campus.
 
-3、在重心之前的鸭翼可以铺设电池板，以改善配平的难度。而正常式布局飞机处于尾部的平尾考虑到配平的缘故，一般不铺设太阳能电池板；
+   | A flight simulator                                           | A training model                                             |
+   | ------------------------------------------------------------ | ------------------------------------------------------------ |
+   | <img src="https://s2.ax1x.com/2019/10/05/urX8JA.jpg" alt="urX8JA.jpg" border="0" width="400"/> | <img src="https://s2.ax1x.com/2019/10/05/urXnsK.jpg" alt="urXnsK.jpg" border="0" width="350"/> |
 
-4、相较于飞翼，鸭式布局飞机的操纵力矩较长，操纵性和抗失速性能更好。虽然飞翼的干扰阻力更小，但是正常式或鸭式布局依旧可以通过优化机身结构及其与机翼的连接方式，尽可能地减小干扰阻力。
+2. **Special training in Shi Jia Zhuang**
 
-但是，鸭式布局应用于太阳能飞机也有缺点。太阳能飞机需要平稳地飞行以维持升力的稳定、减少阻力和动能损失。但是因为鸭翼位于前方，流场干净，且鸭翼操纵方向与升力变化方向一致，操纵响应迅速，如果操纵手精神不集中、反应不敏捷或偶有差错，飞机容易产生剧烈的俯仰，不过将俯仰轴接入陀螺仪增稳可以有效地解决这个问题，这也是今年太阳能飞机的改进之处。
+   <img src="https://s2.ax1x.com/2019/10/05/usCRIK.png" alt="usCRIK.png" border="0" />
 
-#### 机翼平面形状设计
+   We had a seven-day training at Shi Jia Zhuang in July 2018. We started with quadrilateral-route training, which meant flying along a rectangle. The exercise required us to turn quickly, keep the same height, keep all four sides straight, and keep the size of the rectangle unchanged. This training deepened our understanding of the principles of flight.
 
-太阳能飞机机翼的平面形状很大程度上受到太阳能电池板铺设和机翼结构的限制。
+   Then I started flying last year's solar airplane. Initially, the aircraft was powered by batteries. Finally it was powered by solar panels.
 
-2018年飞机为双梁斜撑结构（详见5.1），结构限制了前梁之前必须铺设一排太阳能电池板以维持翼型，前梁与后梁之间铺设一排太阳能电池板。机翼形状沿袭2017年设计，设计铺设120块电池板，最多可铺设148块。各机翼的电池板铺设情况与平面形状见表2。2017年与2018年太阳能飞机电池板铺设情况与机翼平面形状的比较见图6。
+3. **The characteristics of flying the solar aircraft**
 
-表 2 2018年太阳能飞机机翼电池板铺设情况与平面形状
+   1. The top position of the throttle varies with the sunlight, which makes it hard to find a proper place for the stick.
+   2. The aircraft's wingspan is 5 meters, and the torsional stiffness is inadequate, causing the weak effect of the wing-tip aileron. This weakness leads to a noticeable delay in the control (about 4s). Therefore, reaction time should be taken into account.
+   3. The canard configuration leads to weak pitching stability, which requires the pilot to control the pitch balance at all times.
 
-| 机翼     | 最大排数 | 每排块数 | 最大铺设数量 | 形状   |
-| -------- | -------- | -------- | ------------ | ------ |
-| 鸭翼     | 2        | 12       | 24           | 平直翼 |
-| 中段     | 4        | 16       | 64           | 平直翼 |
-| 左右外段 | 2-3      | 12       | 30           | 梯形翼 |
+4. **Crushing moments and reason analysis**
 
-此外，翼尖副翼的设计带来的优点如下：
+   Damage to aircraft occurs from time to time during the flight. I have recorded several crash moments as follows:
 
-1、近椭圆形设计，减小诱导阻力；
+   (1) This accident happened during the training in Shi Jia Zhuang, because I let the airplane fly too far. 🐤 & ✈
+   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ux9g0IHUBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-2、转轴前舵面补偿，防止副翼反效、增大舵效、减小舵机力矩；
+​	(2) This accident was caused totally by my mistake, two weeks before the competition. That day the wind was very powerful, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That's when I learned that there was no hesitation in taking off, which was helpful when I faced similar weather conditions two weeks later.
 
-3、副翼位于翼尖，操纵力矩大，操纵效果好。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVI7rTBnVoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+​		(3) On the second round of the CADC, I failed to fly the plane for ten minutes. The video is at the beginning. After analysis, I think the reasons are as follows:
 
+ 	1. One of the fuselage connections came loose.
 
+| The first round                                              | The second round                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://s2.ax1x.com/2019/10/05/usrRJA.png" alt="usrRJA.png" border="0" width="800" /> | <img src="https://s2.ax1x.com/2019/10/05/usr5sf.jpg" alt="usr5sf.jpg" border="0" width="800" /> |
 
-1. 结构工艺设计：机翼，机身
-2. 动力系统简述 mppt装置简述
-3. 增稳系统
-4. 起飞车设计
+From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction.
 
-## 飞手训练介绍
+2. Weather condition. 🌥
 
-1. 概述
-2. 上大学前的飞飞机经历简述
-3. 石家庄外场简介+照片
-4. 简述其他外场，详细讲述太阳能飞机的操控技巧。
+   By the time we were flying, clouds had blocked out the sun suddenly, causing a severe power loss.
 
+3. My flying skills were not good enough.
 
+---
 
+Anyway, I really cherish this chance to be a pilot. After so many failures, my flying skills have improved a lot! I have also developed a stronger heart.😎

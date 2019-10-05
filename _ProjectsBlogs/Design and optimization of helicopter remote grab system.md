@@ -8,7 +8,11 @@ tags:
   - CADC
 ---
 ## Overview
-The project requires us to perform the following functions: the model helicopter takes off from the take-off and landing area, flies to the relief material storage area, and then finds, selects, and automatically picks up a specific relief material by image equipments on the helicopter. After flying over the obstacle, the rescued material will be placed on the particular objects in the area to complete a search and rescue mission. The cycle continues until the end of the round (5 mins). The team who accomplishes the task most quickly and accurately is the winner.
+This project is designed for the Simulative Search and Rescue project in the 2017 China Aeromodelling Design Challenge (CADC) competition.
+
+The competition requires us to achieve the following functions: the model helicopter should takes off from the take-off and landing area, flies to the relief material storage area, and then finds, selects, and automatically picks up a specific relief material by image equipments on the helicopter. After flying over the obstacle, the rescued material will be placed on the particular objects in the area to complete a search and rescue mission. The cycle continues until the end of the round (5 mins). The team who accomplishes the task most quickly and accurately is the winner.
+
+This is not an open source program.
 
 ## Achievements
 
@@ -18,7 +22,7 @@ Finally, we won the **champion** of Simulative Search and Rescue project in 2017
 
 <img src="https://s2.ax1x.com/2019/10/04/uB1ry6.jpg" alt="uB1ry6.jpg" border="0" />
 
-This is the video of the competition.
+This video records the competition. ??
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7R1W2pjVvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### The technical requirements
@@ -29,19 +33,18 @@ This is the video of the competition.
 4. Every team must use the automatic capture and delivery devices in the picking process. The definition of automatic capture is: humans cannot participate in the direct control of the capture system, that is, the catch and release of rescue materials are required to be completed automatically after issuing the trigger command to start operation.
 5. The model helicopter should pick up the rescue materials after landing in the storage area and release them automatically through the mechanical device after landing in the delivery area.
 
-Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2017_Rules.pdf" target="_blank">rulebook (CN)</a> for other information such as venue Settings, athlete requirements, etc.
+Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2017_Rules.pdf" target="_blank">rulebook (CN)</a> for more information such as venue Settings, athlete requirements, etc.
 
 
-The field setting is as follows:
+The field setting is as follows: ??
 
 <img src="https://s2.ax1x.com/2019/10/03/u04X2d.png" alt="u04X2d.png" border="0" />
 
-### Solutions
+## Solutions
 
 Please watch the video below to know more information about our plan.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CFfCpMxMR4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 **I. Principles of self-recognition grasping**
 1. Judge the state of the image
 2. Search for the balls in the image
@@ -50,6 +53,7 @@ Please watch the video below to know more information about our plan.
 5. Convert from pixel coordinates of the image to physical space coordinates
 6. Build the capture loop
    
+
 **II. Mechanical structure design**
 1. The length of polar coordinates is controlled by a stepper motor and synchronous belt wheel.
 2. The linear bearing can reduce friction and increase the reaction speed of the mechanism.
@@ -57,9 +61,13 @@ Please watch the video below to know more information about our plan.
 
 ### Division
 
-Team 1: Li Jinjie, Li Duye, Yang Dianhui, Li Zhenyang
+All members come from **Beihang Aeromodelling Team**.
 
-Team 2: Yi Ruizhi (Captain), Liu Jiaxin, Wu Chengyi, Liu Xiaodong
+**Team 1:** **Li Jinjie**, Li Duye, Yang Dianhui, Li Zhenyang
+
+**Team 2:** Yi Ruizhi (team leader), Liu Jiaxin, Wu Chengyi, Liu Xiaodong
+
+**Instructor**: Prof.Wan Zhiqiang, Li Yongxin, Wang Funan
 
 I was responsible for manufacturing the mechanical structure and making videos.
 
