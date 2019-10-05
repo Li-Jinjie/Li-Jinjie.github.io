@@ -1,6 +1,6 @@
 ---
 title: "Design and Optimization of A Solar Aircraft"
-excerpt: My first time to be a pilot! <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20a%20solar%20aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
+excerpt: My first time to be a pilot! We won the Third Award of 2018 China Aeromodelling Design Challenge (Solar Aircraft project) <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20a%20solar%20aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
 collection: ProjectsBlogs
 date: 2018-10-1
 tags:
@@ -11,6 +11,8 @@ tags:
 ## Overview
 
 This project is designed for **the Solar Aircraft project** in the 2018 China Aeromodelling Design Challenge (CADC) competition. In this project, we designed and manufactured an aircraft with an empty weight between 2 and 3 kg, which relies entirely on **solar panels** to provide power. The aircraft must take off in a slipping manner.
+
+<img src="https://s2.ax1x.com/2019/10/05/ush9wq.jpg" alt="ush9wq.jpg" border="0" />
 
 The aircraft adopts a **canard configuration, double-engine, double-tailed, wing-tip aileron design, and a 6.15m wing** uses the double-beam diagonal bracing structure and composite material spar. The maximum of loading mass is 7kg under the ideal illumination of 120,000 lux (based on our detector).
 
@@ -47,7 +49,7 @@ The video of the Second round. 👇
 3. the aircraft must take off in a slipping manner. Running tools can be used, which must not provide the running power of the aircraft. And the running tools do not count the empty weight of the aircraft.
 4. The longer the time to fly (maximum 600s) and the higher the ratio of water weight/empty weight, the higher the score.
 
-Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2017_Rules.pdf" target="_blank">rulebook (CN)</a> **(改链接！)** for more information.
+Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
 ## An Introduction to our Solar Airplane
 
