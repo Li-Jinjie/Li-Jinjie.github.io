@@ -59,7 +59,7 @@ Please watch the video below to know more information about our plan.
 2. The linear bearing can reduce friction and increase the reaction speed of the mechanism.
 3. Cylinder pneumatic controls the expansion of the z-axis grab sleeve.
 
-### Division
+## Division
 
 All members come from **Beihang Aeromodelling Team**.
 

@@ -18,7 +18,7 @@ The aircraft adopts a **canard configuration, double-engine, double-tailed, wing
 
 In this project, I am responsible for the production of the wing spar and as a **pilot** to fly the airplane. I overcame huge psychological pressure and finally we won the Third Award of China Aeromodelling Design Challenge (Solar Aircraft project) .
 
-### **Division**
+## **Division**
 
 All members come from **Beihang Aeromodelling Team**.
 
