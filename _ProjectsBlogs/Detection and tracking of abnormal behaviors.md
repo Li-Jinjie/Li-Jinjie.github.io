@@ -1,6 +1,6 @@
 ---
 title: "Detection and tracking of abnormal behaviors"
-excerpt: An internship project at Institute of Automation, Chinese Academy of Sciences <br/> <a href="https://lijinjie.top/ProjectsBlogs/Design%20and%20optimization%20of%20a%20solar%20aircraft/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a>
+excerpt: An internship project at Institute of Automation, Chinese Academy of Sciences <br/> <a href="https://lijinjie.top/ProjectsBlogs/Detection%20and%20tracking%20of%20abnormal%20behaviors/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a>
 collection: ProjectsBlogs
 date: 2019-06-27
 tags:
