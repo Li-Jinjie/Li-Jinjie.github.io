@@ -216,7 +216,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      # read_time: false
       share: false
       comments: false
   # _homework
@@ -227,7 +227,7 @@ defaults:
       layout: single
       author_profile: true
       share: false
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""

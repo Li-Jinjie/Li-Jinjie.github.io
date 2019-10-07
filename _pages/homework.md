@@ -10,7 +10,6 @@ author_profile: true
 {% endif %} -->
 I post my experiment reports and assignments 📄 here (If the reports has electornic version).
 
-
 {% include base_path %}
 
 {% for post in site.homework reversed %}
