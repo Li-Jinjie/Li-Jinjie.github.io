@@ -18,9 +18,23 @@ The aircraft adopts a **canard configuration, double-engine, double-tailed, wing
 
 In this project, I am responsible for the production of the wing spar and as a **pilot** to fly the airplane. I overcame huge psychological pressure and finally we won the Third Award of China Aeromodelling Design Challenge (Solar Aircraft project) .
 
-## **Division**
+Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
+
+## Achievements
+
+The video of the first round. 👇
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6qMAcYAwtVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The video of the Second round. 👇
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YEtDgiWG6yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Division
 
 All members come from **Beihang Aeromodelling Team**.
+
+<img src="https://s2.ax1x.com/2019/08/08/e7grCD.jpg" alt="e7grCD.jpg" height="500" border="0" />
 
 **Structural design and production**: Zhengxiao Ma (team leader), Yang Xu (team leader), **Jinjie Li**, Yuhang Xi, Jieyin Ma, Qi Zhang, Yating Hu, Xi Li, Man Huang, Sihan Huang
 
@@ -29,27 +43,6 @@ All members come from **Beihang Aeromodelling Team**.
 **Pilot**: **Jinjie Li**
 
 **Instructor**: Prof. Zhiqiang Wan, Yongxin Li, Funan Wang
-
-## Final Achievement
-
-Look at our team!
-
-<img src="https://s2.ax1x.com/2019/08/08/e7grCD.jpg" alt="e7grCD.jpg" height="500" border="0" />
-
-The video of the first round. 👇
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6qMAcYAwtVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-The video of the Second round. 👇
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YEtDgiWG6yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-##  A Brief Introduction to Rules
-
-1. The weight of the empty airplane should be between 2 and 3 kg.
-2. The aircraft relies entirely on solar panels to provide power,  and no other energy storage devices are allowed to power the aircraft.
-3. the aircraft must take off in a slipping manner. Running tools can be used, which must not provide the running power of the aircraft. And the running tools do not count the empty weight of the aircraft.
-4. The longer the time to fly (maximum 600s) and the higher the ratio of water weight/empty weight, the higher the score.
-
-Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
 ## An Introduction to our Solar Airplane
 
@@ -63,7 +56,7 @@ The aircraft adopts a canard configuration, double-engine, double-tailed, wing-t
 Basic design parameters:
 
 1. Designed empty weight: 3kg
-
+   
 2. Designed maximum take-off weight：11kg
 
 3. Designed wing loading：6.1kg/m2
@@ -104,27 +97,29 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 
    Damage to aircraft occurs from time to time during the flight. I have recorded several crash moments as follows:
 
-   (1) This accident happened during the training in Shi Jia Zhuang, because I let the airplane fly too far. 🐤 & ✈
+  (1) This accident happened during the training in Shi Jia Zhuang, because I let the airplane fly too far. 🐤 & ✈
    
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ux9g0IHUBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-​	(2) This accident was caused totally by my mistake, two weeks before the competition. That day the wind was very powerful, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That's when I learned that there was no hesitation in taking off, which was helpful when I faced similar weather conditions two weeks later.
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ux9g0IHUBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  (2) This accident was caused totally by my mistake, two weeks before the competition. That day the wind was very powerful, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That's when I learned that there was no hesitation in taking off, which was helpful when I faced similar weather conditions two weeks later.
+  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NVI7rTBnVoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  (3) On the second round of the CADC, I failed to fly the plane for ten minutes. The video is at the beginning. After analysis, I think the reasons are as follows:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NVI7rTBnVoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-​		(3) On the second round of the CADC, I failed to fly the plane for ten minutes. The video is at the beginning. After analysis, I think the reasons are as follows:
-
- 	1. One of the fuselage connections came loose.
+  1. **One of the fuselage connections came loose.**
 
 | The first round                                              | The second round                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/10/05/usrRJA.png" alt="usrRJA.png" border="0" width="800" /> | <img src="https://s2.ax1x.com/2019/10/05/usr5sf.jpg" alt="usr5sf.jpg" border="0" width="800" /> |
 
-From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction.
+  From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction.
 
-2. Weather condition. 🌥
+   2. **Weather condition.** 🌥
 
    By the time we were flying, clouds had blocked out the sun suddenly, causing a severe power loss.
 
-3. My flying skills were not good enough.
+   3. **My flying skills were not good enough.**
 
 ---
 

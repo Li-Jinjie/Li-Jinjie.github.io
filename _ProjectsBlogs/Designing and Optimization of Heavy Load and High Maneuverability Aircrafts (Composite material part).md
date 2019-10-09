@@ -38,7 +38,7 @@ All members come from **Beihang Aeromodelling Team**. The team is divided into f
 
 **Composite material team**: **Jinjie Li (team leader)**, Tailong Shi, Yingjian Xu, Qian Yin, Guoquan Ma, Xiaozhen Sun, Yunjin Li
 
-<img src="https://s2.ax1x.com/2019/10/09/uIH1L4.jpg" alt="uIH1L4.jpg" border="0" width="500"/>
+<img src="https://s2.ax1x.com/2019/10/09/uIH1L4.jpg" alt="uIH1L4.jpg" border="0" width="600"/>
 
 **Instructor**: Prof. Zhiqiang Wan, Yongxin Li, Funan Wang
 

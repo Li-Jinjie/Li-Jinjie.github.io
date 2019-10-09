@@ -16,7 +16,7 @@ Design and manufacture a constant temperature control system that can be set to 
 3. Use a cellphone to set and display the temperature.
 4. Powered by 220V AC.
 
-## Final achievement
+## Achievements
 
 We shot this video to present the functions. Enjoy！😃
 
@@ -25,7 +25,7 @@ We shot this video to present the functions. Enjoy！😃
 
 **Jinjie Li (Team leader)** : 
 
-Design, simulate, and test the MCU and the analog PID control circuits; measure the PID parameters; draw the PCB board; program the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
+Design, simulate, and test the MCU and the analog PID control circuits; measure the PID parameters; draw the PCB board; **program** the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
 
 **Tongtong Lei**: 
 
