@@ -1,8 +1,8 @@
 ---
 title: "Designing and Optimization of Heavy Load and High Maneuverability Aircrafts (Composite material part)"
-excerpt: We won the **1st, 2nd, and 3rd** place of Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge.  **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Heavy%20Load%20and%20High%20Maneuverability%20Aircrafts%20(Composite%20material%20part)/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
+excerpt: We won the **1st, 2nd, and 3rd** place of the Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge.  **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Heavy%20Load%20and%20High%20Maneuverability%20Aircrafts%20(Composite%20material%20part)/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
 collection: ProjectsBlogs
-date: 2018-09-28
+date: 2018-09-26
 tags:
   - projects
   - CADC
@@ -10,11 +10,11 @@ tags:
 
 ## Overview
 
-A model plane with an internal combustion engine is remotly controlled to take off from the take-off and landing area with a certain amount of load (water), and releases the load after flying to a certain height above the release area. The plane returns to the field safely and circulates until the end of the race (600s). The team that carries a more heavy load and drops the load more accurately wins. Each university shall have a maximum of three flight groups, and each flight group shall have a maximum of two models in the competition.
+A model plane with an internal combustion engine is remotly controlled to take off from the take-off and landing area with a certain amount of load (water), and releases the load after flying to a certain height (18m) above the release area. The plane returns to the field safely and circulates until the end of the race (**600s**). The team that carries the more heavy load and drops the load more accurately wins. Each university shall have a maximum of three flight groups, and each flight group shall have a maximum of two models in the competition.
 
 Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
-In the 2018 CADC time-limited airdrop project, our three flight groups won the first, second, and third place, the best performance in history. As the leader of the composite group, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of six aircrafts. By changing the pattern of the laminate and using carbon fiber instead of glass fiber, I improved the torsional stiffness of the D-Box to 2.62 times of the previous level, which ensured the excellent performance of the aircraft.
+In the 2018 CADC time-limited airdrop project, **our three flight groups won the first, second, and third place**, the **best performance** in history. As **the leader of the composite group**, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of six aircrafts. By changing the **pattern** of the laminate and using **carbon fiber** instead of glass fiber, I improved the torsional stiffness of the D-Box to **2.62** times of the previous level, which ensured the excellent performance of the aircraft.
 
 ## Achievements
 
@@ -68,7 +68,7 @@ The strength of carbon filament is measured by static test. We selected carbon f
 | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/10/09/u5SFtH.jpg" alt="u5SFtH.jpg" border="0" width="450"/> |
 
-PMI is selected as the spar web material. Abutting aluminum pins are respectively fixed at the two wing roots and the center wing spar on the fuselage. The aluminum pins and the pine are connected by carbon rod, and then bonded to the web, and the outer flanges are covered to ensure the connection strength.
+PMI is selected as the spar web material. Abutting aluminum pins are respectively fixed at the two wing roots and the center wing spar on the fuselage. The aluminum pins and the pine are connected by carbon rod, and then bonded to the web, and the outer flanges are covered to ensure the connection strength. (Please see the picture of spar structure above.)
 
 D-box and skin bear torques. The torsional stiffness of the glass fiber skin under different expansion modes and the twill expansion under different materials of monolayer are measured experimentally. 
 
