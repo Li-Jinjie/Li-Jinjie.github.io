@@ -12,7 +12,6 @@ tags:
 This project is to participate in **the 28th "Feng Ru Cup" Competition of Academic and Technological Works**, and finally, we won the second prize. Please watch this video or read the article below for more information.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U4IfWXl7zYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 In order to strengthen the autonomy and reliability of UAVs under **no GNSS** condition, by imitating efficient navigation principle of birds and insects, we designed a new type of bionic integrated navigation system  based on **the inertial measurement unit (IMU), the bionic polarized light sensor (BPS), and air data system (ADS)**. The BPS provides useful course angle information, and the ADS can continuously provide speed and altitude information. At the same time, the Kalman filter is selected for information fusion of subsystems. The polarization sensor is designed and manufactured by ourselves. 
 
 ## Achievements
@@ -27,7 +26,7 @@ The polarization sensor is calibrated indoors, with an error of 0.1° in an idea
 
 To verify the accuracy of the integrated navigation system, we first carried out software simulation. In the simulation, we assume that the aircraft performs uniform linear motion and is interfered with GPS signals at 300s and 600s. The chart shows a comparison of course angle errors.
 
-<img src="https://s2.ax1x.com/2019/10/07/uRfIkd.png" alt="uRfIkd.png" border="0" width="500">
+<img src="https://s2.ax1x.com/2019/10/07/uRfIkd.png" alt="uRfIkd.png" border="0" width="600">
 
 At 300s and 600s, due to GPS interference, the green curve fluctuates in a broad range, while the blue curve is relatively stable.
 

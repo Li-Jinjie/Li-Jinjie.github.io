@@ -52,7 +52,7 @@ Both the left and right wings are single-spar structures. Each wing is designed 
 | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/10/09/u4zYwD.jpg" alt="u4zYwD.jpg" border="0" /> |
 
-<img src="https://s2.ax1x.com/2019/10/09/u5Jurt.jpg" alt="u5Jurt.jpg" border="0" width="600"/>
+<img src="https://s2.ax1x.com/2019/10/09/u5Jurt.jpg" alt="u5Jurt.jpg" border="0"/>
 
 ### Material selection
 
