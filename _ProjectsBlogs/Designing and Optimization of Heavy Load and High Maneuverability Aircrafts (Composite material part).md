@@ -1,6 +1,6 @@
 ---
 title: "Designing and Optimization of Heavy Load and High Maneuverability Aircrafts (Composite material part)"
-excerpt: We won the **1st, 2nd, and 3rd** place of Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge. **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Helicopter%20Remote%20Grab%20System/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
+excerpt: We won the **1st, 2nd, and 3rd** place of Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge (CADC). **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Heavy%20Load%20and%20High%20Maneuverability%20Aircrafts%20(Composite%20material%20part)/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
 collection: ProjectsBlogs
 date: 2018-09-28
 tags:
@@ -18,7 +18,15 @@ In the 2018 CADC time-limited airdrop project, our three flight groups won the f
 
 ## Achievements
 
-The following video is an overall introduction to the aircraft：
+|      Design parameter      |  value   |
+| :------------------------: | :------: |
+|        Maximum load        |   24kg   |
+|  Maximum take-off weight   |  27.5kg  |
+|     Ideal flight speed     |  15m/s   |
+|     Maximum wing load      | 127kg/m2 |
+| static thrust-weight ratio |   0.35   |
+
+The following video is an overall introduction of the aircraft：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vjR3_lXf62Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 This video is a recording of the CADC competition. Since there are three rounds in total and each round has three teams, the number of videos is too excessive. Therefore, only put one video here.
@@ -26,11 +34,11 @@ This video is a recording of the CADC competition. Since there are three rounds 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PxnXmD9XrL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## **Division**
 
-All members come from **Beihang Aeromodelling Team**.
-
-The team is divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
+All members come from **Beihang Aeromodelling Team**. The team is divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
 
 **Composite material team**: **Jinjie Li (team leader)**, Tailong Shi, Yingjian Xu, Qian Yin, Guoquan Ma, Xiaozhen Sun, Yunjin Li
+
+<img src="https://s2.ax1x.com/2019/10/09/uIH1L4.jpg" alt="uIH1L4.jpg" border="0" width="500"/>
 
 **Instructor**: Prof. Zhiqiang Wan, Yongxin Li, Funan Wang
 
