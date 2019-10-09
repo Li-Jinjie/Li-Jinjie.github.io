@@ -1,5 +1,5 @@
 ---
-title: "Designing and Optimization of Heavy Load and High Maneuverability Aircrafts—Composite material"
+title: "Designing and Optimization of Heavy Load and High Maneuverability Aircrafts-Composite material"
 excerpt: **Lead researcher and engineer of composite material team.** We won the **1st, 2nd, and 3rd** place of Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge.<br/> <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20a%20Solar%20Aircraft/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500"/></a>
 collection: ProjectsBlogs
 date: 2018-09-28
