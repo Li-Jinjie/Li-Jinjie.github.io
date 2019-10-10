@@ -26,7 +26,7 @@ I am so proud that I was a member of the Beihang Aeromodelling Team, an internat
 
 I participated in the **CADC** (China Aeromodelling Design Challenge) competitions in 2017 and 2018. My projects are listed below：
 
-|                    Composite Team leader                     |                            Pilot                             |                          Fresh man                           |
+|                   Composite Team leader 👍                    |                           Pilot 👍                            |                          Fresh man                           |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Heavy%20Load%20and%20High%20Maneuverability%20Aircrafts%20(Composite%20material%20part)/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a> | <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20a%20Solar%20Aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a> | <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Helicopter%20Remote%20Grab%20System/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a> |
 
@@ -34,7 +34,7 @@ I participated in the **CADC** (China Aeromodelling Design Challenge) competitio
 
 ### Other projects
 
-|                    Temperature Controller                    |                  “Feng Ru Cup” competition                   |                          Internship                          |
+|                   Temperature Controller 👍                   |                 “Feng Ru Cup” competition 👍                  |                          Internship                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <a href="https://lijinjie.top/ProjectsBlogs/Development%20of%20Settable%20Constant%20Temperature%20Controller/"><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" /></a> | <a href="https://lijinjie.top/ProjectsBlogs/A%20New%20Type%20of%20Bionic%20Autonomous%20Integrated%20Navigation%20System/"><img src="https://s2.ax1x.com/2019/10/07/uRR5uD.png" alt="uRR5uD.png" border="0" width="500"/></a> | <a href="https://lijinjie.top/ProjectsBlogs/Detection%20and%20tracking%20of%20abnormal%20behaviors/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a> |
 
