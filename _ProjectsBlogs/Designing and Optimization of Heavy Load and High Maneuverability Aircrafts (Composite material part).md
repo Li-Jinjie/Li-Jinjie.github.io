@@ -14,7 +14,7 @@ A model plane with an internal combustion engine is remotly controlled to take o
 
 Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
-In the 2018 CADC time-limited airdrop project, **our three flight groups won the first, second, and third place**, the **best performance** in history. As **the leader of the composite group**, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of six aircrafts. By changing the **pattern** of the laminate and using **carbon fiber** instead of glass fiber, I improved the torsional stiffness of the D-Box to **2.62** times of the previous level, which ensured the excellent performance of the aircraft.
+In the 2018 CADC time-limited airdrop project, **our three flight groups won the first 🥇, second 🥈, and third 🥉 place**, the **best performance** in history. As **the leader of the composite group**, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of six aircrafts. By changing the **pattern** of the laminate and using **carbon fiber** instead of glass fiber, I improved the torsional stiffness of the D-Box to **2.62** times of the previous level, which ensured the excellent performance of the aircraft.
 
 ## Achievements
 
@@ -24,7 +24,7 @@ In the 2018 CADC time-limited airdrop project, **our three flight groups won the
 |  Maximum take-off weight   |  27.5kg  |
 |     Ideal flight speed     |  15m/s   |
 |     Maximum wing load      | 127kg/m2 |
-| static thrust-weight ratio |   0.35   |
+| Static thrust-weight ratio |   0.35   |
 
 The following video is an overall introduction of the aircraft：
 
@@ -36,11 +36,11 @@ This video is a recording of the CADC competition. Since there are three rounds 
 
 All members come from **Beihang Aeromodelling Team**. The team is divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
 
-**Composite material team**: **Jinjie Li (team leader)**, Tailong Shi, Yingjian Xu, Qian Yin, Guoquan Ma, Xiaozhen Sun, Yunjin Li
+**Composite material team**: **JinJie Li (team leader)**, TaiLong Shi, YingJian Xu, Qian Yin, GuoQuan Ma, XiaoZhen Sun, YunJin Li
 
 <img src="https://s2.ax1x.com/2019/10/09/uIH1L4.jpg" alt="uIH1L4.jpg" border="0" width="600"/>
 
-**Instructor**: Prof. Zhiqiang Wan, Yongxin Li, Funan Wang
+**Instructor**: Prof. ZhiQiang Wan, YongXin Li, FuNan Wang
 
 ## An introduction of my work
 
@@ -94,5 +94,5 @@ Our team cut XPS using CNC hot-wire machine as the matrix, then laid resin-impre
 
 ---
 
-The plane's wing of the Beihang Aeromodelling team participating in the 2019 SAE Aero Design (west) also uses the **same** D-Box structure and won the **1st** place in the advanced class overall award.
+The plane's wing of the Beihang Aeromodelling team participating in the 2019 SAE Aero Design (west) also uses the **same** D-Box structure and won the **1st** place in **the advanced class overall award**. 🏆
 

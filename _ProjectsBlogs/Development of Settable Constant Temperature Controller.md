@@ -23,11 +23,11 @@ We shot this video to present the functions. Enjoy！😃
 <iframe width="908" height="511" src="https://www.youtube.com/embed/2ZQEtcWF97I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Division
 
-**Jinjie Li (Team leader)** : 
+**JinJie Li (Team leader)** : 
 
 Design, simulate, and test the MCU and the analog PID control circuits; measure the PID parameters; draw the PCB board; **program** the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
 
-**Tongtong Lei**: 
+**TongTong Lei**: 
 
 Design, simulate, and test the temperature measurement, button, display, and PWM circuits; calibration of temperature measurement; solder circuit boards; select and purchase come components.
 
@@ -35,7 +35,7 @@ Design, simulate, and test the temperature measurement, button, display, and PWM
 
 Design, simulate, and test the power supply, the relay drive circuits; select and purchase the heating and cooling modules; draw the PCB boards; manufacture the entire system.
 
-**Manxin Yang**: 
+**ManXin Yang**: 
 
 Program an Android app and a WeChat Mini Program; solder circuit boards; test the display circuit; measure the PID parameters; design and manufacture the tank; prepare for the defense.
 
@@ -43,7 +43,7 @@ Program an Android app and a WeChat Mini Program; solder circuit boards; test th
 
 ## Our plan
 
-<img src="https://s2.ax1x.com/2019/08/04/e6qzKx.png" alt="e6qzKx.png" border="0" />
+<img src="https://s2.ax1x.com/2019/08/04/e6qzKx.png" alt="e6qzKx.png" border="0"/>
 
 There are three buttons on the top of our tank, namely 'SET', 'UP' and 'DOWN'. If you want to set the temperature, press the 'SET' button, and the digital tube starts to flicker and displays target temperature. Continue to press the 'SET' key to select the digit, and adjust values through the 'UP' and 'DOWN' keys. After choosing the temperature and stopping operation for three seconds, the digital tube displays the current temperature and warms up or cools down to the target temperature. The heat can also be set by an Android cellphone.
 
@@ -140,10 +140,10 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 ### Process Recording
 
-| Stage 1                                                       | Stage 2                                                      |
+| Stage 1                                                      | Stage 2                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/08/04/e6OWXq.jpg" alt="e6OWXq.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" width="400" /> |
-| **Stage 3**                                                   | **Stage 4 ? Finish?**                                                  |
+| **Stage 3**                                                  | **Stage 4**                                                  |
 | <img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" width="400" /> |
 
 ## Downloads

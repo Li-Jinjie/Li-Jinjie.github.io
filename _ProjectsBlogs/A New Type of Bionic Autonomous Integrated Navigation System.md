@@ -12,19 +12,31 @@ tags:
 This project is to participate in **the 28th "Feng Ru Cup" Competition of Academic and Technological Works**, and finally, we won the second prize. Please watch this video or read the article below for more information.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U4IfWXl7zYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-In order to strengthen the autonomy and reliability of UAVs under **no GNSS** condition, by imitating efficient navigation principle of birds and insects, we designed a new type of bionic integrated navigation system  based on **the inertial measurement unit (IMU), the bionic polarized light sensor (BPS), and air data system (ADS)**. The BPS provides useful course angle information, and the ADS can continuously provide speed and altitude information. At the same time, the Kalman filter is selected for information fusion of subsystems. The polarization sensor is designed and manufactured by ourselves. 
+In order to strengthen the autonomy and reliability of UAVs under **no GNSS** condition, by imitating efficient navigation principle of birds and insects, we designed a new type of bionic integrated navigation system  based on **the inertial measurement unit (IMU), the bionic polarized light sensor (BPS), and air data system (ADS)**. 
+
+<img src="https://s2.ax1x.com/2019/10/10/uTXV2R.png" alt="uTXV2R.png" border="0"/>
+
+The BPS provides useful heading angle information, and the ADS can continuously provide speed and altitude information. At the same time, the **Kalman filter** is selected for information fusion of subsystems. The polarization sensor is designed and manufactured by ourselves. 
+
+IMU: MPU9250
+
+BPS: BH1750
+
+ADS: MS4525DO
+
+MCU: STM32F103C8T6
 
 ## Achievements
 
-| Draw a schematic                                             | Draw the PCB diagram                                         |
+| Schematic                                                    | PCB diagram                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/10/07/uRffmD.png" alt="uRffmD.png" border="0" width="500"> | <img src="https://s2.ax1x.com/2019/10/07/uRfotA.png" alt="uRfotA.png" border="0" width="400"> |
-| **Circuit board**                                            | **Add lenses**                                               |
+| **Circuit board of the polarization sensor**                 | **Add lenses**                                               |
 | <img src="https://s2.ax1x.com/2019/10/07/uR5GYd.jpg" alt="uR5GYd.jpg" border="0" width="400"/> | <img src="https://s2.ax1x.com/2019/10/07/uR5JfA.jpg" alt="uR5JfA.jpg" border="0" width="450"/> |
 
-The polarization sensor is calibrated indoors, with an error of 0.1° in an ideal state.
+The polarization sensor is calibrated indoors, with an error of **0.1°** in an ideal state.
 
-To verify the accuracy of the integrated navigation system, we first carried out software simulation. In the simulation, we assume that the aircraft performs uniform linear motion and is interfered with GPS signals at 300s and 600s. The chart shows a comparison of course angle errors.
+To verify the accuracy of the integrated navigation system, we first carried out software simulation. In the simulation, we assume that the aircraft performs uniform linear motion and is interfered with GPS signals at 300s and 600s. The chart shows a comparison of heading angle errors.
 
 <img src="https://s2.ax1x.com/2019/10/07/uRfIkd.png" alt="uRfIkd.png" border="0" width="600">
 
@@ -48,7 +60,7 @@ Then we did **an outdoor flight experiment** to test the dynamic performance of 
 
 <img src="https://s2.ax1x.com/2019/10/07/uR5tSI.jpg" alt="uR5tSI.jpg" border="0" />
 
-After establishing communication with the UAV, collected data through the computer, and observed the waveform of attitude angle. We take the data solved by GPS as a reference, and mark the figure as the blue line. We mark the data solved by the combined navigation system as the red line.
+After establishing communication with the UAV, we collected data through the computer, and observed the waveform of attitude angle. Then we took the data solved by GPS as a reference, marked the figure as the blue line, and marked the data solved by the combined navigation system as the red line.
 
 |                        The roll angle                        |                       The pitch angle                        |      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | ---- |
@@ -66,8 +78,8 @@ In the future, we hope to introduce advanced data fusion methods such as nonline
 
 Advisor: Prof. Lei Guo, Dr. Xiao Zhang
 
-Circuit design, flight experiments: **Jinjie Li**, Chenyu Zhang
+Circuit design, flight experiments: **JinJie Li**, ChenYu Zhang
 
-Programming and simulation: Xiaoyu Guo, Zhenhuang Huang
+Programming and simulation: XiaoYu Guo, ZhenHuan Huang
 
-Other work: Xueyuan Zhao, Ruijiang Zhang
+Other work: XueYuan Zhao, RuiJiang Zhang

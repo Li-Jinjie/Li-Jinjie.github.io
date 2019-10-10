@@ -12,29 +12,26 @@ This project is designed for the Simulative Search and Rescue project in the 201
 
 The competition requires us to achieve the following functions: the model helicopter should takes off from the take-off and landing area, flies to the relief material storage area, and then finds, selects, and automatically picks up a specific relief material by image equipments on the helicopter. After flying over the obstacle, the rescued material will be placed on the particular objects in the area to complete a search and rescue mission. The cycle continues until the end of the round (5 mins). The team who accomplishes the task most quickly and accurately is the winner.
 
-This is not an open source program.
-
 ## Achievements
 
-Finally, we won the **champion** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge!
+Finally, we won the **champion** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! 🥇
 
-<img src="https://s2.ax1x.com/2019/10/04/uB1ry6.jpg" alt="uB1ry6.jpg" border="0" width="600"/>
+<img src="https://s2.ax1x.com/2019/10/04/uB1ry6.jpg" alt="uB1ry6.jpg" border="0" width="600" align="center" />
 
 This video records the competition. 👇
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7R1W2pjVvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Division
 
 All members come from **Beihang Aeromodelling Team**.
 
-<img src="https://s2.ax1x.com/2019/10/03/u046ET.jpg" alt="u046ET.jpg" border="0" width="600"/>
+<img src="https://s2.ax1x.com/2019/10/03/u046ET.jpg" alt="u046ET.jpg" border="0"/>
 
-**Team 1:** **Li Jinjie**, Li Duye, Yang Dianhui, Li Zhenyang
+**Team 1:** **JinJie Li**, Duye Li, Dianhui Yang, Zhenyang Li
 
-**Team 2:** Yi Ruizhi (team leader), Liu Jiaxin, Wu Chengyi, Liu Xiaodong
+**Team 2:** Ruizhi Yi (team leader), Jiaxin Liu, Chengyi Wu, Xiaodong Liu
 
-**Instructor**: Prof.Wan Zhiqiang, Li Yongxin, Wang Funan
+**Instructor**: Prof. ZhiQiang Wan, YongXin Li, FuNan Wang
 
 I was responsible for manufacturing the mechanical structure and making videos.
 
@@ -59,7 +56,6 @@ The field setting is as follows: 👇
 Please watch the video below to know more information about our plan.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CFfCpMxMR4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 **I. Steps of self-recognition grasping**
 
 1. Judge the state of the image
@@ -69,6 +65,7 @@ Please watch the video below to know more information about our plan.
 5. Convert from pixel coordinates of the image to physical space coordinates
 6. Build the capture loop
    
+
 **II. Mechanical structure design**
 
 1. The length of polar coordinates is controlled by a stepper motor and synchronous belt wheel.

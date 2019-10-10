@@ -25,24 +25,22 @@ Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CA
 The video of the first round. 👇
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6qMAcYAwtVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 The video of the Second round. 👇
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YEtDgiWG6yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Division
 
 All members come from **Beihang Aeromodelling Team**.
 
 <img src="https://s2.ax1x.com/2019/08/08/e7grCD.jpg" alt="e7grCD.jpg" height="500" border="0" />
 
-**Structural design and production**: Zhengxiao Ma (team leader), Yang Xu (team leader), **Jinjie Li**, Yuhang Xi, Jieyin Ma, Qi Zhang, Yating Hu, Xi Li, Man Huang, Sihan Huang
+**Structural design and production**: ZhengXiao Ma (team leader), Yang Xu (team leader), **JinJie Li**, YuHang Xi, JieYin Ma, Qi Zhang, YaTing Hu, Xi Li, Man Huang, SiHan Huang
 
-**Circuit design and solar panel welding**: Zhengxiao Ma, Yuhang Xi, Sihan Huang, Qi Zhang, Yating Hu
+**Circuit design and solar panel welding**: ZhengXiao Ma, YuHang Xi, SiHan Huang, Qi Zhang, YaTing Hu
 
-**Pilot**: **Jinjie Li**
+**Pilot**: **JinJie Li**
 
-**Instructor**: Prof. Zhiqiang Wan, Yongxin Li, Funan Wang
+**Instructor**: Prof. ZhiQiang Wan, YongXin Li, FuNan Wang
 
 ## An Introduction to our Solar Airplane
 
@@ -53,15 +51,12 @@ The aircraft adopts a canard configuration, double-engine, double-tailed, wing-t
 - Increase the torsional stiffness of the fuselage by **tensioning lines**.
 - Add a **gyroscope** to enhance stability and flight performance.
 
-Basic design parameters:
-
-1. Designed empty weight: 3kg
-   
-2. Designed maximum take-off weight：11kg
-
-3. Designed wing loading：6.1kg/m2
-
-4. Total number of solar panels：120
+|   Basic design parameters    |  Value   |
+| :--------------------------: | :------: |
+|         Empty weight         |   3kg    |
+|   Maximum take-off weight    |   11kg   |
+|         Wing loading         | 6.1kg/m2 |
+| Total number of solar panels |   120    |
 
 **Three-view drawing of the airplane**
 
@@ -98,13 +93,11 @@ In the race, all projects need to be completed by the pilots. If you want to bec
    Damage to aircraft occurs from time to time during the flight. I have recorded several crash moments as follows:
 
   (1) This accident happened during the training in Shi Jia Zhuang, because I let the airplane fly too far. 🐤 & ✈
-   
+
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Ux9g0IHUBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-  (2) This accident was caused totally by my mistake, two weeks before the competition. That day the wind was very powerful, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That's when I learned that there was no hesitation in taking off, which was helpful when I faced similar weather conditions two weeks later.
-  
+  (2) This accident was caused totally by my mistake, two weeks before the competition. That day the wind was very powerful 💨, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That's when I learned that there was no hesitation in taking off, which was helpful when I faced similar weather conditions two weeks later.
+
   <iframe width="560" height="315" src="https://www.youtube.com/embed/NVI7rTBnVoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
   (3) On the second round of the CADC, I failed to fly the plane for ten minutes. The video is at the beginning. After analysis, I think the reasons are as follows:
 
   1. **One of the fuselage connections came loose.**
@@ -113,11 +106,11 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/10/05/usrRJA.png" alt="usrRJA.png" border="0" width="800" /> | <img src="https://s2.ax1x.com/2019/10/05/usr5sf.jpg" alt="usr5sf.jpg" border="0" width="800" /> |
 
-  From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction.
+From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction. After the competition we found the reason was that the fuselage connection came loose.
 
    2. **Weather condition.** 🌥
 
-   By the time we were flying, clouds had blocked out the sun suddenly, causing a severe power loss.
+By the time we were flying on the second round, clouds had blocked out the sun suddenly, causing a severe power loss.
 
    3. **My flying skills were not good enough.**
 
