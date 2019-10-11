@@ -12,9 +12,9 @@ redirect_from:
 
 Hello！I am currently an undergraduate student of [Shenyuan Honors College](http://sae.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. Lei Guo](https://www.buaa.edu.cn/info/1569/1582.htm), majoring in Automation. I have decided to continue my postgraduate study in the field of robotics.
 
-I believe in the principle of "**Learning by doing**," thus I participated in many projects in university. These projects are hard to present in words, so I creat this site to **visualize** the [Projects](https://lijinjie.top/Projects&Blogs/) I've worked on.
+I believe in the principle of "**Learning by doing**," thus, I participated in many projects in university. These projects are hard to present in words, so I created this site to **visualize** the [Projects](https://lijinjie.top/Projects&Blogs/) I've worked on.
 
-In addition, I put my homework reports and photography works in [Homework](https://lijinjie.top/homework/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
+In addition, I posted my homework reports and photography works in [Homework](https://lijinjie.top/homework/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
 
 
 
@@ -22,7 +22,7 @@ In addition, I put my homework reports and photography works in [Homework](https
 
 ### Projects in Beihang Aeromodelling Team
 
-I am so proud that I was a member of the Beihang Aeromodelling Team, an international first-class aviation innovation activity group for undergraduate students. 
+I am so proud of being one of the members of Beihang Aeromodelling Team, an international first-class aviation innovation activity group for undergraduate students. 
 
 I participated in the **CADC** (China Aeromodelling Design Challenge) competitions in 2017 and 2018. My projects are listed below：
 
