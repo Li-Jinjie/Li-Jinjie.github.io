@@ -1,13 +1,16 @@
 ---
 title: "Designing and Optimization of Helicopter Remote Grab System"
-excerpt: We won the **1st** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! <br/> <a href="https://lijinjie.top/ProjectsBlogs/Designing%20and%20Optimization%20of%20Helicopter%20Remote%20Grab%20System/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a>
-collection: ProjectsBlogs
+permalink: /Helicopter_grab/
+excerpt: We won the **1st** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! <br/> <a href="https://lijinjie.top/Projects/Helicopter_grab/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a>
+collection: Projects
 date: 2017-08-01
 tags:
   - projects
   - CADC
 ---
+
 ## Overview
+
 This project is designed for the Simulative Search and Rescue project in the 2017 China Aeromodelling Design Challenge (CADC) competition.
 
 The competition requires us to achieve the following functions: the model helicopter should takes off from the take-off and landing area, flies to the relief material storage area, and then finds, selects, and automatically picks up a specific relief material by image equipments on the helicopter. After flying over the obstacle, the rescued material will be placed on the particular objects in the area to complete a search and rescue mission. The cycle continues until the end of the round (5 mins). The team who accomplishes the task most quickly and accurately is the winner.

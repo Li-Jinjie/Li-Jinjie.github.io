@@ -1,7 +1,8 @@
 ---
 title: "Development of Settable Constant Temperature Controller"
-excerpt: 👍 My **first** electrical project ! <br/> <a href="https://lijinjie.top/ProjectsBlogs/Development%20of%20Settable%20Constant%20Temperature%20Controller/"><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" /></a>
-collection: ProjectsBlogs
+permalink: /Temperature_Controller/
+excerpt: 👍 My **first** electrical project ! <br/> <a href="https://lijinjie.top/Projectsgs/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" /></a>
+collection: Projects
 date: 2018-03-05
 tags:
   - projects
