@@ -1,6 +1,6 @@
 ---
 title: "Designing and Optimization of Helicopter Remote Grab System"
-permalink: /Helicopter_grab/
+permalink: /Projects/Helicopter_grab/
 excerpt: We won the **1st** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! <br/> <a href="https://lijinjie.top/Projects/Helicopter_grab/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a>
 collection: Projects
 date: 2017-08-01

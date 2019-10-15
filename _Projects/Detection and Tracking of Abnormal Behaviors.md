@@ -1,6 +1,6 @@
 ---
 title: "Detection and Tracking of Abnormal Behaviors"
-permalink: /DTAB/
+permalink: /Projects/DTAB/
 excerpt: An internship project at Institute of Automation, Chinese Academy of Sciences <br/> <a href="https://lijinjie.top/Projects/DTAB/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a>
 collection: Projects
 date: 2019-06-27

@@ -1,7 +1,7 @@
 ---
 title: "A New Type of Bionic Autonomous Integrated Navigation System"
-permalink: /Navigation_System/
-excerpt: 👍 We won **the Second Prize** in the 28th "Feng Ru Cup" Competition of Academic and Technological Works! <br/> <a href="https://lijinjie.top/Projectsgs/Navigation_System/"><img src="https://s2.ax1x.com/2019/10/07/uRR5uD.png" alt="uRR5uD.png" border="0" width="500"/></a>
+permalink: /Projects/Navigation_System/
+excerpt: 👍 We won **the Second Prize** in the 28th "Feng Ru Cup" Competition of Academic and Technological Works! <br/> <a href="https://lijinjie.top/Projects/Navigation_System/"><img src="https://s2.ax1x.com/2019/10/07/uRR5uD.png" alt="uRR5uD.png" border="0" width="500"/></a>
 collection: Projects
 date: 2018-05-21
 tags:
