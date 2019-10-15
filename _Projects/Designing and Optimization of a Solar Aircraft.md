@@ -101,7 +101,7 @@ In the race, all projects need to be completed by the pilots. If you want to bec
   <iframe width="560" height="315" src="https://www.youtube.com/embed/NVI7rTBnVoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   (3) On the second round of the CADC, I failed to fly the plane for ten minutes. The video is at the beginning. After analysis, I think the reasons are as follows:
 
-  1. **One of the fuselage connections came loose.**
+1. **One of the fuselage connections came loose.**
 
 | The first round                                              | The second round                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -109,11 +109,11 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 
 From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction. After the competition we found the reason was that the fuselage connection came loose.
 
-   2. **Weather condition.** 🌥
+2. **Weather condition.** 🌥
 
 By the time we were flying on the second round, clouds had blocked out the sun suddenly, causing a severe power loss.
 
-   3. **My flying skills were not good enough.**
+3. **My flying skills were not good enough.**
 
 ---
 
