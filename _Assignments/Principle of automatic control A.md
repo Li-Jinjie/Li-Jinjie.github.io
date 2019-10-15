@@ -1,7 +1,7 @@
 ---
 title: "Principle of automatic control A"
-collection: homework
-permalink: /homework/Principle of automatic control A
+collection: Assignments
+permalink: /Assignments/Principle of automatic control A
 excerpt: 'Contain 3 files in Chinese.'
 # venue: 'Principle of automatic control A'
 date: 2019-05-24

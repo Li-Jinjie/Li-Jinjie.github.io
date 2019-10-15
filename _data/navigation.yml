@@ -5,7 +5,7 @@ main:
     url: /Projects/    
     
   - title: "Assignments"
-    url: /homework/
+    url: /Assignments/
 
   - title: "Portfolio"
     url: /portfolio/

@@ -1,7 +1,7 @@
 ---
 title: "Pattern recognition and machine learning"
-collection: homework
-permalink: /homework/Pattern recognition and machine learning
+collection: Assignments
+permalink: /Assignments/Pattern recognition and machine learning
 excerpt: 'Contain 4 files in Chinese.'
 # venue: 'Pattern recognition and machine learning'
 date: 2019-06-15

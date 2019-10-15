@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Modeling"
-collection: homework
-permalink: /homework/Mathematical Modeling
+collection: Assignments
+permalink: /Assignments/Mathematical Modeling
 excerpt: 'Contain 2 files in Chinese.'
 date: 2018-06-18
 ---

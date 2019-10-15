@@ -181,7 +181,7 @@ collections:
   Projects:
     output: true
     permalink: /:collection/:path/
-  homework:
+  Assignments:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -219,10 +219,10 @@ defaults:
       # read_time: false
       share: false
       comments: false
-  # _homework
+  # _Assignments
   - scope:
       path: ""
-      type: homework
+      type: Assignments
     values:
       layout: single
       author_profile: true

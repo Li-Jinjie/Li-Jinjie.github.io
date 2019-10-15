@@ -1,7 +1,7 @@
 ---
 title: "Pattern recognition and intelligent system technology"
-collection: homework
-permalink: /homework/Pattern recognition and intelligent system technology
+collection: Assignments
+permalink: /Assignments/Pattern recognition and intelligent system technology
 excerpt: 'Contain 3 files in Chinese.'
 # venue: 'Pattern recognition and intelligent system technology'
 date: 2019-05-30

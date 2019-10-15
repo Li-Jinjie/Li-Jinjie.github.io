@@ -1,7 +1,7 @@
 ---
 title: "CAD and 3D design-solidworks"
-collection: homework
-permalink: /homework/CAD and 3D design-solidworks
+collection: Assignments
+permalink: /Assignments/CAD and 3D design-solidworks
 excerpt: 'Contain 1 file and 1 video in Chinese.'
 date: 2018-11-26
 ---

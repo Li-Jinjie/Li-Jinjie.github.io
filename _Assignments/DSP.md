@@ -1,7 +1,7 @@
 ---
 title: "Digital Signal Processing"
-collection: homework
-permalink: /homework/DSP
+collection: Assignments
+permalink: /Assignments/DSP
 excerpt: 'Contain 2 files in Chinese.'
 # venue: 'DSP'
 date: 2019-06-21

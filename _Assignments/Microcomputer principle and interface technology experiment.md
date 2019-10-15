@@ -1,7 +1,7 @@
 ---
 title: "Microcomputer principle and interface technology experiment"
-collection: homework
-permalink: /homework/Microcomputer principle and interface technology experiment
+collection: Assignments
+permalink: /Assignments/Microcomputer principle and interface technology experiment
 excerpt: 'Contain 4 files in Chinese.'
 date: 2018-12-15
 ---

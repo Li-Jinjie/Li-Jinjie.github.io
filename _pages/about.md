@@ -14,7 +14,7 @@ Hello！I am currently an undergraduate student of [Shenyuan Honors College](htt
 
 I believe in the principle of "**Learning by doing**," thus, I participated in many projects in university. These projects are hard to present in words, so I created this site to **visualize** the [Projects](https://lijinjie.top/Projects/) I've worked on.
 
-In addition, I posted my homework reports and photography works in [Homework](https://lijinjie.top/homework/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
+In addition, I posted my Assignments reports and photography works in [Assignments](https://lijinjie.top/Assignments/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
 
 
 

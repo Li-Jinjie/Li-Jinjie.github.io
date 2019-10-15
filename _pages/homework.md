@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Homework"
-permalink: /homework/
+title: "Assignments"
+permalink: /Assignments/
 author_profile: true
 ---
 
@@ -12,6 +12,6 @@ I post my experiment reports and assignments 📄 here (If the reports has elect
 
 {% include base_path %}
 
-{% for post in site.homework reversed %}
+{% for post in site.Assignments reversed %}
   {% include archive-single.html %}
 {% endfor %}

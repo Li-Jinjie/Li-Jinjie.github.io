@@ -1,7 +1,7 @@
 ---
 title: "Electrical technology practice"
-collection: homework
-permalink: /homework/Electrical technology practice
+collection: Assignments
+permalink: /Assignments/Electrical technology practice
 excerpt: 'Contain 17 files in English.'
 date: 2018-11-9
 ---

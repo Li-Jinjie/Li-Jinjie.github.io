@@ -1,7 +1,7 @@
 ---
 title: "Computer Control System"
-collection: homework
-permalink: /homework/Computer-control-system
+collection: Assignments
+permalink: /Assignments/Computer-control-system
 excerpt: 'Contain 1 file in Chinese.'
 date: 2019-05-25
 ---
