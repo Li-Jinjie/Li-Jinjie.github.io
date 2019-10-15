@@ -1,7 +1,7 @@
 ---
 title: "Designing and Optimization of a Solar Aircraft"
 permalink: /Projects/Solar_Aircraft/
-excerpt: 👍 My **first** time to be a pilot! We won the Third Award of Solar Aircraft project in 2018 China Aeromodelling Design Challenge.<br/> <a href="https://lijinjie.top/Projectsgs/Solar_Aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
+excerpt: 👍 My **first** time to be a pilot! We won the Third Award of Solar Aircraft project in 2018 China Aeromodelling Design Challenge.<br/> <a href="https://lijinjie.top/Projects/Solar_Aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
 collection: Projects
 date: 2018-09-28
 tags:
