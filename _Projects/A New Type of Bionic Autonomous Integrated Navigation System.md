@@ -33,7 +33,7 @@ MCU: STM32F103C8T6
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="https://s2.ax1x.com/2019/10/07/uRffmD.png" alt="uRffmD.png" border="0" width="500"> | <img src="https://s2.ax1x.com/2019/10/07/uRfotA.png" alt="uRfotA.png" border="0" width="400"> |
 | **Circuit board of the polarization sensor**                 | **Add lenses**                                               |
-| <img src="https://s2.ax1x.com/2019/10/07/uR5GYd.jpg" alt="uR5GYd.jpg" border="0" width="400"/> | <img src="https://s2.ax1x.com/2019/10/07/uR5JfA.jpg" alt="uR5JfA.jpg" border="0" width="450"/> |
+| <img src="https://s2.ax1x.com/2019/10/07/uR5GYd.jpg" alt="uR5GYd.jpg" border="0" width="400"/> | <img src="https://s2.ax1x.com/2019/10/16/KkVenx.jpg" alt="KkVenx.jpg" border="0" width="450"/> |
 
 The polarization sensor is calibrated indoors, with an error of **0.1°** in an ideal state.
 
@@ -59,7 +59,7 @@ As can be seen from the error diagram, the error curve (green part) of GPS/SINS 
 
 Then we did **an outdoor flight experiment** to test the dynamic performance of the system. The experimental results were a comparison of the attitude angle between our system and the GPS/SINS  system.
 
-<img src="https://s2.ax1x.com/2019/10/07/uR5tSI.jpg" alt="uR5tSI.jpg" border="0" />
+<img src="https://s2.ax1x.com/2019/10/16/KkVVj1.jpg" alt="KkVVj1.jpg" border="0" />
 
 After establishing communication with the UAV, we collected data through the computer, and observed the waveform of attitude angle. Then we took the data solved by GPS as a reference, marked the figure as the blue line, and marked the data solved by the combined navigation system as the red line.
 

@@ -19,7 +19,7 @@ The competition requires us to achieve the following functions: the model helico
 
 Finally, we won the **champion** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! 🥇
 
-<img src="https://s2.ax1x.com/2019/10/04/uB1ry6.jpg" alt="uB1ry6.jpg" border="0" width="600" align="center" />
+<img src="https://s2.ax1x.com/2019/10/16/KkVMND.jpg" alt="KkVMND.jpg" border="0" width="600" align="center" />
 
 This video records the competition. 👇
 
@@ -52,7 +52,7 @@ Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CA
 
 The field setting is as follows: 👇
 
-<img src="https://s2.ax1x.com/2019/10/03/u04X2d.png" alt="u04X2d.png" border="0" />
+<img src="https://s2.ax1x.com/2019/10/16/KkVYut.jpg" alt="KkVYut.jpg" border="0" />
 
 ## Solutions
 

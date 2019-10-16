@@ -28,7 +28,7 @@ This course includes basic knowledge of the following fields:
 2. Palmprint identification by Gabor filters 
   <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Digital Image Processing.pdf" target="_blank">Report</a>
 
-      <img src="https://s2.ax1x.com/2019/10/04/urJnBt.md.jpg" alt="urJnBt.jpg" border="0" width="300" />
+      <img src="https://s2.ax1x.com/2019/10/16/KkVQ4e.jpg" alt="KkVQ4e.jpg" border="0" width="300" />
   
 3. Priests and Devils problem
    <a href="http://Li-jinjie.github.io/files/Pattern recognition and intelligent system technology/Assignment of Artificial Intelligence.pdf" target="_blank">Report</a>  or <a href="https://github.com/Li-Jinjie/Priests-and-Devils-problem-by-MATLAB" target="_blank">Code</a>

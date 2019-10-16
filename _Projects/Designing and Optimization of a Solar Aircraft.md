@@ -1,7 +1,7 @@
 ---
 title: "Designing and Optimization of a Solar Aircraft"
 permalink: /Projects/Solar_Aircraft/
-excerpt: 👍 My **first** time to be a pilot! We won the Third Award of Solar Aircraft project in 2018 China Aeromodelling Design Challenge.<br/> <a href="https://lijinjie.top/Projects/Solar_Aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a>
+excerpt: 👍 My **first** time to be a pilot! We won the Third Award of Solar Aircraft project in 2018 China Aeromodelling Design Challenge.<br/> <a href="https://lijinjie.top/Projects/Solar_Aircraft/"><img src="https://s2.ax1x.com/2019/10/16/KkVnHK.jpg" alt="KkVnHK.jpg" border="0" width="500" /></a>
 collection: Projects
 date: 2018-09-28
 tags:
@@ -77,7 +77,7 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 
 2. **Special training in Shi Jia Zhuang**
 
-   <img src="https://s2.ax1x.com/2019/10/05/usCRIK.png" alt="usCRIK.png" border="0" />
+   <img src="https://s2.ax1x.com/2019/10/16/KkVGjI.jpg" alt="KkVGjI.jpg" border="0" />
 
    We had a seven-day training at Shi Jia Zhuang in July 2018. We started with quadrilateral-route training, which meant flying along a rectangle. The exercise required us to turn quickly, keep the same height, keep all four sides straight, and keep the size of the rectangle unchanged. This training deepened our understanding of the principles of flight.
 
@@ -105,7 +105,7 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 
 | The first round                                              | The second round                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://s2.ax1x.com/2019/10/05/usrRJA.png" alt="usrRJA.png" border="0" width="800" /> | <img src="https://s2.ax1x.com/2019/10/05/usr5sf.jpg" alt="usr5sf.jpg" border="0" width="800" /> |
+| <img src="https://s2.ax1x.com/2019/10/05/usrRJA.png" alt="usrRJA.png" border="0" width="800" /> | <img src="https://s2.ax1x.com/2019/10/16/KkV19H.jpg" alt="KkV19H.jpg" border="0" width="800" /> |
 
 From the comparison between pictures from the first and second round, the nose turned up after the loading increased, causing the angle of the canard to change. This change made it extremely difficult to balance the aircraft in the pitch direction. After the competition we found the reason was that the fuselage connection came loose.
 

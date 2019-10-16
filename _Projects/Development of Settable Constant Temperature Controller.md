@@ -1,7 +1,7 @@
 ---
 title: "Development of Settable Constant Temperature Controller"
 permalink: /Projects/Temperature_Controller/
-excerpt: 👍 My **first** electrical project ! <br/> <a href="https://lijinjie.top/Projects/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" /></a>
+excerpt: 👍 My **first** electrical project ! <br/> <a href="https://lijinjie.top/Projects/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/10/16/KkV33d.jpg" alt="KkV33d.jpg" border="0" width="500" /></a>
 collection: Projects
 date: 2018-03-05
 tags:
@@ -137,13 +137,13 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 9. **Structure**
 
-    <img src="https://s2.ax1x.com/2019/08/04/e6OZY4.jpg" alt="e6OZY4.jpg" border="0" />
+    <img src="https://s2.ax1x.com/2019/10/16/KkVKAO.jpg" alt="KkVKAO.jpg" border="0" />
 
 ### Process Recording
 
 | Stage 1                                                      | Stage 2                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://s2.ax1x.com/2019/08/04/e6OWXq.jpg" alt="e6OWXq.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" width="400" /> |
+| <img src="https://s2.ax1x.com/2019/10/16/KkVtDP.jpg" alt="KkVtDP.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" width="400" /> |
 | **Stage 3**                                                  | **Stage 4**                                                  |
 | <img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" width="400" /> | <img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" width="400" /> |
 

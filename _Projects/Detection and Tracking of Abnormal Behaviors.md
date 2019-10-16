@@ -1,7 +1,7 @@
 ---
 title: "Detection and Tracking of Abnormal Behaviors"
 permalink: /Projects/DTAB/
-excerpt: An internship project at Institute of Automation, Chinese Academy of Sciences <br/> <a href="https://lijinjie.top/Projects/DTAB/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a>
+excerpt: An internship project at Institute of Automation, Chinese Academy of Sciences <br/> <a href="https://lijinjie.top/Projects/DTAB/"><img src="https://s2.ax1x.com/2019/10/16/KkV8gA.jpg" alt="KkV8gA.jpg" border="0" width="500" /></a>
 collection: Projects
 date: 2019-06-27
 tags:
@@ -12,7 +12,7 @@ tags:
 
 This is my internship project, which aims to detect  intrusion, crossing a line, running and falling behaviors  automatically  in surveillance video through deep learning algorithms. Through this project, I am trying to complete the following learning  objectives:
 
-<img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" />
+<img src="https://s2.ax1x.com/2019/10/16/KkV8gA.jpg" alt="KkV8gA.jpg" border="0" />
 
 1. Master Python language and object-oriented programming (OOP) ideas.
 2. Master the TensorFlow deep learning framework.
