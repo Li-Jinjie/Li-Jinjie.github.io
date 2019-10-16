@@ -14,7 +14,7 @@ Hello！I am currently an undergraduate student of [Shenyuan Honors College](htt
 
 I believe in the principle of "**Learning by doing**," thus, I participated in many projects in university. These projects are hard to present in words, so I created this site to **visualize** the [Projects](https://lijinjie.top/Projects/) I've worked on.
 
-In addition, I posted my assignments reports and photography works in [Assignments](https://lijinjie.top/Assignments/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
+In addition, I posted my reports of assignments and photography works in [Assignments](https://lijinjie.top/Assignments/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
 
 
 
@@ -36,5 +36,5 @@ I participated in the **CADC** (China Aeromodelling Design Challenge) competitio
 
 |                   Temperature Controller 👍                   |                 “Feng Ru Cup” competition 👍                  |                          Internship                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <a href="https://lijinjie.top/Projects/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/08/05/eRwQ29.png" alt="eRwQ29.png" border="0" width="500" /></a> | <a href="https://lijinjie.top/Projects/Navigation_System/"><img src="https://s2.ax1x.com/2019/10/07/uRR5uD.png" alt="uRR5uD.png" border="0" width="500"/></a> | <a href="https://lijinjie.top/Projects/DTAB/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a> |
+| <a href="https://lijinjie.top/Projects/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/10/16/KkV33d.jpg" alt="KkV33d.jpg" border="0" width="500" /></a> | <a href="https://lijinjie.top/Projects/Navigation_System/"><img src="https://s2.ax1x.com/2019/10/07/uRR5uD.png" alt="uRR5uD.png" border="0" width="500"/></a> | <a href="https://lijinjie.top/Projects/DTAB/"><img src="https://s2.ax1x.com/2019/10/07/u2VuaF.png" alt="u2VuaF.png" border="0" width="500"/></a> |
 
