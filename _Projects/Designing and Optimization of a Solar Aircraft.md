@@ -86,12 +86,12 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 3. **The characteristics of flying the solar aircraft**
 
    1. The top position of the throttle varies with the sunlight, which makes it hard to find a proper place for the stick.
-   2. The aircraft's wingspan is 5 meters, and the torsional stiffness is inadequate, causing the weak effect of the wing-tip aileron. This weakness leads to a noticeable delay in the control (about 4s). Therefore, reaction time should be taken into account.
+   2. The large size (5 meters' wingspan) and the inadequate torsional stiffness cause the weak effect of the wing-tip aileron. This weakness leads to a noticeable delay in the control (about 4s). Therefore, reaction time should be taken into account.
    3. The canard configuration leads to weak pitching stability, which requires the pilot to control the pitch balance at all times.
 
 4. **Crushing moments and reason analysis**
 
-   Damage to aircraft occurs from time to time during the flight. I have recorded several crash moments as follows:
+   Damage to aircrafts occurs from time to time during the flight. I have recorded several crash moments as follows:
 
   (1) This accident happened during the training in Shi Jia Zhuang, because I let the airplane fly too far. 🐤 & ✈
 
