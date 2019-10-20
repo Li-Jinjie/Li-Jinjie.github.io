@@ -3,12 +3,14 @@ title: "A New Type of Bionic Autonomous Integrated Navigation System"
 permalink: /Projects/Navigation_System/
 excerpt: 👍 We won **the Second Prize** in the 28th "Feng Ru Cup" Competition of Academic and Technological Works! <br/> <a href="https://lijinjie.top/Projects/Navigation_System/"><img src="https://s2.ax1x.com/2019/10/07/uRR5uD.png" alt="uRR5uD.png" border="0" width="500"/></a>
 collection: Projects
-date: 2018-05-21
+date: 2018-11-05
 tags:
   - projects
 ---
 
 ## Overview
+
+Duration: Nov. 2017 - Nov. 2018
 
 This project is to participate in **the 28th "Feng Ru Cup" Competition of Academic and Technological Works**, and finally, we won the second prize. Please watch this video or read the article below for more information.
 
@@ -79,7 +81,7 @@ In the future, we hope to introduce advanced data fusion methods such as nonline
 
 Advisor: Prof. Lei Guo, Dr. Xiao Zhang
 
-Circuit design, flight experiments: **JinJie Li**, ChenYu Zhang
+Circuit design, flight experiments: **JinJie Li**, Shanpeng Wang
 
 Programming and simulation: XiaoYu Guo, ZhenHuan Huang
 

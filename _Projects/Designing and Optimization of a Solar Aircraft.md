@@ -3,13 +3,15 @@ title: "Designing and Optimization of a Solar Aircraft"
 permalink: /Projects/Solar_Aircraft/
 excerpt: 👍 My **first** time to be a pilot! We won the Third Award of Solar Aircraft project in 2018 China Aeromodelling Design Challenge.<br/> <a href="https://lijinjie.top/Projects/Solar_Aircraft/"><img src="https://s2.ax1x.com/2019/10/16/KkVnHK.jpg" alt="KkVnHK.jpg" border="0" width="500" /></a>
 collection: Projects
-date: 2018-09-28
+date: 2018-10-21
 tags:
   - projects
   - CADC
 ---
 
 ## Overview
+
+Duration: Mar. 2018 - Oct. 2018
 
 This project is designed for **the Solar Aircraft project** in the 2018 China Aeromodelling Design Challenge (CADC) competition. In this project, we designed and manufactured an aircraft with an empty weight between 2 and 3 kg, which relies entirely on **solar panels** to provide power. The aircraft must take off in a slipping manner.
 

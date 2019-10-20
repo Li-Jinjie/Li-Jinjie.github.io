@@ -3,12 +3,14 @@ title: "Development of Settable Constant Temperature Controller"
 permalink: /Projects/Temperature_Controller/
 excerpt: 👍 My **first** electrical project ! <br/> <a href="https://lijinjie.top/Projects/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/10/16/KkV33d.jpg" alt="KkV33d.jpg" border="0" width="500" /></a>
 collection: Projects
-date: 2018-03-05
+date: 2018-07-05
 tags:
   - projects
 ---
 
 ## Requirements
+
+Duration: Feb. 2018 - Jun. 2018
 
 Design and manufacture a constant temperature control system that can be set to the specific temperature:
 

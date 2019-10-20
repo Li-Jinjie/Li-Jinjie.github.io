@@ -3,13 +3,15 @@ title: "Designing and Optimization of Heavy Load and High Maneuverability Aircra
 permalink: /Projects/Composite_material/
 excerpt: 👍 We won the **1st, 2nd, and 3rd** place of the Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge.  **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/Projects/Composite_material/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
 collection: Projects
-date: 2018-09-26
+date: 2018-10-10
 tags:
   - projects
   - CADC
 ---
 
 ## Overview
+
+Duration: Jul. 2017 - Oct. 2018
 
 A model plane with an internal combustion engine is remotly controlled to take off from the take-off and landing area with a certain amount of load (water), and releases the load after flying to a certain height (18m) above the release area. The plane returns to the field safely and circulates until the end of the race (**600s**). The team that carries the more heavy load and drops the load more accurately wins. Each university shall have a maximum of three flight groups, and each flight group shall have a maximum of two models in the competition.
 
