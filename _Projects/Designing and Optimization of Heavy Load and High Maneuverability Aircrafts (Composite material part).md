@@ -39,11 +39,11 @@ This video is a recording of the CADC competition. Since there are three rounds 
 
 All members come from **Beihang Aeromodelling Team**. The team is divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
 
-**Composite material team**: **JinJie Li (team leader)**, TaiLong Shi, YingJian Xu, Qian Yin, GuoQuan Ma, XiaoZhen Sun, YunJin Li
+**Composite material team**: **LI Jinjie (team leader)**, SHI Tailong, XU Yingjian, YIN Qian, MA Guoquan, SUN Xiaozhen, LI Yunjin
 
 <img src="https://s2.ax1x.com/2019/10/09/uIH1L4.jpg" alt="uIH1L4.jpg" border="0" width="600"/>
 
-**Instructor**: Prof. ZhiQiang Wan, YongXin Li, FuNan Wang
+**Instructor**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
 ## An introduction of my work
 

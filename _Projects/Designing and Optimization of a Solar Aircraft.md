@@ -37,13 +37,13 @@ All members come from **Beihang Aeromodelling Team**.
 
 <img src="https://s2.ax1x.com/2019/08/08/e7grCD.jpg" alt="e7grCD.jpg" height="500" border="0" />
 
-**Structural design and production**: ZhengXiao Ma (team leader), Yang Xu (team leader), **JinJie Li**, YuHang Xi, JieYin Ma, Qi Zhang, YaTing Hu, Xi Li, Man Huang, SiHan Huang
+**Structural design and production**: MA Zhengxiao (team leader), XU Yang (team leader), **LI Jinjie**, XI Yuhang, MA Jieyin, ZHANG Qi, HU Yating, LI Xi, HUANG Man, HUANG Sihan
 
-**Circuit design and solar panel welding**: ZhengXiao Ma, YuHang Xi, SiHan Huang, Qi Zhang, YaTing Hu
+**Circuit design and solar panel welding**: MA Zhengxiao, XI Yuhang, HUANG Sihan, ZHANG Qi, HU Yating
 
-**Pilot**: **JinJie Li**
+**Pilot**: **LI Jinjie**
 
-**Instructor**: Prof. ZhiQiang Wan, YongXin Li, FuNan Wang
+**Instructor**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
 ## An Introduction to our Solar Airplane
 
@@ -95,7 +95,7 @@ In the race, all projects need to be completed by the pilots. If you want to bec
 
    Damage to aircrafts occurs from time to time during the flight. I have recorded several crash moments as follows:
 
-  (1) This accident happened during the training in Shi Jia Zhuang, because I let the airplane fly too far. 🐤 & ✈
+  (1) This accident happened during the training in Shijiazhuang, because I let the airplane fly too far. 🐤 & ✈
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Ux9g0IHUBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   (2) This accident was caused totally by my mistake, two weeks before the competition. That day the wind was very powerful 💨, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That's when I learned that there was no hesitation in taking off, which was helpful when I faced similar weather conditions two weeks later.

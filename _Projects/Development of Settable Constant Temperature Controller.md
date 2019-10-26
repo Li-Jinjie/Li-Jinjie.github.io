@@ -26,23 +26,23 @@ We shot this video to present the functions. Enjoy！😃
 <iframe width="908" height="511" src="https://www.youtube.com/embed/2ZQEtcWF97I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Division
 
-**JinJie Li (Team leader)** : 
+**LI Jinjie (Team leader) :** 
 
 Design, simulate, and test the MCU and the analog PID control circuits; measure the PID parameters; draw the PCB board; **program** the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
 
-**TongTong Lei**: 
+**LEI Tongtong :**
 
 Design, simulate, and test the temperature measurement, button, display, and PWM circuits; calibration of temperature measurement; solder circuit boards; select and purchase come components.
 
-**Qian Zhao**:
+**ZHAO Qian :**
 
 Design, simulate, and test the power supply, the relay drive circuits; select and purchase the heating and cooling modules; draw the PCB boards; manufacture the entire system.
 
-**ManXin Yang**: 
+**YANG Manxin :**
 
 Program an Android app and a WeChat Mini Program; solder circuit boards; test the display circuit; measure the PID parameters; design and manufacture the tank; prepare for the defense.
 
-**Instructor: Prof. Yao Tang**
+**Instructor: ** *Associate professor* TANG Yao
 
 ## Our plan
 

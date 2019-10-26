@@ -32,11 +32,11 @@ All members come from **Beihang Aeromodelling Team**.
 
 <img src="https://s2.ax1x.com/2019/10/03/u046ET.jpg" alt="u046ET.jpg" border="0"/>
 
-**Team 1:** **JinJie Li**, Duye Li, Dianhui Yang, Zhenyang Li
+**Team 1:** **LI Jinjie**, LI Duye, YANG Dianhui, LI Zhenyang
 
-**Team 2:** Ruizhi Yi (team leader), Jiaxin Liu, Chengyi Wu, Xiaodong Liu
+**Team 2:** YI Ruizhi (team leader), LIU Jiaxin, WU Chengyi, LIU Xiaodong
 
-**Instructor**: Prof. ZhiQiang Wan, YongXin Li, FuNan Wang
+**Instructor**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
 I was responsible for manufacturing the mechanical structure and making videos.
 
