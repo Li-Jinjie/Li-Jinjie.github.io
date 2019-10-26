@@ -10,7 +10,7 @@ redirect_from:
 
 <img src="https://s2.ax1x.com/2019/10/16/KkFWpn.jpg" alt="KkFWpn.jpg" border="0" />
 
-Hello！I am currently an undergraduate student of [Shenyuan Honors College](http://sae.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. Lei Guo](https://www.buaa.edu.cn/info/1569/1582.htm), majoring in Automation. I have decided to continue my postgraduate study in the field of robotics.
+Hello！I am currently an undergraduate student of [Shenyuan Honors College](http://sae.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. GUO Lei](https://www.buaa.edu.cn/info/1569/1582.htm), majoring in Automation. I have decided to continue my postgraduate study in the field of robotics.
 
 I believe in the principle of "**Learning by doing**," thus, I participated in many projects in university. These projects are hard to present in words, so I created this site to **visualize** the [Projects](https://lijinjie.top/Projects/) I've worked on.
 
