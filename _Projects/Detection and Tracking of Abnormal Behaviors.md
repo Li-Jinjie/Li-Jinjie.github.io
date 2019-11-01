@@ -34,6 +34,6 @@ This is my internship project, which aims to detect  intrusion, crossing a line,
 
 The code for the YOLOv3 algorithm and the Deep Sort algorithm refer to the following repositories: [Https://github.com/Qidian213/deep_sort_yolov3](Https://github.com/Qidian213/deep_sort_yolov3), [Https://github.com/YunYang1994/tensorflow-yolov3](Https://github.com/YunYang1994/tensorflow-yolov3) and [Https://github.com/nwojke/deep_sort](Https://github.com/nwojke/deep_sort). Thanks very much for these projects! I hope that one day, I can contribute to the open-source community like them.
 
-I am currently training a classifier to try to identify the three  behaviors of falling, running, and standing based on target detection.
+I tried to train a classifier to try to identify the falling behaviors based on target detection. However, my samples gathered from YouTube results in poor generalization performance.
 
 P.S. I found that YunYang posted a code analysis of YOLOV3. If you are interested, you can move to: [https://github.com/YunYang1994/CodeFun/blob/master/005-paper_reading/YOLOv3.md](https://github.com/YunYang1994/CodeFun/blob/master/005-paper_reading/YOLOv3.md)
