@@ -36,7 +36,7 @@ All members come from **Beihang Aeromodelling Team**.
 
 **Team 2:** YI Ruizhi (team leader), LIU Jiaxin, WU Chengyi, LIU Xiaodong
 
-**Instructor**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
+**Instructors**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
 I was responsible for manufacturing the mechanical structure and making videos.
 

@@ -19,7 +19,7 @@ This project is designed for **the Solar Aircraft project** in the 2018 China Ae
 
 The aircraft adopts a **canard configuration, double-engine, double-tailed, wing-tip aileron design, and a 6.15m wing** uses the double-beam diagonal bracing structure and composite material spar. The maximum of loading mass is 7kg under the ideal illumination of 120,000 lux (based on our detector).
 
-In this project, I am responsible for the production of the wing spar and as a **pilot** to fly the airplane. I overcame huge psychological pressure and finally we won the Third Award of China Aeromodelling Design Challenge (Solar Aircraft project) .
+In this project, I am responsible for the production of the wing spar and as a **pilot** to fly the airplane. During the process, I overcame huge psychological pressure and finally we won the Third Award of China Aeromodelling Design Challenge (Solar Aircraft project) .
 
 Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
@@ -43,7 +43,7 @@ All members come from **Beihang Aeromodelling Team**.
 
 **Pilot**: **LI Jinjie**
 
-**Instructor**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
+**Instructors**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
 ## An Introduction to our Solar Airplane
 

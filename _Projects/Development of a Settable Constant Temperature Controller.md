@@ -1,5 +1,5 @@
 ---
-title: "Development of Settable Constant Temperature Controller"
+title: "Development of a Settable Constant Temperature Controller"
 permalink: /Projects/Temperature_Controller/
 excerpt: 👍 My **first** electrical project ! <br/> <a href="https://lijinjie.top/Projects/Temperature_Controller/"><img src="https://s2.ax1x.com/2019/10/16/KkV33d.jpg" alt="KkV33d.jpg" border="0" width="500" /></a>
 collection: Projects
@@ -12,9 +12,9 @@ tags:
 
 Duration: Feb. 2018 - Jun. 2018
 
-Design and manufacture a constant temperature control system that can be set to the specific temperature:
+Design and manufacture a constant temperature control system that can be set to a specific temperature:
 
-1. Setting the temperature in grades (at least three)
+1. Set the temperature in grades (at least three)
 2. The range of heat is from 50 to 100 degrees, and the error should not exceed ±5 degrees. (Score according to the accuracy)
 3. Use a cellphone to set and display the temperature.
 4. Powered by 220V AC.
@@ -28,19 +28,19 @@ We shot this video to present the functions. Enjoy！😃
 
 **LI Jinjie (Team leader) :** 
 
-Design, simulate, and test the MCU and the analog PID control circuits; measure the PID parameters; draw the PCB board; **program** the MCU to drive the whole system; design and manufacture the tank; prepare for the defense.
+Designed, simulated, and tested the MCU and the analog PID control circuits; measured the PID parameters; drew the PCB board; **programmed** the MCU to drive the whole system; designed and manufactured the tank; prepared for the defense.
 
 **LEI Tongtong :**
 
-Design, simulate, and test the temperature measurement, button, display, and PWM circuits; calibration of temperature measurement; solder circuit boards; select and purchase come components.
+Designed, simulated, and tested the temperature measurement, button, display, and PWM circuits; ensured calibration of temperature measurement; soldered circuit boards; selected and purchased come components.
 
 **ZHAO Qian :**
 
-Design, simulate, and test the power supply, the relay drive circuits; select and purchase the heating and cooling modules; draw the PCB boards; manufacture the entire system.
+Designed, simulated, and tested the power supply and the relay drive circuits; selected and purchased the heating and cooling modules; drew the PCB boards; manufactured the entire system.
 
 **YANG Manxin :**
 
-Program an Android app and a WeChat Mini Program; solder circuit boards; test the display circuit; measure the PID parameters; design and manufacture the tank; prepare for the defense.
+Programmed an Android app and a WeChat Mini Program; soldered circuit boards; tested the display circuit; measured the PID parameters; designed and manufactured the tank; prepared for the defense.
 
 **Instructor: ** *Associate professor* TANG Yao
 
@@ -48,21 +48,21 @@ Program an Android app and a WeChat Mini Program; solder circuit boards; test th
 
 <img src="https://s2.ax1x.com/2019/08/04/e6qzKx.png" alt="e6qzKx.png" border="0"/>
 
-There are three buttons on the top of our tank, namely 'SET', 'UP' and 'DOWN'. If you want to set the temperature, press the 'SET' button, and the digital tube starts to flicker and displays target temperature. Continue to press the 'SET' key to select the digit, and adjust values through the 'UP' and 'DOWN' keys. After choosing the temperature and stopping operation for three seconds, the digital tube displays the current temperature and warms up or cools down to the target temperature. The heat can also be set by an Android cellphone.
+The target temperature can be set using **an Android cellphone** or using **buttons**. There are three buttons on the top of our tank: 'SET', 'UP' and 'DOWN'. To set the temperature, press the 'SET' button, and the digital tube will flicker and display the target temperature. Continue to press the 'SET' key to select the digit, and adjust values through the 'UP' and 'DOWN' keys. After selecting the temperature and stopping operation for three seconds, the digital tube will display the current temperature and the device will warm up or cool down to the target temperature. 
 
 Internal size: `300*200*150mm`
 
-Accuracy: `< ±2℃` (Depend on the environment and how much water is loaded)
+Accuracy: `< ±2℃` (Depending on the environment and how much water is loaded)
 
-Adjustment time: `About 5min` (Depend on the environment and how much water is loaded)
+Adjustment time: `Approximately 5min` (Depending on the environment and how much water is loaded)
 
-Simulation:` Multism`
+Simulation: ` Multism`
 
 PCB design: `Altium designer`
 
-MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master).
+MCU program: `STM32CubeMX`, `Keil 5`    👉See the program [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master).
 
-### implementation
+### Implementation
 
 1. **MCU & PID control system**
 
@@ -75,23 +75,27 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
    | PWM wave generate circuit |   IO    |   4    |
    |        PID circuit        | DAC/ADC |  2/1   |
 
-   Therefore, we choose STM32ZET6 core board as our MCU.
+   According to our design requirements, we chose STM32ZET6 core board as our MCU.
 
-   In this course, the proportion of analog circuits will become a scoring factor, so we use an analog PID circuit for temperature control.
+   In this course, the proportion of analog circuits is a scoring factor, so we used an analog PID circuit for temperature control, as the following pictures shows.
 
    | <img src="https://s2.ax1x.com/2019/08/04/e6LERA.png" alt="e6LERA.png" border="0" /> |
    | ------------------------------------------------------------ |
    | <img src="https://s2.ax1x.com/2019/08/04/e6LWdO.png" alt="e6LWdO.png" border="0" /> |
 
-   Initially, we did not design limiting circuit for integral circuits, which had terrible consequences in practical application. The maximum voltage of OP07 is ±10V. If not design limiting circuit, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range. The PID value can be changed by adjusting the potentiometers.
+   Initially, we did not design a **limiting circuit** for the integral circuits, which had terrible consequences in practical application. The maximum voltage of OP07 is ±10V. So if not design a limiter, the voltage of the integrated circuit will increase to 10V at the beginning of heating, which is much larger than the ADC range (0-3.3V). 
+
+   The PID value can be changed by adjusting the potentiometers.
 
 2. **Temperature measurement circuit**
 
-   Pt resistance (Pt 100) is selected to measure temperature. Pt 100 can convert temperature signal into an analog voltage signal, and then through A/D conversion, it can be converted into a digital signal which can be processed by MCU.
+   Pt resistance (Pt 100) was selected to measure the temperature. Pt 100 can convert
+   the temperature signal into an analog voltage signal. And then through A/D
+   conversion, the analog signal can be converted into a digital signal which can be processed by the MCU.
 
    <img src="https://s2.ax1x.com/2019/08/04/e6LfoD.png" alt="e6LfoD.png" border="0" />
 
-   We use a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follow:
+   We used a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follows:
 
    <img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" style="float:middle"/>
 
@@ -99,7 +103,7 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 3. **Display and buttons circuits**
 
-   Choose 74LS139D as decoder, and four seven-segment digital tubes to show the temperature `XXX.X`. 
+   Choose 74LS139D as a decoder, and four seven-segment digital tubes to show the temperature `XXX.X`. 
 
    | Display                                                      | Buttons                                                      |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -107,31 +111,31 @@ MCU program: `STM32CubeMX`, `Keil 5`    See the program from [here](https://gith
 
 4. **Power circuit**
 
-   The power supply needs to convert 220V 50Hz AC power into ±12V to supply operation amplifiers, into + 12V to cooling module, and + 5V to control circuit.
+   The power supply needs to convert 220V 50Hz AC power into ±12V to supply operation amplifiers, into + 12V to the cooling module, and + 5V to the control circuit.
 
    <img src="https://s2.ax1x.com/2019/08/04/e6LvFg.png" alt="e6LvFg.png" border="0" />
 
 5. **Bluetooth and APP**
 
-   Select HC-08 module, which adopts the serial communication protocol and BLE4.0 to support Android and IOS system.
+   We selected the HC-08 module, which adopts the serial communication protocol and BLE4.0 to support Android and iOS system.
 
-   Use Android Studio to develop an Android App. Use the built-in Bluetooth API to connect the App with HC-08 module. Complete the function of displaying and controlling the temperature on the cellphone.
+   We used Android Studio to develop an Android App. We used the built-in Bluetooth API to connect the App with the HC-08 module. We completed the function of displaying and controlling the temperature on the cellphone.
 
 6. **Healing module**
 
-   We use a 220V, 600W heating plate to heat the tank. The heating plate is pasted at the bottom to increase the contact area between the heater and the system and make the heating more uniform. After testing, the heating efficiency is 2 ℃/min.
+   We used a 220V, 600W heating plate to heat the tank. The heating plate was pasted at the bottom to increase the contact area between the heater and the system and make the heating more uniform. After testing, the heating efficiency was 2 ℃/min.
 
-   PID control method needs to adjust the power of the heating plate. We connect the relay to the heating circuit and control the relay's switching-on and off by generating PWM wave (5V) through the 555 timer circuit. By changing the duty cycle of the PWM wave, the power of the heating plate can be changed.
+   PID control method needs to adjust the power of the heating plate. We connected the relay to the heating circuit and controlled the relay's switching-on and off by generating PWM wave (5V) through the 555 timer circuit. By changing the duty cycle of the PWM wave, the power of the heating plate can be changed.
 
    <img src="https://s2.ax1x.com/2019/08/04/e6LzWj.png" alt="e6LzWj.png" border="0" />
 
 7. **Cooling module**
 
-   To cool water quickly, we design a refrigeration module to speed up the heat dissipation of the system. At first, we used 12V 140W 1275 semiconductor chiller. After testing,  the cooling effect was not good. Later, we use two fans instead to accelerate the heat dissipation, which significantly accelerated the cooling speed.
+   To cool water quickly, we designed a refrigeration module to speed up the heat dissipation of the system. At first, we used 12V 140W 1275 semiconductor chiller. After testing, we found the cooling effect to be ineffective. Later, we used two fans instead to accelerate the heat dissipation, which significantly accelerated the cooling speed.
 
 8. **PCB boards**
 
-   We draw two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board).	
+   We drew two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from [here](https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board).	
 
    |                            PCB_1                             |                            PCB_2                             |
    | :----------------------------------------------------------: | :----------------------------------------------------------: |

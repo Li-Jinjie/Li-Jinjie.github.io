@@ -13,11 +13,11 @@ tags:
 
 Duration: Jul. 2017 - Oct. 2018
 
-A model plane with an internal combustion engine is remotly controlled to take off from the take-off and landing area with a certain amount of load (water), and releases the load after flying to a certain height (18m) above the release area. The plane returns to the field safely and circulates until the end of the race (**600s**). The team that carries the more heavy load and drops the load more accurately wins. Each university shall have a maximum of three flight groups, and each flight group shall have a maximum of two models in the competition.
+A model plane with an internal combustion engine is remotely controlled to take off from the take-off and landing area with a certain amount of load (water), and releases the load after flying to a certain height (18m) above the release area. The plane returns to the field safely and circulates until the end of the race (**600s**). The team that carries the heavier load and drops the load more accurately wins. Each university shall have a maximum of three flight groups, and each flight group shall have a maximum of two models in the competition.
 
 Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
-In the 2018 CADC time-limited airdrop project, **our three flight groups won the first 🥇, second 🥈, and third 🥉 place**, the **best performance** in history. As **the leader of the composite group**, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of six aircrafts. By changing the **pattern** of the laminate and using **carbon fiber** instead of glass fiber, I improved the torsional stiffness of the D-Box to **2.62** times of the previous level, which ensured the excellent performance of the aircraft.
+**Our three flight groups won the first 🥇, second 🥈, and third 🥉 place** in the 2018 CADC time-limited airdrop project, performed as the **best records** in history. As **the leader of the composite group**, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of six aircrafts. By changing the **pattern** of the laminate and using **carbon fiber** instead of glass fiber, I improved the torsional stiffness of the D-Box to **2.62** times of the previous level, which ensured the excellent performance of the aircraft.
 
 ## Achievements
 
@@ -32,18 +32,18 @@ In the 2018 CADC time-limited airdrop project, **our three flight groups won the
 The following video is an overall introduction of the aircraft：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vjR3_lXf62Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-This video is a recording of the CADC competition. Since there are three rounds in total and each round has three teams, the number of videos is too excessive. Therefore, only put one video here.
+This video is a recording of the CADC competition. (Since there are three rounds in total and each round has three teams, the videos are too excessive. Therefore, only put one video here.)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PxnXmD9XrL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## **Division**
 
 All members come from **Beihang Aeromodelling Team**. The team is divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
 
-**Composite material team**: **LI Jinjie (team leader)**, SHI Tailong, XU Yingjian, YIN Qian, MA Guoquan, SUN Xiaozhen, LI Yunjin
+**Composite material team members**: **LI Jinjie (team leader)**, SHI Tailong, XU Yingjian, YIN Qian, MA Guoquan, SUN Xiaozhen, LI Yunjin
 
 <img src="https://s2.ax1x.com/2019/10/09/uIH1L4.jpg" alt="uIH1L4.jpg" border="0" width="600"/>
 
-**Instructor**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
+**Instructors**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
 ## An introduction of my work
 
@@ -65,7 +65,7 @@ The spar bears most of the bending moment and shear force of the wing. We design
 | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/10/09/u5SiAe.jpg" alt="u5SiAe.jpg" border="0" width="550"/> |
 
-The strength of carbon filament is measured by static test. We selected carbon filament eventually. The web of the spar is mainly subjected to shear. A variety of woods and PMIs can be used.
+The strength of carbon filament is measured by static test, and we eventually selected carbon filament. The web of the spar is mainly subjected to shear. Moreover, a variety of woods and PMIs can be used.
 
 |                   Web Strength Comparison                    |
 | :----------------------------------------------------------: |
