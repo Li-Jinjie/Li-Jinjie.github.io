@@ -25,6 +25,7 @@ This is my internship project, which aims to detect intrusion, line- crossing, r
 This video presents basic functions of this project. 👇
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kFEjHOXokIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 |       Name        |              Configuration              |
 | :---------------: | :-------------------------------------: |
 |     Processor     | Intel® Core™ i7-8700 CPU @ 3.20GHz × 12 |
