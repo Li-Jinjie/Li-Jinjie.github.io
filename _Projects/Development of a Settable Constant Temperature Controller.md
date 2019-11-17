@@ -42,7 +42,7 @@ Designed, simulated, and tested the power supply and the relay drive circuits; s
 
 Programmed an Android app and a WeChat Mini Program; soldered circuit boards; tested the display circuit; measured the PID parameters; designed and manufactured the tank; prepared for the defense.
 
-**Instructor : ** *Associate professor* TANG Yao
+**Instructor :** *Associate professor* TANG Yao
 
 ## Our plan
 
