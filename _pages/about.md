@@ -14,7 +14,7 @@ Hello! My name is LI Jinjie and I am currently an undergraduate student of [Shen
 
 Believing in the principle of "**Learning by doing**", I participated in many projects in university. These projects are hard to be presented in words, so I created this site to **visualize** the  [Projects](https://lijinjie.top/Projects/) I've worked on.
 
-In addition, I posted my reports of assignments and photography works in [Assignments](https://lijinjie.top/Assignments/) and [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
+In addition, I posted my reports of assignments in [Assignments](https://lijinjie.top/Assignments/) and photography works in [Portfolio](https://lijinjie.top/portfolio/), and you can contact me through [CV&Contact](https://lijinjie.top/cv/).
 
 
 
