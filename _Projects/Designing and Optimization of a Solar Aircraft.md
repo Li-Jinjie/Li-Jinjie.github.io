@@ -45,7 +45,7 @@ All members come from **Beihang Aeromodelling Team**.
 
 **Instructors**: *Prof.* WAN Zhiqiang, LI Yongxin, WANG Funan
 
-## An Introduction to our Solar Airplane
+## An Introduction to Our Solar Airplane
 
 The aircraft adopts a canard configuration, double-engine, double-tailed, wing-tip aileron design. The features are as follows:
 
@@ -65,7 +65,7 @@ The aircraft adopts a canard configuration, double-engine, double-tailed, wing-t
 
 <img src="https://s2.ax1x.com/2019/08/11/ej1m0e.jpg" alt="ej1m0e.jpg" border="0" />
 
-## How to become a pilot
+## How to Become a Pilot
 
 In the race, all projects need to be completed by the pilots. If you want to become a pilot, you need to sign up firstly and pass strict training and examinations. Because it is related to the result of the whole team, the pilot needs to overcome the enormous psychological pressure and finishes the game with a calm mind. I was also trained and selected to be a pilot of the Solar Airplane Project in 2018.
 

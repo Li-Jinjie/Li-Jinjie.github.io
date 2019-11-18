@@ -10,7 +10,7 @@ redirect_from:
 
 <img src="https://s2.ax1x.com/2019/10/16/KkFWpn.jpg" alt="KkFWpn.jpg" border="0" />
 
-Hello! My name is LI Jinjie and I am currently an undergraduate student of [Shenyuan Honors College](http://sae.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. GUO Lei](https://www.buaa.edu.cn/info/1569/1582.htm), majoring in Automation. I have decided to continue my postgraduate study in the field of robotics.
+Hello! My name is LI Jinjie and I am currently an undergraduate student of [Shenyuan Honors College](http://sae.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. GUO Lei](https://www.buaa.edu.cn/info/1569/1582.htm), majoring in Automation. Aiming to be **A FULL-STACK ROBOTICIST**, I have decided to continue my postgraduate study in the field of robotics.
 
 Believing in the principle of "**Learning by doing**", I participated in many projects in university. These projects are hard to be presented in words, so I created this site to **visualize** the  [Projects](https://lijinjie.top/Projects/) I've worked on.
 
@@ -32,7 +32,7 @@ I participated in the **CADC** (China Aeromodelling Design Challenge) competitio
 
 <img src="https://s2.ax1x.com/2019/10/10/u7dwFA.jpg" alt="u7dwFA.jpg" border="0" />
 
-### Other projects
+### Other Projects
 
 |                   Temperature Controller 👍                   |                 “Feng Ru Cup” competition 👍                  |                          Internship                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |

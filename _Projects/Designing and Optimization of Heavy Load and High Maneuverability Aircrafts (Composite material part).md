@@ -57,7 +57,7 @@ Both the left and right wings are single-spar structures. Each wing is designed 
 
 <img src="https://s2.ax1x.com/2019/10/09/u5Jurt.jpg" alt="u5Jurt.jpg" border="0"/>
 
-### Material selection
+### Material Selection
 
 The spar bears most of the bending moment and shear force of the wing. We designed a sandwich structure for the spar of lighter weight. The most suitable material for flange to take axial force is selected by calculating and comparing the specific strength among wood, metal and carbon filament. 
 
