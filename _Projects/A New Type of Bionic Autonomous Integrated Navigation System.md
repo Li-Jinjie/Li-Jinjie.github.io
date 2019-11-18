@@ -79,7 +79,7 @@ In the future, we hope to introduce advanced data fusion methods such as nonline
 
 ## Division
 
-Advisor: *Prof.* GUO Lei, *Dr.* ZHANG Xiao
+Advisors: *Prof.* GUO Lei, *Dr.* ZHANG Xiao
 
 Circuit design, flight experiments: **LI Jinjie**, WANG Shanpeng
 
