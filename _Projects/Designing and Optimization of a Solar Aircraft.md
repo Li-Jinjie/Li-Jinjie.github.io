@@ -13,11 +13,11 @@ tags:
 
 Duration: Mar. 2018 - Oct. 2018
 
-This project was designed for **the Solar Aircraft project** in the 2018 China Aeromodelling Design Challenge (CADC) competition. During this project, we designed and manufactured an aircraft with an empty weight between 2 and 3 kg, which relies entirely on **solar panels** for power. The aircraft must take off in a slipping manner.
+This project was designed for **the Solar Aircraft project** in the 2018 China Aeromodelling Design Challenge (CADC) competition. During this project, we designed and manufactured an aircraft with an empty weight between 2 and 3 kg, which **relies entirely on solar panels for power**. The aircraft must take off in a slipping manner.
 
 <img src="https://s2.ax1x.com/2019/10/05/ush9wq.jpg" alt="ush9wq.jpg" border="0" />
 
-In this project, I was responsible for the production of the wing spar and acted as the **pilot** to fly the airplane. During the process, I overcame significant psychological pressure and we finally won the Third Prize of the China Aeromodelling Design Challenge (Solar Aircraft project).
+In this project, I was responsible for the production of the wing spar and acted as the **PILOT** to fly the airplane. During this process, I overcame significant psychological pressure and we finally won **the Third Prize** of the China Aeromodelling Design Challenge (Solar Aircraft project).
 
 Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CADC_2018_Rules.pdf" target="_blank">rulebook (CN)</a> for more information.
 
@@ -26,7 +26,7 @@ Please refer to the complete <a href="http://Li-jinjie.github.io/files/Others/CA
 The video of the first round. 👇
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6qMAcYAwtVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-The video of the Second round. 👇
+The video of the second round. 👇
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YEtDgiWG6yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Division
@@ -45,7 +45,7 @@ All members come from the **Beihang Aeromodelling Team**.
 
 ## An Introduction to Our Solar Airplane
 
-The aircraft adopts a **canard configuration, double-engine, double-tailed, wing-tip aileron design and a 6.15m wing**. It also uses a double-beam diagonal bracing structure and composite material spar. The maximum loading mass is 7kg under the ideal illumination of 120,000 lux (based on our detector).
+The aircraft adopts a **canard configuration, double-engine, double-tailed, wing-tip aileron design and a 6.15m wing**. It also uses a double-beam diagonal bracing structure and composite material spar. The maximum loading mass is **7kg** under the ideal illumination of 120,000 lux (based on our detector).
 
 The highlight features are as follows:
 
@@ -67,7 +67,7 @@ The highlight features are as follows:
 
 ## How to Become a Pilot
 
-In the competition, all projects needed to be completed by the pilots. If someone wants to become a pilot, you need to sign up and pass the strict training and examinations. Because it is related to the result of the entire team, the pilot needs to overcome enormous psychological pressure and to complete the game with a calm mind. I was also trained and selected to be a pilot in the Solar Airplane Project in 2018.
+In the competition, all projects needed to be completed by the pilots. If someone wants to become a pilot, you need to sign up and pass **the strict training and examinations**. Because it is related to the result of the entire team, the pilot needs to overcome **enormous psychological pressure** and to complete the game with a calm mind. I was also trained and selected to be a pilot in the Solar Airplane Project in 2018.
 
 1. **Beginner stage**
 
@@ -95,10 +95,10 @@ In the competition, all projects needed to be completed by the pilots. If someon
 
    Damage to aircrafts occurs from time to time during the flight. I have outlined my several crash moments as follows:
 
-  (1) This accident happened during training in Shijiazhuang, because I let the airplane fly too far. 🐤 & ✈
+  (1) 👇This accident happened during training in Shijiazhuang, because I let the airplane fly too far. 🐤 & ✈
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Ux9g0IHUBN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  (2) This accident was entirely due to my mistake, two weeks prior to the competition. The wind was very powerful that day 💨, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That was when I learned there should be **NO HESITATION** when taking off. This was helpful when I faced similar weather conditions two weeks later.
+  (2) 👇This accident was entirely due to my mistake, two weeks prior to the competition. The wind was very powerful that day 💨, and I was terrified to fly, so I unconsciously turned down the throttle during the take-off stage. That was when I learned there should be **NO HESITATION** when taking off. This was helpful when I faced similar weather conditions two weeks later.
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/NVI7rTBnVoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   (3) During the second round of the CADC, I failed to fly the plane for ten minutes. The video is at the beginning of this page. After analysis, I believe the reasons are as follows:
