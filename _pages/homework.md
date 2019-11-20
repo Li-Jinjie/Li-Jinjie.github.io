@@ -8,7 +8,7 @@ author_profile: true
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %} -->
-I post my experiment reports and assignments 📄 here (If the reports have electronic versions).
+My experiment reports and assignments can be found 📄 here (for reports and assignments that have electronic versions).
 
 {% include base_path %}
 
