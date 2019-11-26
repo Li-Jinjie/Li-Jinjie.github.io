@@ -13,21 +13,21 @@ tags:
 
 Duration: Jul. 2017 - Oct. 2018
 
-<img src="https://s2.ax1x.com/2019/11/25/Mvjnln.jpg" alt="Mvjnln.jpg" border="0" />
+<img src="https://s2.ax1x.com/2019/11/26/MzsSAO.png" alt="MzsSAO.png" border="0" />
 
-This project was designed for **the Time-limited Airdrop Project** in the 2018 China Aeromodelling Design Challenge (CADC) competition. **Our three flight groups won the first 🥇, second 🥈, and third 🥉 place** , performed as the **best records** in history. As **the leader of the composite group**, I led six members to complete the production of the D-boxes, wing spars, ailerons, and fairings of **six** aircrafts (for three flight groups). By changing the **pattern** of the laminate and using **carbon fiber** instead of glass fiber, I improved the torsional stiffness of the D-Box to **2.62** times of the previous level, which ensured the excellent performance of the aircraft.
+This project was designed for **the Time-limited Airdrop Project** in the 2018 China Aeromodelling Design Challenge competition (Participants of CADC came from nearly 100 universities in China). **Our three flight groups won the first 🥇, second 🥈, and third 🥉 places**, performed as the **best records** in history. As the **leader** of the composite group, I led six members to complete the production of the D-box structures, wing spars, ailerons, and fairings of six aircrafts (for three flight groups). 
 
 ## Achievements
 
-This competition requires to design and manufacture an aircraft, which should satisfy following requirements:
+This competition requires a team to design and manufacture aircrafts, which should satisfy following requirements:
 
-1. driven by an internal combustion engine
+1. Driven by an internal combustion engine
 
-2.  be remotely controlled to take off from a specific area
+2.  Remotely controlled to take off from a specific area
 
-3.  carry an amount of load made of water
+3.  Carry an amount of water as load
 
-4. can release the load after flying to a certain height (18m) above the release area. 
+4. Can release the load after flying to a certain height (18m) above the release area. 
 
 The aircraft should return to the field safely and circulates until the end of the race (**600s**). The team that carries the heavier load and drops the load more accurately will win. Each university shall have a maximum of three flight groups, and each flight group shall have a maximum of two models in the competition.
 
@@ -37,25 +37,25 @@ Please refer to the complete [rulebook (CN)](http://Li-jinjie.github.io/files/Ot
 
 <img src="https://s2.ax1x.com/2019/11/25/Mvjtp9.png" alt="Three-view drawing of the airplane" border="0" width="500"/>
 
-Basic design parameters are as follows:
+Basic design parameters of our aircraft are as follows:
 
-|      Design parameter      |  value   |
-| :------------------------: | :------: |
-|        Maximum load        |   24kg   |
-|  Maximum take-off weight   |  27.5kg  |
-|     Ideal flight speed     |  15m/s   |
-|     Maximum wing load      | 127kg/m2 |
-| Static thrust-weight ratio |   0.35   |
+|      Design parameter      |   value   |
+| :------------------------: | :-------: |
+|        Maximum load        |   24 kg   |
+|  Maximum take-off weight   |  27.5 kg  |
+|     Ideal flight speed     |  15 m/s   |
+|     Maximum wing load      | 127 kg/m2 |
+| Static thrust-weight ratio |   0.35    |
 
 The following video is an overall introduction of the aircraft：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vjR3_lXf62Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-This video is a recording of the CADC competition. (Since there are three rounds in total and each round has three teams, the videos are too excessive. Therefore, only put one video here.)
+This video is a recording of the CADC competition. (Since there were three rounds in total and each round had three teams, the videos were too excessive. Therefore, only put one video here.)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PxnXmD9XrL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## **Division**
 
-All members come from **Beihang Aeromodelling Team**. The team is divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
+All members come from the **Beihang Aeromodelling Team**. The team was divided into five groups, responsible for composite materials, wings, fuselage, power and electricity.
 
 **Composite material team members**: **LI Jinjie (team leader)**, SHI Tailong, XU Yingjian, YIN Qian, MA Guoquan, SUN Xiaozhen, LI Yunjin
 
@@ -65,7 +65,7 @@ All members come from **Beihang Aeromodelling Team**. The team is divided into f
 
 ## An introduction of my work
 
-My task is to lead the composite group to complete the fabrication of composite **beam, D-box, ailerons and nose fairing**. In addition to completing the production task, my main contribution was:
+My task was to lead the composite team to complete the fabrication of composite beam, D-box, ailerons and fairing. In addition to completing the production task, my main contributions was:
 
 1. **Change the grain** of glass fiber from straight to twill to conform to the direction of maximum shear
    stress, according to the material mechanics theory I learned.
@@ -73,8 +73,8 @@ My task is to lead the composite group to complete the fabrication of composite 
 3. **Design the testbed** based on the course experiment and manufacture test pieces.
 4. Solve the problems in the production process and optimize the production efficiency.
 
-Based on the test, the new D-box was able to increase the torsional resistance to **2.62 times** what
-it was before without significantly increasing the weight. This technology effectively solve the problem of torsional stiffness of the wing with a large aspect ratio and thus, ensure the outstanding performance of the aircraft.
+Based on the test, the new D-box was able to increase the torsional resistance to **2.61 times** what
+it was before without significantly increasing the weight. This technology effectively solved the problem of torsional stiffness of the high aspect ratio wing and thus, ensured the outstanding performance of the aircraft.
 
 ### Wing
 
@@ -86,13 +86,9 @@ The wing structure is shown as the figure 1. Both the left and right wings are s
 |              **Figure 2. The D-box structure**               |
 | <img src="https://s2.ax1x.com/2019/11/26/Mx5QMD.jpg" alt="Mx5QMD.jpg" border="0" width="400"> |
 
-**Load Analysis**:
-
-The wing is mainly subjected to aerodynamic loads and concentrated loads from hangers. My teammates calculated the distribution of shear and bending moments based on the wing lift distribution given by Advanced Aircraft Analysis (AAA). 
-
 **Material Selection**:
 
-The spar bears most of the bending moment and shear force of the wing. We designed a sandwich structure for the spar of lighter weight. The most suitable material for flange to take axial force is selected by calculating and comparing the specific strength among wood, metal and carbon filament, shown as the figure 3. The strength of carbon filament is measured by **static test**, and we eventually selected **carbon filament**. 
+The spar bears most of the bending moment and shear force of the wing. We designed a sandwich structure for the spar of lighter weight. The most suitable material for flange to take axial force is selected by calculating and comparing the specific strength among wood, metal and carbon filament (figure 3). The strength of carbon filament was measured by static test, and we eventually selected carbon filament. 
 
 |         Figure 3. Different Materials of Spar Flange         |
 | :----------------------------------------------------------: |
@@ -104,13 +100,13 @@ The web of the spar is mainly subjected to shear. Moreover, a variety of woods a
 | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/10/09/u5SFtH.jpg" alt="u5SFtH.jpg" border="0" width="450"/> |
 
-The spar structure is shown as figure 5. Abutting aluminum pins are respectively fixed at the two wing roots and the center wing spar on the fuselage. The aluminum pins and the pine are connected by carbon rod, and then bonded to the web, and the outer flanges are covered to ensure the connection strength. 
+The spar structure is shown as figure 5. Abutting aluminum pins are respectively fixed at the two wing roots and the fuselage. The aluminum pins and the pine are connected by carbon rod, and then bonded to the web, and the outer flanges are covered to ensure the connection strength. 
 
 |                 Figure 5. The spar structure                 |
 | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/11/26/Mx5lse.jpg" alt="Mx5lse.jpg" border="0" width="400"> |
 
-D-box and skin bear torques. The torsional stiffness of the glass fiber skin under different expansion modes and the twill expansion under different materials of monolayer are measured experimentally. I designed and implemented this experiment according to the torsional stiffness experiment in the course of material mechanics (figure6, 7). Higher the slope, greater the torsional stiffness. So according to the results (figure 8, 9), we chose twill carbon fiber as D - box skin. As the strength of the D-box is strong enough, to prevent signal shielding and save costs, the rest of the skin use the heat shrinkable film.
+D-box and skin bear torques. The torsional stiffness of the glass fiber skin under different expansion modes and the twill expansion under different materials of monolayer were measured experimentally. I designed and implemented this experiment according to the torsional stiffness experiment in the course of material mechanics (figure 6, 7). Higher the slope, greater the torsional stiffness. So according to the results (figure 8, 9), we chose twill carbon fiber as D - box skin. As the strength of the D-box was strong enough, to prevent signal shielding and save costs, the rest of the skin used the heat shrinkable film.
 
 |              Figure 6. The experimental models               |              Figure 7. Torsional stiffness test              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -118,32 +114,32 @@ D-box and skin bear torques. The torsional stiffness of the glass fiber skin und
 | **Figure 8. Torsional Stiffness of Different Expansion Modes** |   **Figure 9. Torsional Stiffness of Different Materials**   |
 | <img src="https://s2.ax1x.com/2019/10/09/u5plqK.jpg" alt="u5plqK.jpg" border="0" width="450"/> | <img src="https://s2.ax1x.com/2019/10/09/u5p3VO.jpg" alt="u5p3VO.jpg" border="0" width="450"/> |
 
-The wing in 2018 versus the wing in 2017 (figure 10, figure 11). Carbon fiber is heavier, but the greater torsional stiffness reduces the number of ribs, resulting in only a slight increase in the overall weight of the wing.
+The wing in 2017 and in 2018 are shown as figure 10 and figure 11 for comparison. Carbon fiber is heavier, but the greater torsional stiffness reduces the number of ribs, resulting in only a slight increase in the overall weight of the wing.
 
 |          Figure 10. The wings of the 2017 aircraft           |          Figure 11. The wings of the 2018 aircraft           |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/11/26/MxXx3j.png" alt="MxXx3j.png" border="0" /> | <img src="https://s2.ax1x.com/2019/11/26/Mxj1UO.jpg" alt="Mxj1UO.jpg" border="0" /> |
 |                Linear fiber glass, k = 18684                 |                Twill carbon fiber, k = 48779                 |
 
-### Aileron
+### Aileron & Fairing
 
-The XPS ailerons are shaped by XPS CNC thermal cutting, and glass fiber is laid on the surface as reinforcement.
-
-### Fairing
-
-找图片
+The XPS ailerons were shaped by XPS CNC thermal cutting, and glass fiber was laid on the surface as reinforcement. The XPS mold for fairing was carved by CNC milling machine, and the production process of fairing was similar to the skin of D-box. Please read Techniques part for more information.
 
 ### Techniques
 
-PMI foam was polished and molded, with aluminum pin bonded, and a thin carbon sheet was pasted at the bonding place as the reinforcing web. Then, carbon fiber wires soaked in resin were laid on the upper and lower surfaces. After curing, Kevlar was tightly wound to prevent the flanges from losing stability and foaming.
+PMI foam was polished and molded, with aluminum pin bonded, and a thin carbon sheet was pasted at the bonding place as the reinforcing web. Then, carbon fiber wires soaked in resin were laid on the upper and lower surfaces. After curing, Kevlar was tightly wound to prevent the flanges from losing stability and foaming, as the first picture of figure 12.
 
-图片重做
+The mold was carved with CNC. Then the carbon fiber cloth was soaked in the resin and put into the mold together with PMI to be vacuum-cured, and finally the skin was formed. Loading the skin into the wing spar and rib and closing the mold, the D box was finally formed.
 
-<img src="https://s2.ax1x.com/2019/10/09/u5Mlpq.jpg" alt="u5Mlpq.jpg" border="0" />
-
-The mold was carved with CNC. Then the glass fiber cloth is soaked in the resin and put into the mold together with PMI to be vacuum-cured, and finally the skin is formed. Loading the skin into the wing spar and rib and closing the mold, the D box is finally formed.
+| Figure 12.  A Beam, the soaked PMI and carbon fiber cloth, and the closed mold |
+| :----------------------------------------------------------: |
+| <img src="https://s2.ax1x.com/2019/10/09/u5Mlpq.jpg" alt="u5Mlpq.jpg" border="0" /> |
 
 ---
 
 The plane's wing of the Beihang Aeromodelling team participating in the 2019 SAE Aero Design (west) also uses the **same** D-Box structure and won the **1st** place in **the advanced class overall award**. 🏆
+
+---
+
+In this experience, I exercised my hands-on ability and realized my dream of making an airplane. More importantly, we worked as a team to achieve a goal together and go through an unforgettable journey.
 

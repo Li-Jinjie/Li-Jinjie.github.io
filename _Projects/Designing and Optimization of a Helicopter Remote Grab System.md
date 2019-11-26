@@ -21,7 +21,7 @@ The model helicopter should take off from the take-off and landing area, fly to 
 
 ## Achievements
 
-Finally, we won the **championship** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! 🥇
+Finally, we won the **championship** of Simulative Search and Rescue project in 2017 China Aeromodelling Design Challenge! 🥇 (19 universities of China in total)
 
 <img src="https://s2.ax1x.com/2019/10/16/KkVMND.jpg" alt="KkVMND.jpg" border="0" width="600" align="center" />
 
