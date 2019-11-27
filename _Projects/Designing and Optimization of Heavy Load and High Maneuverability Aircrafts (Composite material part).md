@@ -15,7 +15,7 @@ Duration: Jul. 2017 - Oct. 2018
 
 <img src="https://s2.ax1x.com/2019/11/26/MzsSAO.png" alt="MzsSAO.png" border="0" />
 
-This project was designed for **the Time-limited Airdrop Project** in the 2018 China Aeromodelling Design Challenge competition (Participants of CADC came from nearly 100 universities in China). **Our three flight groups won the first 🥇, second 🥈, and third 🥉 places**, thereby setting the **best records** in history. As the **leader** of the composite group, I led six members to complete the production of the D-box structures, wing spars, ailerons, and fairings of six aircrafts for each of the three flight groups. 
+This project was designed for **the Time-limited Airdrop Project** in the 2018 China Aeromodelling Design Challenge competition (Participants of CADC came from **nearly** **100 universities** in China). **Our three flight groups won the first 🥇, second 🥈, and third 🥉 places**, thereby setting the **best records** in history. As the **leader** of the composite group, I led six members to complete the production of the D-box structures, wing spars, ailerons, and fairings of six aircrafts for each of the three flight groups. 
 
 ## Achievements
 
