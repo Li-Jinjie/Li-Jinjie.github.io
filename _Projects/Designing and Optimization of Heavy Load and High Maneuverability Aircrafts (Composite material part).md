@@ -1,7 +1,7 @@
 ---
 title: "Designing and Optimization of Heavy Load and High Maneuverability Aircrafts (Composite material part)"
 permalink: /Projects/Composite_material/
-excerpt: 👍 We won the **1st, 2nd, and 3rd** place of the Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge.  **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/Projects/Composite_material/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
+excerpt: 👍👍 We won the **1st, 2nd, and 3rd** place of the Time-limited Airdrop project in 2018 China Aeromodelling Design Challenge.  **Lead researcher and engineer of composite material team**. <br/> <a href="https://lijinjie.top/Projects/Composite_material/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a>
 collection: Projects
 date: 2018-10-10
 tags:

@@ -26,7 +26,7 @@ I take pride in being a member of the Beihang Aeromodelling Team, an internation
 
 I participated in the **CADC** (China Aeromodelling Design Challenge) competitions in 2017 and 2018. My projects are listed below：
 
-|                   Composite Team leader 👍                    |                           Pilot 👍                            |                          Fresh man                           |
+|                   Composite Team leader 👍👍                   |                           Pilot 👍                            |                          Fresh man                           |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <a href="https://lijinjie.top/Projects/Composite_material/"><img src="https://s2.ax1x.com/2019/10/09/u57nlF.jpg" alt="u57nlF.jpg" border="0" width="500" /></a> | <a href="https://lijinjie.top/Projects/Solar_Aircraft/"><img src="https://s2.ax1x.com/2019/08/08/e723Zt.md.jpg" alt="e723Zt.jpg" border="0" width="500" /></a> | <a href="https://lijinjie.top/Projects/Helicopter_grab/"><img src="https://s2.ax1x.com/2019/10/03/u05vYF.jpg" alt="u05vYF.jpg" border="0" width="500" /></a> |
 
