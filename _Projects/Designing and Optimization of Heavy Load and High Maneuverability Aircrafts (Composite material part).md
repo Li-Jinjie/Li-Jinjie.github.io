@@ -90,7 +90,7 @@ The wing structure is shown in Figure 1. Both the left and right wings are singl
 
 The spar bears most of the bending moment and shear force of the wing. We designed a sandwich structure to reduce the weight of the spar. The most suitable material for flanges to withstand axial force is selected by calculating and comparing the specific strength among wood, metal, and carbon filament (Figure 3). The strength of carbon filament was measured by static testing, and we therefore selected carbon filament. 
 
-|         Figure 3. Different Materials of Spar Flange         |
+|         Figure 3. Properties of Different Materials          |
 | :----------------------------------------------------------: |
 | <img src="https://s2.ax1x.com/2019/10/09/u5SiAe.jpg" alt="u5SiAe.jpg" border="0" width="550"/> |
 
