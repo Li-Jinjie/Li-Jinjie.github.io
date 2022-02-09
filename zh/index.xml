@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>李谨杰</title>
+    <link>/zh/</link>
+    <description>Recent content on 李谨杰</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 09 Feb 2022 13:12:43 +0800</lastBuildDate><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>可调节恒温控制系统的设计与制作</title>
+      <link>/zh/posts/water_tank/</link>
+      <pubDate>Wed, 09 Feb 2022 13:12:43 +0800</pubDate>
+      
+      <guid>/zh/posts/water_tank/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
