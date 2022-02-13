@@ -263,7 +263,7 @@
         
 
         
-          <a href="https://www.buaa.edu.cn/" class="ps-4">Beihang University</a>
+          <a href="https://ev.buaa.edu.cn/" class="ps-4">Beihang University</a>
         
       </div>
 
@@ -301,16 +301,40 @@
 <div class="content">
   <h2 id="about-me">About Me</h2>
 <p>Greetings!</p>
+<p>I received a B. Eng. in Automation from <a href="http://hc.buaa.edu.cn/">ShenYuan Honors College</a>, <a href="https://ev.buaa.edu.cn/">Beihang University</a> in 2020. For more information, please refer to my <a href="/pdfs/CV_zh_v7.pdf" target="_blank">CV_zh</a>.</p>
+<p><mark><b>I am looking for a Ph.D. position (fall 2023) in control, perception, decision-making, and other related problems about drones or robotics. Please get in touch with me if you are interested. 😃 </b></mark></p>
 <h2 id="research">Research</h2>
+<img align="right" src="/imgs/quadrotor.png" style="MARGIN-LEFT: 5px" alt="hardware platform" width=300/>
+<p><font size=4><b>Close Formation Tracking for Quadrotors using Model Predictive Control and Neural Networks<br /></b></font>
+<i>Master&rsquo;s Thesis</i>, Ongoing<br /></p>
+<p>The thesis plans to study the close formation tracking problem of multiple quadrotors considering aerodynamic disturbance compensation, which is able to expand the application scenarios of UAV swarms technology.</p>
+<details>
+<summary><b>Abstract</b></summary>
+The thesis plans to study the close formation tracking problem of multiple quadrotors considering aerodynamic disturbance compensation, which is able to expand the application scenarios of UAV swarms technology. The thesis first models the aerodynamic disturbance through deep learning and then combines the disturbance model with a traditional quadrotor model. Next, The new model is combined with Model Predictive Control (MPC) framework to design a fast trajectory tracking algorithm for UAVs. Finally, the effect of the algorithms is verified in both simulation environments and physical platforms.
+</details>
+<br />
+<!-- --- -->
 <img align="right" src="/imgs/IPT.gif" style="MARGIN-LEFT: 5px" alt="Experiments of IPT method" width=300/>
 <p><font size=4><b>Indoor Positioning for Quadrotors using Invisible Projected Tags<br /></b></font>
 <b>Jinjie Li</b>, Liang Han, Zhang Ren<br />
-<i>International Conference on Robotics and Automation (ICRA)</i>, 2022<br />
+<i>International Conference on Robotics and Automation (<b>ICRA</b>)</i>, 2022<br />
 [arXiv] [video] [code] [bib]</p>
 <p>This work proposes a real-time centimeter-level indoor positioning method based on invisible projected tags (IPT).</p>
 <details>
 <summary><b>Abstract</b></summary>
 Augmented reality (AR) technology has been introduced into the robotics field to narrow the visual gap between indoor and outdoor environments. However, without signals from satellite navigation systems, flight experiments in these indoor AR scenarios need other accurate positioning approaches. This work proposes a real-time centimeter-level indoor positioning method based on invisible projected tags (IPT), requiring a projector as the sender and quadrotors with high-speed cameras as the receiver. The method includes the modulation process for the sender, as well as the demodulation and pose estimation steps for the receiver, where screen-camera communication technology is applied to hide fiducial tags using human vision property. Experiments have demonstrated that IPT can achieve accuracy within four centimeters and a speed of about ten FPS, satisfying the demand for indoor flights. Compared with other positioning methods for AR robotics platforms, IPT is convenient by omitting a coordinate alignment step and affordable by using only a projector and high-speed cameras as hardware consumption.
+</details>
+<br />
+<!-- --- -->
+<img align="right" src="/imgs/formation_control.gif" style="MARGIN-LEFT: 5px" alt="formation control" width=300/>
+<p><font size=4><b>The formation control method of multiple UAVs based on a visual positioning system<br /></b></font>
+<i>Outstanding Bachelor&rsquo;s Thesis</i>, 2020<br />
+[<a href="/pdfs/bachelor_thesis_zh.pdf" target="_blank">thesis_zh</a>] [<a href="https://github.com/Li-Jinjie/gazebo_drone_tutorials">code</a>]</p>
+<p>The thesis contains three parts. (1) The fiducial tags below are photoed for visual positioning, and the position data are combined with IMU to improve reliability and accuracy; (2) Dyna-Q reinforcement learning algorithm is implemented to train formation control capability for a multi-quadrotor system; (3) The algorithms are verified in a ROS/Gazebo-based simulation platform. The thesis is <b>ranked No.1</b> in my major.</p>
+<details>
+<summary><b>Abstract</b></summary>
+In recent years, the vigorous development of computer vision and artificial intelligence has created opportunities for more intelligent drones. This thesis implements the fiducial-tag positioning method and Dyna-Q reinforcement learning algorithms in a multi-UAV formation control system. This combination improves the autonomy and anti-interference of UAVs in complex environments. <br />
+The thesis contains three parts. For the first part, the basic principles of visual positioning are studied. Then, computer vision technology is applied to achieve steps of camera calibration, tags detection, decoding, and pose solving to obtain pose data. Next, the pose data is integrated with an inertial measurement unit (IMU) to provide continuous and accurate positions in the sparse-tag scenario. For the second part, the formation problem is decomposed into target tracking and collision avoidance tasks, which are designed as Markov Decision Processes (MDPs), respectively. Then the Dyna-Q algorithm is utilized for training these tasks. Finally, five drones' positioning and formation control tasks are completed in a ROS/Gazebo-based simulation platform, achieving less than 3cm formation error.
 </details>
 <h2 id="projects">Projects</h2>
 <img align="right" src="/imgs/3kg.gif" style="MARGIN-LEFT: 5px" alt="water tank" width=290/>
@@ -324,7 +348,7 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 <p><font size=4><b>Development of a Settable Constant Temperature Controller<br /></b></font>
 <i>Course: Fundamentals of Analog Electronics</i>, <u>Team Leader</u>, 2018.03 - 20.18.06<br />
 [<a href="https://www.youtube.com/watch?v=2ZQEtcWF97I">video</a>] [<a href="/posts/water_tank/">details</a>] [<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller">code &amp; PCB</a>]</p>
-<p>Designed and developed a constant temperature control system, which could set and maintain the temperature between 50°C ~ 100°C. The system was controlled via Bluetooth, powered by 220V, and warmed up or cooled down to a specified temperature in 5 minutes. Ranked <b>1st</b> in the class.</p>
+<p>Designed and developed a constant temperature control system, which could set and maintain the temperature between 50°C ~ 100°C. The system was controlled via Bluetooth, powered by 220V, and warmed up or cooled down to a specified temperature in 5 minutes. Ranked <b>No.1</b> in the class.</p>
 <h2 id="misc">Misc.</h2>
 <p>I used to love model airplanes, but now luckily it has become my field of study. Besides, I love travelling🌏, photography📷, skiing⛷️, snowboarding🏂, and many kinds of ball games 🎾🏓🏸🏀. If you are interested in the photos below, please email me or jump to <a href="https://500px.com/p/vcg-lijinjie?view=photos">my photography home page</a> for more pictures.</p>
 <p><a href="https://500px.com/p/vcg-lijinjie?view=photos"><img src="/imgs/pictures.jpg" alt="my photos" border="0" /></a></p>
