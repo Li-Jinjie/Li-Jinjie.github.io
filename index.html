@@ -300,17 +300,17 @@
 </div>
 <div class="content">
   <h2 id="about-me">About Me</h2>
-<p>Greetings!</p>
-<p>I received a B. Eng. in Automation from <a href="http://hc.buaa.edu.cn/">ShenYuan Honors College</a>, <a href="https://ev.buaa.edu.cn/">Beihang University</a> in 2020. For more information, please refer to my <a href="/pdfs/CV_zh_v7.pdf" target="_blank">CV_zh</a>.</p>
+<p>Greetings! I am currently a second-year graduate student in the <a href="http://dept3.buaa.edu.cn/">School of Automation Science and Electrical Engineering</a> at <a href="https://ev.buaa.edu.cn/">Beihang University</a>, advised by Prof. Ren Zhang and Assoc. Prof. Han Liang. My research focuses on UAVs and their guidance, navigation, and control problems.</p>
+<p>I received a B. Eng. in Automation from <a href="http://hc.buaa.edu.cn/">ShenYuan Honors College</a>, Beihang University in 2020. For more information, please refer to my <a href="/pdfs/CV_zh_v7.pdf" target="_blank">CV_zh</a>.</p>
 <p><mark><b>I am looking for a Ph.D. position (fall 2023) in control, perception, decision-making, and other related problems about drones or robotics. Please get in touch with me if you are interested. 😃 </b></mark></p>
 <h2 id="research">Research</h2>
 <img align="right" src="/imgs/quadrotor.png" style="MARGIN-LEFT: 5px" alt="hardware platform" width=300/>
 <p><font size=4><b>Close Formation Tracking for Quadrotors using Model Predictive Control and Neural Networks<br /></b></font>
 <i>Master&rsquo;s Thesis</i>, Ongoing<br /></p>
-<p>The thesis plans to study the close formation tracking problem of multiple quadrotors considering aerodynamic disturbance compensation, which is able to expand the application scenarios of UAV swarms technology.</p>
+<p>The thesis plans to study the close formation tracking problem of multiple quadrotors considering aerodynamic disturbance compensation. The research is able to expand the application scenarios of UAV swarm technology.</p>
 <details>
 <summary><b>Abstract</b></summary>
-The thesis plans to study the close formation tracking problem of multiple quadrotors considering aerodynamic disturbance compensation, which is able to expand the application scenarios of UAV swarms technology. The thesis first models the aerodynamic disturbance through deep learning and then combines the disturbance model with a traditional quadrotor model. Next, The new model is combined with Model Predictive Control (MPC) framework to design a fast trajectory tracking algorithm for UAVs. Finally, the effect of the algorithms is verified in both simulation environments and physical platforms.
+The thesis plans to study the close formation tracking problem of multiple quadrotors considering aerodynamic disturbance compensation, which is able to expand the application scenarios of UAV swarm technology. The thesis first models the aerodynamic disturbance through deep learning and then combines the disturbance model with a traditional quadrotor model. Next, The new model is combined with Model Predictive Control (MPC) framework to design a fast trajectory tracking algorithm for UAVs. Finally, the effect of the algorithms is verified in both simulation environments and physical platforms.
 </details>
 <br />
 <!-- --- -->
@@ -337,7 +337,17 @@ In recent years, the vigorous development of computer vision and artificial inte
 The thesis contains three parts. For the first part, the basic principles of visual positioning are studied. Then, computer vision technology is applied to achieve steps of camera calibration, tags detection, decoding, and pose solving to obtain pose data. Next, the pose data is integrated with an inertial measurement unit (IMU) to provide continuous and accurate positions in the sparse-tag scenario. For the second part, the formation problem is decomposed into target tracking and collision avoidance tasks, which are designed as Markov Decision Processes (MDPs), respectively. Then the Dyna-Q algorithm is utilized for training these tasks. Finally, five drones' positioning and formation control tasks are completed in a ROS/Gazebo-based simulation platform, achieving less than 3cm formation error.
 </details>
 <h2 id="projects">Projects</h2>
-<img align="right" src="/imgs/3kg.gif" style="MARGIN-LEFT: 5px" alt="water tank" width=290/>
+<img align="right" src="/imgs/potato.gif" style="MARGIN-LEFT: 5px" alt="potato platform" width=300/>
+<p><font size=4><b>A Simulation Platform for Large-Scale Heterogeneous Swarm Agents <br /></b></font>
+<i>The Project of the Ministry of Science and Technology</i>, <u>Student Leader</u>, 2020.09 - Now<br /></p>
+<p>Develop a large-scale swarm simulation platform for regional anti-terrorism confrontation scenarios. The number of supported nodes in the simulation is required to be ≥ 2000; at least 5 types of agents should be supported, including multi-rotor, tilt-rotor, fixed-wing, interceptor, and autonomous vehicles.</p>
+<details>
+<summary><b>Tech Details</b></summary>
+The simulation platform adopts the P2P architecture and is divided into three ends: display end, physics end, and algorithm end. The three ends are run on different computers to facilitate functional decoupling and remote development. In actual operation, the algorithm side sends control commands to the physics side, which performs dynamic simulation. The physics side then sends states of all nodes at the new moment back to the algorithm side to complete a control loop. At the same time, the physics end continuously sends the states to the display end for display.
+</details>
+<br />
+<!-- --- -->
+<img align="right" src="/imgs/3kg.gif" style="MARGIN-LEFT: 5px" alt="aeromodelling" width=290/>
 <p><font size=4><b>Design of Heavy Load and High Maneuverability Aircrafts<br /></b></font>
 <i>China Aeromodelling Design Challenge (CADC)</i>, <u>Leader of the Composite Material Team &amp; Pilot</u>, 2017.07 - 2018.10<br />
 [<a href="/posts/3kg/">tech details &amp; video</a>] [<a href="/posts/solar_aircraft/">pilot training &amp; video</a>] [<a href="/pdfs/BMFA_August_2021_p22-26.pdf" target="_blank">BMFA News Magazine</a>]</p>

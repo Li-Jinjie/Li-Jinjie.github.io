@@ -338,17 +338,17 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 &emsp;&emsp;首先，研究视觉定位的基本原理并建立视觉模型，进而应用计算机视觉技术，实现摄像头标定、二维码检测、解码和位姿求解等步骤以获得视觉定位信息，并与惯性导航方式进行信息融合，以在Gazebo仿真环境中搭建的稀疏二维码场景下实现自主、连续、精确的定位效果。其次，研究强化学习的基本原理，将编队问题分解为目标跟踪任务与避碰任务并分别设计状态空间、动作空间和奖励函数，并结合Dyna-Q强化学习算法设计训练流程。进而基于ROS/Gazebo仿真环境搭建虚拟现实仿真平台，分别完成对目标追踪算法与避碰算法的训练。最后，应用视觉定位算法与强化学习编队算法，完成五架无人机包含内部避碰的协同定位与控制任务，取得良好的协同编队效果。
 </details>
 <h2 id="项目">项目</h2>
-<img align="right" src="/imgs/potato.gif" style="MARGIN-LEFT: 5px" alt="water tank" width=300/>
+<img align="right" src="/imgs/potato.gif" style="MARGIN-LEFT: 5px" alt="potato platform" width=300/>
 <p><font size=4><b>大规模异构集群仿真平台设计与开发<br /></b></font>
 <i>科技部项目-面向异构无人集群的协同对抗环境应用示范研究</i>，<u>学生负责人</u>，2020.09 - 至今<br /></p>
-<p>设计、开发一款针对区域反恐对抗场景的大规模集群仿真平台，仿真中要求支持节点数量≥2000 个；支持多旋翼、倾转旋翼、固定翼、巡飞拦截弹和无人机至少 5 种异构类型；支持任务场景模型≥10 个，包括协同打击/侦察/监控/巡逻/指挥/拦截/诱骗/通信支援/搜救/补给等。</p>
+<p>设计、开发一款针对区域反恐对抗场景的大规模集群仿真平台，仿真中要求支持节点数量≥2000 个；支持多旋翼、倾转旋翼、固定翼、巡飞拦截弹和无人车至少 5 种异构类型；支持任务场景模型≥10 个，包括协同打击/侦察/监控/巡逻/指挥/拦截/诱骗/通信支援/搜救/补给等。</p>
 <details>
 <summary><b>技术细节</b></summary>
 &emsp;&emsp;仿真平台采用 P2P 架构，分为显示端、中控端和算法端三端，可分别运行在不同设备以便于功能解耦与远程开发。实际运行时，算法端将集群控制指令发送给中控端，中控端进行动力学仿真，并将新时刻的状态信息发送回算法端完成控制闭环。同时中控端不断将节点状态发送给显示端进行显示。
 </details>
 <br />
 <!-- --- -->
-<img align="right" src="/imgs/3kg.gif" style="MARGIN-LEFT: 5px" alt="water tank" width=290/>
+<img align="right" src="/imgs/3kg.gif" style="MARGIN-LEFT: 5px" alt="aeromodelling" width=290/>
 <p><font size=4><b>限时载运空投飞机设计与优化<br /></b></font>
 <i>中国国际飞行器设计挑战赛（CADC）</i>，<u>复材组组长、太阳能飞手</u>，2017.07 - 2018.10<br />
 [<a href="/posts/3kg/">技术细节 &amp; 视频</a>] [<a href="/posts/solar_aircraft/">操纵手训练 &amp; 视频</a>] [<a href="/pdfs/BMFA_August_2021_p22-26.pdf" target="_blank">BMFA News Magazine</a>]</p>
