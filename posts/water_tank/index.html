@@ -122,10 +122,6 @@ Design and manufacture a constant temperature control system that can be set to 
 
 
 
-<meta property="og:locale:alternate" content="zh" />
-
-
-
 
 <meta property="og:site_name" content="Jinjie LI" />
 
@@ -168,6 +164,7 @@ Design and manufacture a constant temperature control system that can be set to 
             <a href="/#projects" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Projects</a>
             <a href="/#talks" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Talks</a>
             <a href="/#misc" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Misc.</a>
+            <a href="/posts" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Blog</a>
         </div>
 
         <div class="flex">
@@ -182,19 +179,6 @@ Design and manufacture a constant temperature control system that can be set to 
                     <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
                     <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
                     <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
-                </div>
-            </div>
-            <div class="relative pt-4 ps-4 md:pt-0">
-                <div class="cursor-pointer hover:text-eureka" id="languageMode">
-                    <i class="fas fa-globe"></i>
-                    <span class="ps-1">English</span>
-                </div>
-                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
-                </div>
-                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
-                    id='languageOptions'>
-                    <a class="px-4 py-1 hover:text-eureka" href="/posts/water_tank/">English</a>
-                    <a class="px-4 py-1 hover:text-eureka" href="/zh/posts/water_tank/">简体中文</a>
                 </div>
             </div>
         </div>
@@ -224,7 +208,6 @@ Design and manufacture a constant temperature control system that can be set to 
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
-        switchLanguage()
     });
 </script>
 </div>
@@ -280,7 +263,7 @@ Design and manufacture a constant temperature control system that can be set to 
 <p>Programmed an Android app and a WeChat Mini Program; soldered circuit boards; tested the display circuit; measured the PID parameters; designed and manufactured the tank; prepared for the defense.</p>
 <p><strong>Instructor :</strong> <em>Associate professor</em> TANG Yao</p>
 <h2 id="our-plan">Our plan</h2>
-<img src="https://s2.ax1x.com/2019/08/04/e6qzKx.png" alt="e6qzKx.png" border="0"/>
+<img src="/imgs/old_blogs/e6qzKx.png" border="0"/>
 <p>The target temperature can be set using <strong>an Android cellphone</strong> or using <strong>buttons</strong>. There are three buttons on the top of our tank: &lsquo;SET&rsquo;, &lsquo;UP&rsquo; and &lsquo;DOWN&rsquo;. To set the temperature, press the &lsquo;SET&rsquo; button, and the digital tube will flicker and display the target temperature. Continue to press the &lsquo;SET&rsquo; key to select the digit, and adjust values through the &lsquo;UP&rsquo; and &lsquo;DOWN&rsquo; keys. After selecting the temperature and stopping operation for three seconds, the digital tube will display the current temperature and the device will warm up or cool down to the target temperature.</p>
 <p>Internal size: <code>300*200*150mm</code></p>
 <p>Accuracy: <code>&lt; ±2℃</code> (Depending on the environment and how much water is loaded)</p>
@@ -338,12 +321,12 @@ Design and manufacture a constant temperature control system that can be set to 
 <table>
 <thead>
 <tr>
-<th><img src="https://s2.ax1x.com/2019/08/04/e6LERA.png" alt="e6LERA.png" border="0" /></th>
+<th><img src="/imgs/old_blogs//e6LERA.png" border="0" /></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><img src="https://s2.ax1x.com/2019/08/04/e6LWdO.png" alt="e6LWdO.png" border="0" /></td>
+<td><img src="/imgs/old_blogs//e6LWdO.png" border="0" /></td>
 </tr>
 </tbody>
 </table>
@@ -355,10 +338,10 @@ Design and manufacture a constant temperature control system that can be set to 
 <p>Pt resistance (Pt 100) was selected to measure the temperature. Pt 100 can convert
 the temperature signal into an analog voltage signal. And then through A/D
 conversion, the analog signal can be converted into a digital signal which can be processed by the MCU.</p>
-<img src="https://s2.ax1x.com/2019/08/04/e6LfoD.png" alt="e6LfoD.png" border="0" />
+<img src="/imgs/old_blogs/e6LfoD.png" border="0" />
 <p>We used a DS18B20 component as standard to calibrate Pt resistance. The calibration curve is as follows:</p>
-<img src="https://s2.ax1x.com/2019/08/04/e6LbOP.png" alt="e6LbOP.png" border="0" height="350" style="float:middle"/>
-<p>Therefore, <code>T = 72.643×U-19.723</code></p>
+<img src="/imgs/old_blogs/e6LbOP.png" border="0" height="350" style="float:middle"/>
+<p>Therefore, <code>T = 72.643×U-19.723</code>.</p>
 </li>
 <li>
 <p><strong>Display and buttons circuits</strong></p>
@@ -372,8 +355,8 @@ conversion, the analog signal can be converted into a digital signal which can b
 </thead>
 <tbody>
 <tr>
-<td><img src="https://s2.ax1x.com/2019/08/04/e6LXTS.png" alt="e6LXTS.png" border="0" /></td>
-<td><img src="https://s2.ax1x.com/2019/08/04/e6LVxI.png" alt="e6LVxI.png" border="0" /></td>
+<td><img src="/imgs/old_blogs/e6LXTS.png" border="0" /></td>
+<td><img src="/imgs/old_blogs/e6LVxI.png" border="0" /></td>
 </tr>
 </tbody>
 </table>
@@ -381,7 +364,7 @@ conversion, the analog signal can be converted into a digital signal which can b
 <li>
 <p><strong>Power circuit</strong></p>
 <p>The power supply needs to convert 220V 50Hz AC power into ±12V to supply operation amplifiers, into + 12V to the cooling module, and + 5V to the control circuit.</p>
-<img src="https://s2.ax1x.com/2019/08/04/e6LvFg.png" alt="e6LvFg.png" border="0" />
+<img src="/imgs/old_blogs/e6LvFg.png" border="0" />
 </li>
 <li>
 <p><strong>Bluetooth and APP</strong></p>
@@ -392,7 +375,7 @@ conversion, the analog signal can be converted into a digital signal which can b
 <p><strong>Healing module</strong></p>
 <p>We used a 220V, 600W heating plate to heat the tank. The heating plate was pasted at the bottom to increase the contact area between the heater and the system and make the heating more uniform. After testing, the heating efficiency was 2 ℃/min.</p>
 <p>PID control method needs to adjust the power of the heating plate. We connected the relay to the heating circuit and controlled the relay&rsquo;s switching-on and off by generating PWM wave (5V) through the 555 timer circuit. By changing the duty cycle of the PWM wave, the power of the heating plate can be changed.</p>
-<img src="https://s2.ax1x.com/2019/08/04/e6LzWj.png" alt="e6LzWj.png" border="0" />
+<img src="/imgs/old_blogs/e6LzWj.png" border="0" />
 </li>
 <li>
 <p><strong>Cooling module</strong></p>
@@ -410,15 +393,15 @@ conversion, the analog signal can be converted into a digital signal which can b
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><img src="https://s2.ax1x.com/2019/08/04/e6O9ln.png" alt="e6O9ln.png" border="0" height="380" width="380" /></td>
-<td style="text-align:center"><img src="https://s2.ax1x.com/2019/08/04/e6OATU.png" alt="e6OATU.png" border="0" height="380" width="380" /></td>
+<td style="text-align:center"><img src="/imgs/old_blogs/e6O9ln.png" border="0" height="380" width="380" /></td>
+<td style="text-align:center"><img src="/imgs/old_blogs/e6OATU.png" border="0" height="380" width="380" /></td>
 </tr>
 </tbody>
 </table>
 </li>
 <li>
 <p><strong>Structure</strong></p>
- <img src="https://s2.ax1x.com/2019/10/16/KkVKAO.jpg" alt="KkVKAO.jpg" border="0" />
+ <img src="/imgs/old_blogs/KkVKAO.jpg" border="0" />
 </li>
 </ol>
 <h3 id="process-recording">Process Recording</h3>
@@ -431,16 +414,16 @@ conversion, the analog signal can be converted into a digital signal which can b
 </thead>
 <tbody>
 <tr>
-<td><img src="https://s2.ax1x.com/2019/10/16/KkVtDP.jpg" alt="KkVtDP.jpg" border="0" width="400" /></td>
-<td><img src="https://s2.ax1x.com/2019/08/04/e6O4BV.jpg" alt="e6O4BV.jpg" border="0" width="400" /></td>
+<td><img src="/imgs/old_blogs/KkVtDP.jpg" alt="KkVtDP.jpg" border="0" width="400" /></td>
+<td><img src="/imgs/old_blogs/e6O4BV.jpg" border="0" width="400" /></td>
 </tr>
 <tr>
 <td><strong>Stage 3</strong></td>
 <td><strong>Stage 4</strong></td>
 </tr>
 <tr>
-<td><img src="https://s2.ax1x.com/2019/08/04/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" width="400" /></td>
-<td><img src="https://s2.ax1x.com/2019/08/04/e6Ojnx.jpg" alt="e6Ojnx.jpg" border="0" width="400" /></td>
+<td><img src="/imgs/old_blogs/e6OOj1.jpg" alt="e6OOj1.jpg" border="0" width="400" /></td>
+<td><img src="/imgs/old_blogs/e6Ojnx.jpg" border="0" width="400" /></td>
 </tr>
 </tbody>
 </table>

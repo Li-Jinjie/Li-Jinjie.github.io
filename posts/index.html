@@ -110,10 +110,6 @@
 
 
 
-<meta property="og:locale:alternate" content="zh" />
-
-
-
 
 <meta property="og:site_name" content="Jinjie LI" />
 
@@ -153,6 +149,7 @@
             <a href="/#projects" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Projects</a>
             <a href="/#talks" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Talks</a>
             <a href="/#misc" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Misc.</a>
+            <a href="/posts" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Blog</a>
         </div>
 
         <div class="flex">
@@ -167,19 +164,6 @@
                     <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
                     <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
                     <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
-                </div>
-            </div>
-            <div class="relative pt-4 ps-4 md:pt-0">
-                <div class="cursor-pointer hover:text-eureka" id="languageMode">
-                    <i class="fas fa-globe"></i>
-                    <span class="ps-1">English</span>
-                </div>
-                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
-                </div>
-                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
-                    id='languageOptions'>
-                    <a class="px-4 py-1 hover:text-eureka" href="/posts/">English</a>
-                    <a class="px-4 py-1 hover:text-eureka" href="/zh/posts/">简体中文</a>
                 </div>
             </div>
         </div>
@@ -209,7 +193,6 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
-        switchLanguage()
     });
 </script>
 </div>
