@@ -6,7 +6,18 @@
     <description>Recent content on Jinjie LI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development of a 3D Simulator for Large-Scale Heterogeneous Swarm Robots</title>
+      <link>/posts/potato/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/potato/</guid>
+      <description>Overview This project is required to develope a simulator that supports (1) over 1000 robot nodes, (2) 6-DoF dynamic models of four model types, including fixed-wing UAVs, quadcopters, tilt-rotor UAVs, and vehicles, (3) range of vision and collision, (4) 3D visualization, and (5) a dataset to build for off-line model training and an interface with Gym for on-line DRL training.
+The project is still undergoing. Some functions are displayed below.
+1000 aircrafts detection follow </description>
+    </item>
+    
     <item>
       <title>Designing and Optimization of a Solar Aircraft</title>
       <link>/posts/solar_aircraft/</link>

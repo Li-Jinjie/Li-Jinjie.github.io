@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/solar_aircraft/</loc>
-    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <loc>/posts/potato/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -19,6 +19,9 @@
                 />
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/solar_aircraft/</loc>
     <lastmod>2018-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/3kg/</loc>
