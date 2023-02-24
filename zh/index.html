@@ -1,413 +1,208 @@
-<!DOCTYPE html>
-<html lang='zh' dir='ltr' ><meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-
-
+<!doctype html><html lang=zh dir=ltr><meta charset=utf-8>
+<meta name=viewport content="width=device-width">
 <title>李谨杰</title>
-
-<meta name="generator" content="Hugo Eureka 0.9.0" />
-<link rel="stylesheet" href="/css/eureka.min.css">
-<script defer src="/js/eureka.min.js"></script>
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
-  as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
-   media="print"
-  onload="this.media='all';this.onload=null" crossorigin>
-<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
-   crossorigin></script>
-
-  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
-     crossorigin></script>
-
-
-
-<script defer type="text/javascript" src="/js/fontawesome.min.4cba50a6308ebe5a68c469565d0964bcda040e1c707108d21524bd0c2b81e542553ecc6a53f4f4663750806da0c81d28.js" integrity="sha384-TLpQpjCOvlpoxGlWXQlkvNoEDhxwcQjSFSS9DCuB5UJVPsxqU/T0ZjdQgG2gyB0o"></script>
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
-   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
-  onload="this.media='all';this.onload=null" crossorigin>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
-  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
-   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
-        { left: "\\(", right: "\\)", display: false },
-        { left: "\\[", right: "\\]", display: true }
-      ],
-    });
-  });
-</script>
-
-
-<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
-  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
-<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<meta name=generator content="Hugo Eureka 0.9.0">
+<link rel=stylesheet href=/css/eureka.min.css>
+<script defer src=/js/eureka.min.js></script>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=preload href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" as=style onload="this.onload=null,this.rel='stylesheet'">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css media=print onload="this.media='all',this.onload=null" crossorigin>
+<script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js crossorigin></script>
+<script defer type=text/javascript src=/js/fontawesome.min.4cba50a6308ebe5a68c469565d0964bcda040e1c707108d21524bd0c2b81e542553ecc6a53f4f4663750806da0c81d28.js integrity=sha384-TLpQpjCOvlpoxGlWXQlkvNoEDhxwcQjSFSS9DCuB5UJVPsxqU/T0ZjdQgG2gyB0o></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X media=print onload="this.media='all',this.onload=null" crossorigin>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin></script>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
+<script defer src=https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js integrity="sha256-Zmpaaj+GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE=" crossorigin></script>
+<link rel=preconnect href=https://www.google-analytics.com crossorigin>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMF0SGGT5M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-TMF0SGGT5M');
-</script>
-
-
-<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu3bc56a1f268dd5fcad0decc4ab38c1f8_17446_32x32_fill_box_center_3.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu3bc56a1f268dd5fcad0decc4ab38c1f8_17446_180x180_fill_box_center_3.png">
-
-<meta name="description"
-  content="Eureka is a elegant and powerful theme for Hugo.">
-
-
-
-<meta property="og:title" content="李谨杰" />
-<meta property="og:type" content="website" />
-
-
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-TMF0SGGT5M')</script>
+<link rel=icon type=image/png sizes=32x32 href=/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png>
+<meta name=description content="Eureka is a elegant and powerful theme for Hugo.">
+<meta property="og:title" content="李谨杰">
+<meta property="og:type" content="website">
 <meta property="og:image" content="/images/icon.png">
-
-
-<meta property="og:url" content="/zh/" />
-
-
-
-
-
-<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
-
-
-
-
-
-<meta property="og:locale" content="zh" />
-
-
-
-<meta property="og:locale:alternate" content="en" />
-
-
-
-
-<meta property="og:site_name" content="李谨杰" />
-
-
-
-
-
-
-
-
-<meta property="article:section" content="" />
-
-
-<link rel="alternate" type="application/rss+xml" href="/zh/index.xml" title="李谨杰" />
-
+<meta property="og:url" content="/zh/">
+<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo.">
+<meta property="og:locale" content="zh">
+<meta property="og:locale:alternate" content="en">
+<meta property="og:site_name" content="李谨杰">
+<meta property="article:section" content>
+<link rel=alternate type=application/rss+xml href=/zh/index.xml title=李谨杰>
 <body class="flex flex-col min-h-screen">
-  <header class="fixed flex items-center w-full min-h-16 ps-scrollbar z-50 bg-secondary-bg shadow-sm">
-    <div class="w-full max-w-screen-xl mx-auto"><script>
-    let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
-    }
-</script>
+<header class="fixed flex items-center w-full min-h-16 ps-scrollbar z-50 bg-secondary-bg shadow-sm">
+<div class="w-full max-w-screen-xl mx-auto"><script>let storageColorScheme=localStorage.getItem("lightDarkMode");((storageColorScheme=='Auto'||storageColorScheme==null)&&window.matchMedia("(prefers-color-scheme: dark)").matches||storageColorScheme=="Dark")&&document.getElementsByTagName('html')[0].classList.add('dark')</script>
 <nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
-    <a href="/zh" class="me-6 text-primary-text text-xl font-bold">李谨杰</a>
-    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
-        <i class="fas fa-bars"></i>
-    </button>
-
-    <div id="target"
-        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
-        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
-            <a href="/zh/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">关于我</a>
-            <a href="/zh/#%e7%a7%91%e7%a0%94" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">科研</a>
-            <a href="/zh/#%e9%a1%b9%e7%9b%ae" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">项目</a>
-            <a href="/zh/#%e5%88%86%e4%ba%ab" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">分享</a>
-            <a href="/zh/#%e7%88%b1%e5%a5%bd" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">爱好</a>
-        </div>
-
-        <div class="flex">
-            <div class="relative pt-4 md:pt-0">
-                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
-                    <i class="fas fa-adjust"></i>
-                </div>
-                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
-                </div>
-                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
-                    id='lightDarkOptions'>
-                    <span class="px-4 py-1 hover:text-eureka" name="Light">浅色</span>
-                    <span class="px-4 py-1 hover:text-eureka" name="Dark">深色</span>
-                    <span class="px-4 py-1 hover:text-eureka" name="Auto">自动</span>
-                </div>
-            </div>
-            <div class="relative pt-4 ps-4 md:pt-0">
-                <div class="cursor-pointer hover:text-eureka" id="languageMode">
-                    <i class="fas fa-globe"></i>
-                    <span class="ps-1">简体中文</span>
-                </div>
-                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
-                </div>
-                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
-                    id='languageOptions'>
-                    <a class="px-4 py-1 hover:text-eureka" href="/zh/">简体中文</a>
-                    <a class="px-4 py-1 hover:text-eureka" href="/">English</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
-    </div>
-
+<a href=/zh class="me-6 text-primary-text text-xl font-bold">李谨杰</a>
+<button id=navbar-btn class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+<i class="fas fa-bars"></i>
+</button>
+<div id=target class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+<div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+<a href=/zh/#about class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">关于我</a>
+<a href=/zh/#%e7%a7%91%e7%a0%94 class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">科研</a>
+<a href=/zh/#%e9%a1%b9%e7%9b%ae class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">项目</a>
+<a href=/zh/#%e5%88%86%e4%ba%ab class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">分享</a>
+<a href=/zh/#%e7%88%b1%e5%a5%bd class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">爱好</a>
+</div>
+<div class=flex>
+<div class="relative pt-4 md:pt-0">
+<div class="cursor-pointer hover:text-eureka" id=lightDarkMode>
+<i class="fas fa-adjust"></i>
+</div>
+<div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id=is-open>
+</div>
+<div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40" id=lightDarkOptions>
+<span class="px-4 py-1 hover:text-eureka" name=Light>浅色</span>
+<span class="px-4 py-1 hover:text-eureka" name=Dark>深色</span>
+<span class="px-4 py-1 hover:text-eureka" name=Auto>自动</span>
+</div>
+</div>
+<div class="relative pt-4 ps-4 md:pt-0">
+<div class="cursor-pointer hover:text-eureka" id=languageMode>
+<i class="fas fa-globe"></i>
+<span class=ps-1>简体中文</span>
+</div>
+<div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id=is-open-lang>
+</div>
+<div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40" id=languageOptions>
+<a class="px-4 py-1 hover:text-eureka" href=/zh/>简体中文</a>
+<a class="px-4 py-1 hover:text-eureka" href=/>English</a>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id=is-open-mobile>
+</div>
 </nav>
-<script>
-    
-    let element = document.getElementById('lightDarkMode')
-    if (storageColorScheme == null || storageColorScheme == 'Auto') {
-        document.addEventListener('DOMContentLoaded', () => {
-            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
-        })
-    } else if (storageColorScheme == "Light") {
-        element.firstElementChild.classList.remove('fa-adjust')
-        element.firstElementChild.setAttribute("data-icon", 'sun')
-        element.firstElementChild.classList.add('fa-sun')
-    } else if (storageColorScheme == "Dark") {
-        element.firstElementChild.classList.remove('fa-adjust')
-        element.firstElementChild.setAttribute("data-icon", 'moon')
-        element.firstElementChild.classList.add('fa-moon')
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        getcolorscheme();
-        switchBurger();
-        switchLanguage()
-    });
-</script>
+<script>let element=document.getElementById('lightDarkMode');storageColorScheme==null||storageColorScheme=='Auto'?document.addEventListener('DOMContentLoaded',()=>{window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change',switchDarkMode)}):storageColorScheme=="Light"?(element.firstElementChild.classList.remove('fa-adjust'),element.firstElementChild.setAttribute("data-icon",'sun'),element.firstElementChild.classList.add('fa-sun')):storageColorScheme=="Dark"&&(element.firstElementChild.classList.remove('fa-adjust'),element.firstElementChild.setAttribute("data-icon",'moon'),element.firstElementChild.classList.add('fa-moon')),document.addEventListener('DOMContentLoaded',()=>{getcolorscheme(),switchBurger(),switchLanguage()})</script>
 </div>
-  </header>
-  <main class="grow pt-16">
-  
-  
-  
-    
-      
-  
-
-  
-
-  
-  
-  
-
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-  
-
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-    
-
-    
-    
-    
-    
-    
-  
-
-  <div class="ps-scrollbar bg-secondary-bg" 
-    >
-    <div class="max-w-screen-xl mx-auto">
-      <div id="about" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
-        
-  
-
-  
-    
-    
-    <div class="flex flex-col md:flex-row items-center justify-center mb-12">
-  
-  
-    <div class="flex-none w-48 mx-auto md:ms-0 md:me-8 md:pe-8 md:border-e">
-      <img src="/imgs/lijinjie.png" class="rounded-full" alt="Avatar">
-    </div>
-  
-  <div class="grow mt-4 md:mt-0">
-    <div class="text-3xl py-4">李谨杰</div>
-    <div class="w-3/12 xl:w-2/12 border-b"></div>
-
-    <div class="flex items-center pt-4">
-      
-        <i class="fas fa-user"></i>
-      
-      <div class="flex flex-wrap">
-        
-          <span class="ps-4">硕士在读</span>
-        
-
-        
-          <a href="https://www.buaa.edu.cn/" class="ps-4">北京航空航天大学</a>
-        
-      </div>
-
-    </div>
-
-    
-      <div class="py-8 text-lg leading-normal">
-        研究兴趣：机器人学，优化，控制，机器学习，仿真
-      </div>
-    
-  </div>
-  <div class="flex md:flex-col justify-center items-end ms-8">
-    
-    
-      
-      
-      
-      
-      
-      <div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
-        <a href="https://scholar.google.com/citations?hl=en&amp;user=S_5A5pkAAAAJ"><i class="fas fa-graduation-cap"></i></a>
-      </div>
-    
-      
-      
-      
-      
-      
-      <div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
-        <a href="mailto:lijinjie@buaa.edu.cn"><i class="fas fa-envelope"></i></a>
-      </div>
-    
-      
-      
-      
-      
-      
-      <div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
-        <a href="https://github.com/Li-Jinjie"><i class="fab fa-github"></i></a>
-      </div>
-    
-  </div>
+</header>
+<main class="grow pt-16">
+<div class="ps-scrollbar bg-secondary-bg">
+<div class="max-w-screen-xl mx-auto">
+<div id=about class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+<div class="flex flex-col md:flex-row items-center justify-center mb-12">
+<div class="flex-none w-48 mx-auto md:ms-0 md:me-8 md:pe-8 md:border-e">
+<img src=/imgs/lijinjie.png class=rounded-full alt=Avatar>
 </div>
-<div class="content">
-  <h2 id="关于我">关于我</h2>
+<div class="grow mt-4 md:mt-0">
+<div class="text-3xl py-4">李谨杰</div>
+<div class="w-3/12 xl:w-2/12 border-b"></div>
+<div class="flex items-center pt-4">
+<i class="fas fa-user"></i>
+<div class="flex flex-wrap">
+<span class=ps-4>硕士在读</span>
+<a href=https://www.buaa.edu.cn/ class=ps-4>北京航空航天大学</a>
+</div>
+</div>
+<div class="py-8 text-lg leading-normal">
+研究兴趣：机器人学，优化，控制，机器学习，仿真
+</div>
+</div>
+<div class="flex md:flex-col justify-center items-end ms-8">
+<div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
+<a href="https://scholar.google.com/citations?hl=en&user=S_5A5pkAAAAJ"><i class="fas fa-graduation-cap"></i></a>
+</div>
+<div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
+<a href=mailto:lijinjie@buaa.edu.cn><i class="fas fa-envelope"></i></a>
+</div>
+<div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
+<a href=https://github.com/Li-Jinjie><i class="fab fa-github"></i></a>
+</div>
+</div>
+</div>
+<div class=content>
+<h2 id=关于我>关于我</h2>
 <p>  你好，我是一名硕士研究生，目前就读于北京航空航天大学自动化学院，师从任章教授（长江学者）、韩亮副教授。我的硕士研究方向为集群背景下的无人机系统及其导航、制导与控制问题。</p>
-<p>  我本科毕业于北航<a href="http://sae.buaa.edu.cn/">沈元荣誉学院</a>，自动化方向。关于我的更多信息，可以查看我的<a href="/pdfs/CV_zh_v7.pdf" target="_blank">中文简历</a>。</p>
-<!-- &emsp;&emsp;<mark><b>我已决定在硕士毕业后继续攻读博士学位（2023年秋季入学），希望研究的方向是无人机或机器人的感知、控制、决策等相关问题。如果您感觉我有读博的潜力，希望您可以联系我。</b></mark> -->
-<h2 id="科研">科研</h2>
-<img align="right" src="/imgs/NDP-NMPC.gif" style="MARGIN-LEFT: 5px" alt="hardware platform" width=300/>
-<p><font size=4><b>基于模型预测的无人机密集编队跟踪控制算法研究<br /></b></font>
-<i>硕士学位论文</i>，正在进行<br /></p>
+<p>  我本科毕业于北航<a href=http://sae.buaa.edu.cn/>沈元荣誉学院</a>，自动化方向。关于我的更多信息，可以查看我的<a href=/pdfs/CV_Jinjie_Li_zh.pdf target=_blank>中文简历</a>。</p>
+<h2 id=科研>科研</h2>
+<img align=right src=/imgs/NDP-NMPC.gif style=margin-left:5px alt="hardware platform" width=300/>
+<p><font size=4><b>基于模型预测的无人机密集编队跟踪控制算法研究<br></b></font>
+<i>硕士学位论文</i>，正在进行<br></p>
 <p>本课题将从拓展多无人机编队技术实际应用场景出发，研究包含气动扰动建模补偿的多无人机密集编队跟踪问题。</p>
 <details>
 <summary><b>摘要全文</b></summary>
 &emsp;&emsp;本课题将从拓展多无人机编队技术实际应用场景出发，研究包含气动扰动建模补偿的多无人机密集编队跟踪问题。本课题通过深度学习对气动扰动进行建模，将所建模型与传统四旋翼模型融合，结合模型预测控制框架，设计面向无人机和多无人机密集编队的快速轨迹跟踪算法，最后在仿真环境和实物平台验证算法效果。
 </details>
-<br />
-<!-- --- -->
-<img align="right" src="/imgs/IPT.gif" style="MARGIN-LEFT: 5px" alt="Experiments of IPT method" width=300/>
-<p><font size=4><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br /></b></font>
-<b>Jinjie Li</b>, Liang Han, Zhang Ren<br />
-<i>International Conference on Robotics and Automation (<b>ICRA</b>)</i>, 2022<br />
-[<a href="https://www.bilibili.com/video/BV1J3411V7Ke?share_source=copy_web">oral</a>] [<a href="https://arxiv.org/abs/2203.00356">arXiv</a>] [<a href="https://www.bilibili.com/video/BV1bS4y167et?share_source=copy_web">video</a>]</p>
+<br>
+<img align=right src=/imgs/IPT.gif style=margin-left:5px alt="Experiments of IPT method" width=300/>
+<p><font size=4><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br></b></font>
+<b>Jinjie Li</b>, Liang Han, Zhang Ren<br>
+<i>International Conference on Robotics and Automation (<b>ICRA</b>)</i>, 2022<br>
+[<a href="https://www.bilibili.com/video/BV1J3411V7Ke?share_source=copy_web">oral</a>] [<a href=https://arxiv.org/abs/2203.00356>arXiv</a>] [<a href="https://www.bilibili.com/video/BV1bS4y167et?share_source=copy_web">video</a>]</p>
 <p>This work proposes a real-time centimeter-level indoor localization method based on invisible projected tags (IPT).</p>
 <details>
 <summary><b>Abstract</b></summary>
-Augmented reality (AR) technology has been introduced into the robotics field to narrow the visual gap between indoor and outdoor environments. However, without signals from satellite navigation systems, flight experiments in these indoor AR scenarios need other accurate localization approaches. This work proposes a real-time centimeter-level indoor localization method based on psycho-visually invisible projected tags (IPT), requiring a projector as the sender and quadrotors with high-speed cameras as the receiver. The method includes a modulation process for the sender, as well as demodulation and pose estimation steps for the receiver, where screen-camera communication technology is applied to hide fiducial tags using human vision property. Experiments have demonstrated that IPT can achieve accuracy within ten centimeters and a speed of about ten FPS. Compared with other localization methods for AR robotics platforms, IPT is affordable by using only a projector and high-speed cameras as hardware consumption and convenient by omitting a coordinate alignment step. To the authors' best knowledge, this is the first time screen-camera communication is utilized for AR robot localization. 
+Augmented reality (AR) technology has been introduced into the robotics field to narrow the visual gap between indoor and outdoor environments. However, without signals from satellite navigation systems, flight experiments in these indoor AR scenarios need other accurate localization approaches. This work proposes a real-time centimeter-level indoor localization method based on psycho-visually invisible projected tags (IPT), requiring a projector as the sender and quadrotors with high-speed cameras as the receiver. The method includes a modulation process for the sender, as well as demodulation and pose estimation steps for the receiver, where screen-camera communication technology is applied to hide fiducial tags using human vision property. Experiments have demonstrated that IPT can achieve accuracy within ten centimeters and a speed of about ten FPS. Compared with other localization methods for AR robotics platforms, IPT is affordable by using only a projector and high-speed cameras as hardware consumption and convenient by omitting a coordinate alignment step. To the authors' best knowledge, this is the first time screen-camera communication is utilized for AR robot localization.
 </details>
-<br />
-<!-- --- -->
-<img align="right" src="/imgs/formation_control.gif" style="MARGIN-LEFT: 5px" alt="formation control" width=300/>
-<p><font size=4><b>基于视觉定位的多无人机编队控制方法研究<br /></b></font>
-<i>院级优秀学士学位论文</i>，2020<br />
-[<a href="/pdfs/bachelor_thesis_zh.pdf" target="_blank">中文论文</a>] [<a href="https://github.com/Li-Jinjie/gazebo_drone_tutorials">代码</a>]</p>
+<br>
+<img align=right src=/imgs/formation_control.gif style=margin-left:5px alt="formation control" width=300/>
+<p><font size=4><b>基于视觉定位的多无人机编队控制方法研究<br></b></font>
+<i>院级优秀学士学位论文</i>，2020<br>
+[<a href=/pdfs/bachelor_thesis_zh.pdf target=_blank>中文论文</a>] [<a href=https://github.com/Li-Jinjie/gazebo_drone_tutorials>代码</a>]</p>
 <p>毕设内容主要包括（1）拍摄下方的二维码以进行视觉定位，并与IMU信息组合以提升定位可靠性；（2）应用Dyna-Q强化学习算法实现多架无人机编队控制任务的训练与部署；（3）在ROS-Gazebo仿真环境中进行算法验证。论文得分<b>本专业第一</b>。</p>
 <details>
 <summary><b>摘要全文</b></summary>
 &emsp;&emsp;随着近几年计算机视觉技术和人工智能技术的蓬勃发展，集群化、自主化、智能化将成为无人机发展的重要方向。本论文将视觉定位技术与人工智能算法应用于无人机集群领域，实现了一种基于视觉定位与强化学习的多无人机编队控制系统，提升了无人机执行任务的自主性与抗干扰能力。论文的主要研究内容如下：
-<br />
+<br>
 &emsp;&emsp;首先，研究视觉定位的基本原理并建立视觉模型，进而应用计算机视觉技术，实现摄像头标定、二维码检测、解码和位姿求解等步骤以获得视觉定位信息，并与惯性导航方式进行信息融合，以在Gazebo仿真环境中搭建的稀疏二维码场景下实现自主、连续、精确的定位效果。其次，研究强化学习的基本原理，将编队问题分解为目标跟踪任务与避碰任务并分别设计状态空间、动作空间和奖励函数，并结合Dyna-Q强化学习算法设计训练流程。进而基于ROS/Gazebo仿真环境搭建虚拟现实仿真平台，分别完成对目标追踪算法与避碰算法的训练。最后，应用视觉定位算法与强化学习编队算法，完成五架无人机包含内部避碰的协同定位与控制任务，取得良好的协同编队效果。
 </details>
-<h2 id="项目">项目</h2>
-<img align="right" src="/imgs/potato.gif" style="MARGIN-LEFT: 5px" alt="potato platform" width=300/>
-<p><font size=4><b>大规模异构集群仿真平台设计与开发<br /></b></font>
-<i>科技部项目-面向异构无人集群的协同对抗环境应用示范研究</i>，<u>学生负责人</u>，2020.09 - 至今<br /></p>
+<h2 id=项目>项目</h2>
+<img align=right src=/imgs/potato.gif style=margin-left:5px alt="potato platform" width=300/>
+<p><font size=4><b>大规模异构集群仿真平台设计与开发<br></b></font>
+<i>科技部项目-面向异构无人集群的协同对抗环境应用示范研究</i>，<u>学生负责人</u>，2020.09 - 至今<br></p>
 <p>设计、开发一款针对区域反恐对抗场景的大规模集群仿真平台，仿真中要求支持节点数量≥1000 个；支持多旋翼、倾转旋翼、固定翼、无人车至少 4 种异构类型；支持任务场景模型≥10 个，包括协同打击/侦察/监控/巡逻/指挥/拦截/诱骗/通信支援/搜救/补给等。</p>
 <details>
 <summary><b>技术细节</b></summary>
 &emsp;&emsp;仿真平台采用 P2P 架构，分为显示端、中控端和算法端三端，可分别运行在不同设备以便于功能解耦与远程开发。实际运行时，算法端将集群控制指令发送给中控端，中控端进行动力学仿真，并将新时刻的状态信息发送回算法端完成控制闭环。同时中控端不断将节点状态发送给显示端进行显示。
 </details>
-<br />
-<!-- --- -->
-<img align="right" src="/imgs/3kg.gif" style="MARGIN-LEFT: 5px" alt="aeromodelling" width=300/>
-<p><font size=4><b>限时载运空投飞机设计与优化<br /></b></font>
-<i>中国国际飞行器设计挑战赛（CADC）</i>，<u>复材组组长、太阳能飞手</u>，2017.07 - 2018.10<br />
-[<a href="/pdfs/BMFA_August_2021_p22-26.pdf" target="_blank">BMFA News Magazine 杂志报道</a>] [<a href="/posts/3kg/">技术细节 &amp; 视频</a>] [<a href="/posts/solar_aircraft/">操纵手训练 &amp; 视频</a>]</p>
+<br>
+<img align=right src=/imgs/3kg.gif style=margin-left:5px alt=aeromodelling width=300/>
+<p><font size=4><b>限时载运空投飞机设计与优化<br></b></font>
+<i>中国国际飞行器设计挑战赛（CADC）</i>，<u>复材组组长、太阳能飞手</u>，2017.07 - 2018.10<br>
+[<a href=/pdfs/BMFA_August_2021_p22-26.pdf target=_blank>BMFA News Magazine 杂志报道</a>] [<a href=/posts/3kg/>技术细节 & 视频</a>] [<a href=/posts/solar_aircraft/>操纵手训练 & 视频</a>]</p>
 <p>完成高机动载重飞机的设计与制作，飞机翼展 5 米，最大载重量 24kg，起飞重量 27.5kg，常规飞行速度 15m/s，可用过载 3g。负责复合材料部分的技术攻关，机翼主梁采用碳纤维-PMI-碳纤维夹心结构，外缠凯夫拉线加强；机翼 D 型盒采用碳纤维与玻纤夹心泡沫技术（CGFRP）制作。材料的改进使得机翼最大扭矩在原基础上提升 161.07%，显著提升飞机性能。在 2018 年中国国际飞行器设计挑
 战赛（CADC）限时载运空投项目中，北航航模队三个机组包揽<b>个人前三与团体冠军</b>，为<b>历史最好成绩</b>。此外，作为太阳能飞机的飞手参加比赛。</p>
-<br />
-<!-- --- -->
-<img align="right" src="/imgs/water_tank_short.gif" style="MARGIN-LEFT: 5px" alt="water tank" width=300/>
-<p><font size=4><b>可调节恒温控制系统的设计与制作<br /></b></font>
-<i>模拟电子技术基础-课程设计</i>，<u>组长</u>，2018.03 - 2018.06<br />
-[<a href="https://v.qq.com/x/page/z0698ro9htz.html">视频</a>] [<a href="/posts/water_tank/">技术细节</a>] [<a href="https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller">代码 &amp; PCB</a>]</p>
+<br>
+<img align=right src=/imgs/water_tank_short.gif style=margin-left:5px alt="water tank" width=300/>
+<p><font size=4><b>可调节恒温控制系统的设计与制作<br></b></font>
+<i>模拟电子技术基础-课程设计</i>，<u>组长</u>，2018.03 - 2018.06<br>
+[<a href=https://v.qq.com/x/page/z0698ro9htz.html>视频</a>] [<a href=/posts/water_tank/>技术细节</a>] [<a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller>代码 & PCB</a>]</p>
 <p>从零开始设计、制作一个可设定温度的恒温控制系统实物。该系统采用 220V 供电，可在 50°C~100°C之间设置温度，可通过手机蓝牙控制，并且能在五分钟内快速升温或降温到指定温度。项目得分<b>本专业第一</b>。</p>
-<h2 id="分享">分享</h2>
+<h2 id=分享>分享</h2>
 <ul>
 <li>
-<p>2022.12 - <strong>文献分享</strong> - [<a href="/pdfs/20221203_Literature_Sharing.pdf" target="_blank">PPT</a>]</p>
+<p>2022.12 - <strong>文献分享</strong> - [<a href=/pdfs/20221203_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
 <blockquote>
 <p>Accommodating unobservability to control flight attitude with optic flow, Nature, 2022</p>
 </blockquote>
 </li>
 <li>
-<p>2022.04 - <strong>Zotero的简介&amp;技巧</strong> - [<a href="/pdfs/20220430_Intro_Zotero.pdf" target="_blank">PPT</a>]</p>
+<p>2022.04 - <strong>Zotero的简介&技巧</strong> - [<a href=/pdfs/20220430_Intro_Zotero.pdf target=_blank>PPT</a>]</p>
 </li>
 <li>
-<p>2022.03 - <strong>成果分享</strong> - [<a href="/pdfs/20220312_Work_Sharing.pdf" target="_blank">PPT</a>]</p>
+<p>2022.03 - <strong>成果分享</strong> - [<a href=/pdfs/20220312_Work_Sharing.pdf target=_blank>PPT</a>]</p>
 <blockquote>
 <p>Indoor Localization for Quadrotors using Invisible Projected Tags, ICRA, 2022</p>
 </blockquote>
 </li>
 <li>
-<p>2021.12 - <strong>文献分享</strong> - [<a href="/pdfs/20211211_Literature_Sharing.pdf" target="_blank">PPT</a>]</p>
+<p>2021.12 - <strong>文献分享</strong> - [<a href=/pdfs/20211211_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
 <blockquote>
 <p>Neural Lander: Stable Drone Landing Control Using Learned Dynamics, ICRA, 2019</p>
 </blockquote>
 </li>
 <li>
-<p>2021.10 - <strong>文献分享</strong> - [<a href="/pdfs/20211016_Literature_Sharing.pdf" target="_blank">PPT</a>]</p>
+<p>2021.10 - <strong>文献分享</strong> - [<a href=/pdfs/20211016_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
 <blockquote>
 <p>Lyapunov-stable neural-network control, RSS, 2021</p>
 </blockquote>
 </li>
 <li>
-<p>2021.03 - <strong>文献分享</strong> - [<a href="/pdfs/20210326_Literature_Sharing.pdf" target="_blank">PPT</a>]</p>
+<p>2021.03 - <strong>文献分享</strong> - [<a href=/pdfs/20210326_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
 <blockquote>
 <p>Glider soaring via reinforcement learning in the field, Nature, 2018</p>
 </blockquote>
@@ -416,36 +211,24 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 </blockquote>
 </li>
 <li>
-<p>2020.10 - <strong>文献分享</strong> - [<a href="/pdfs/20201024_Literature_Sharing.pdf" target="_blank">PPT</a>]</p>
+<p>2020.10 - <strong>文献分享</strong> - [<a href=/pdfs/20201024_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
 <blockquote>
 <p>Graph Neural Networks for Decentralized Multi-Robot Path Planning, IROS, 2020</p>
 </blockquote>
 </li>
 </ul>
-<h2 id="爱好">爱好</h2>
-<p>  以前我喜欢航模，现在很幸运它已经变成我的研究方向。此外我喜欢旅行🌏、摄影📷、滑雪⛷️ 🏂和各种球类运动🎾🏓🏸🏀。如果你对下面的图片感兴趣，可以进入<a href="https://500px.com.cn/lijinjie">我的摄影主页</a>查看更多。</p>
-<p><a href="https://500px.com.cn/lijinjie"><img src="/imgs/pictures.jpg" alt="my photos" border="0" /></a></p>
-
+<h2 id=爱好>爱好</h2>
+<p>  以前我喜欢航模，现在很幸运它已经变成我的研究方向。此外我喜欢旅行🌏、摄影📷、滑雪⛷️ 🏂和各种球类运动🎾🏓🏸🏀。如果你对下面的图片感兴趣，可以进入<a href=https://500px.com.cn/lijinjie>我的摄影主页</a>查看更多。</p>
+<p><a href=https://500px.com.cn/lijinjie><img src=/imgs/pictures.jpg alt="my photos" border=0></a></p>
 </div>
-
-    
-    
-  
-
-      </div>
-    </div>
-  </div>
-
-    
-
-  
-  
-  </main>
-  <footer class="ps-scrollbar">
-    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
-    <p class="text-sm text-tertiary-text"> Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div>
+</div>
+</div>
+</main>
+<footer class=ps-scrollbar>
+<div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+<p class="text-sm text-tertiary-text"> Powered by the <a href=https://github.com/wangchucheng/hugo-eureka class=hover:text-eureka>Eureka</a> theme for <a href=https://gohugo.io class=hover:text-eureka>Hugo</a></p>
 </div></div>
-  </footer>
+</footer>
 </body>
-
 </html>
