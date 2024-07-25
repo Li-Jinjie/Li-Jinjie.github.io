@@ -116,13 +116,30 @@
 </div>
 <div class=content>
 <h2 id=关于我>关于我</h2>
-<p>你好，我是一名博士研究生，目前就读于<a href=https://www.u-tokyo.ac.jp/en/>东京大学</a><a href="https://www2.mech.t.u-tokyo.ac.jp/?lang=en">机械工程学院</a>，师从<a href=http://www.jsk.t.u-tokyo.ac.jp/~chou/><i>Lecturer</i> Moju ZHAO</a>。</p>
-<p>我的研究兴趣为机器学习与控制理论的结合，并将其应用到算法设计、大规模仿真与实物系统中。</p>
+<p>你好！我是一名博士研究生，目前就读于<a href=https://www.u-tokyo.ac.jp/en/>东京大学</a><a href="https://www2.mech.t.u-tokyo.ac.jp/?lang=en">机械工程学院</a>，师从<a href=http://www.jsk.t.u-tokyo.ac.jp/~chou/><i>Lecturer</i> Moju ZHAO</a>。</p>
+<p>我的研究兴趣为基于优化的控制方法，并将其应用到空中操作领域。我致力于将空中机器人从空中的眼睛拓展到空中的操作手，从而为低空环境提供劳动力。</p>
 <p>我在北京航空航天大学获得本科（2020，自动化）和硕士（2023，控制科学与工程）学位。关于我的更多信息，可以查看<a href=/pdfs/CV_Jinjie_Li.pdf target=_blank>简历</a>。</p>
 <h2 id=科研>科研</h2>
 <style>*{box-sizing:border-box}.text_column{float:left;width:calc(100% - 310px);padding:0}.gif_column{float:right;width:300px;padding:0}@media screen and (max-width:760px){.text_column{width:100%}.gif_column{width:100%;text-align:center}}</style>
+<style>.title{font-size:1.2em;font-weight:700}</style>
 <div class=text_column>
-<font size=4><b>基于模型预测的无人机密集编队跟踪控制算法研究<br></b></font>
+<span class=title><b>Servo Integrated Nonlinear Model Predictive Control for Overactuated Tiltable-Quadrotors<br></b></span>
+&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Junichiro Sugihara, Moju Zhao<br>
+&#8201;▪️&#8201;&#8201;<i>Submitted to IEEE Robotics and Automation Letters (RA-L)</i><br>
+🕗&#8201;Oct. 2023 - Now<br>
+🔗&#8201;[<a href=https://arxiv.org/pdf/2405.09871>arXiv</a>]
+</div>
+<div class=gif_column>
+<img src=/imgs/beetle_nmpc.gif alt=Beetle-NMPC>
+</div>
+<p>Design an actuator-level NMPC for tiltable-quadrotors, which can track both position and attitude trajectories with high performance.</p>
+<details>
+<summary><b>Abstract</b></summary>
+Quadrotors are widely employed across various domains, yet the conventional type faces limitations due to underactuation, where attitude control is closely tied to positional adjustments. In contrast, quadrotors equipped with tiltable rotors offer overactuation, empowering them to track both position and attitude trajectories. However, the nonlinear dynamics of the drone body and the sluggish response of tilting servos pose challenges for conventional cascade controllers. In this study, we propose a control methodology for tilting-rotor quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional approaches, our method preserves the full dynamics without simplification and utilizes actuator commands directly as control inputs. Notably, we incorporate a first-order servo model within the NMPC framework. Through simulation, we observe that integrating the servo dynamics not only enhances control performance but also accelerates convergence. To assess the efficacy of our approach, we fabricate a tiltable-quadrotor and deploy the algorithm onboard at a frequency of 100Hz. Extensive real-world experiments demonstrate rapid, robust, and smooth pose tracking performance.
+</details>
+<br>
+<div class=text_column>
+<span class=title><b>基于模型预测的无人机密集编队跟踪控制算法研究<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Haoyang Yu, et al.<br>
 &#8201;▪️&#8201;&#8201;<i>硕士学位论文; IEEE Conference on Decision and Control (<b>CDC23</b>)</i><br>
 🕗&#8201;2021.11 - 2023.5<br>
@@ -138,7 +155,7 @@
 </details>
 <br>
 <div class=text_column>
-<font size=4><b>Development of a Data-Oriented Programming 3D Simulator for Heterogeneous Mobile Robots<br></b></font>
+<span class=title><b>Development of a Data-Oriented Programming 3D Simulator for Heterogeneous Mobile Robots<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Haoyang Yu, et al.<br>
 &#8201;▪️&#8201;&#8201;<i>ICRA 2023 Workshop on <q>The Role of Robotics Simulators for Unmanned Aerial Vehicles</q></i><br>
 🕗&#8201;Sept. 2020 - Mar. 2023<br>
@@ -154,7 +171,7 @@ Large-scale simulation with realistic nonlinear dynamic models is crucial for al
 </details>
 <br>
 <div class=text_column>
-<font size=4><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br></b></font>
+<span class=title><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Zhang Ren<br>
 &#8201;▪️&#8201;&#8201;<i>IEEE International Conference on Robotics and Automation (<b>ICRA22</b>)</i><br>
 🕗&#8201;May 2021 - Feb. 2022<br>
@@ -170,7 +187,7 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 </details>
 <h2 id=项目>项目</h2>
 <div class=text_column>
-<font size=4><b>基于视觉定位的多无人机编队控制方法研究<br></b></font>
+<span class=title><b>基于视觉定位的多无人机编队控制方法研究<br></b></span>
 &#8201;▪️&#8201;&#8201;<i>本科学位论文</i>，<u>院级优秀学士学位论文</u><br>
 🕗&#8201;2019.12 - 2020.06<br>
 🔗&#8201;[<a href=/pdfs/bachelor_thesis_zh.pdf target=_blank>中文论文</a>] [<a href=https://github.com/Li-Jinjie/gazebo_drone_tutorials>代码</a>]
@@ -188,7 +205,7 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 </details>
 <br>
 <div class=text_column>
-<font size=4><b>限时载运空投飞机设计与优化<br></b></font>
+<span class=title><b>限时载运空投飞机设计与优化<br></b></span>
 &#8201;▪️&#8201;&#8201;<i>中国国际飞行器设计挑战赛 (CADC)</i>，<u>复材组组长、太阳能飞手</u><br>
 🕗&#8201;2017.07 - 2018.10<br>
 🔗&#8201;[<a href=/pdfs/BMFA_August_2021_p22-26.pdf target=_blank>BMFA News Magazine 杂志报道</a>] [<a href=/posts/3kg/>技术细节 & 视频</a>] [<a href=/posts/solar_aircraft/>操纵手训练 & 视频</a>]
@@ -200,7 +217,7 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 战赛（CADC）限时载运空投项目中，北航航模队三个机组包揽<b>个人前三与团体冠军</b>，为<b>历史最好成绩</b>。此外，作为太阳能飞机的飞手参加比赛。</p>
 <br>
 <div class=text_column>
-<font size=4><b>可调节恒温控制系统的设计与制作<br></b></font>
+<span class=title><b>可调节恒温控制系统的设计与制作<br></b></span>
 &#8201;▪️&#8201;&#8201;<i>模拟电子技术基础-课程设计</i>，<u>组长</u><br>
 🕗&#8201;2018.03 - 2018.06<br>
 🔗&#8201;[<a href=https://v.qq.com/x/page/z0698ro9htz.html>视频</a>] [<a href=/posts/water_tank/>技术细节</a>] [<a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller>代码 & PCB</a>]
@@ -212,18 +229,36 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 <h2 id=分享>分享</h2>
 <ul>
 <li>
-<p>2022.12 - <strong>文献分享</strong> - [<a href=/pdfs/20221203_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
+<p>2023.12 - <strong>会议展示</strong> - [<a href=/pdfs/CDC23_Oral_Jinjie.pdf target=_blank>slides</a>]</p>
 <blockquote>
-<p>Accommodating unobservability to control flight attitude with optic flow, Nature, 2022</p>
+<p>Nonlinear MPC for Quadrotors in Close-Proximity Flight with Neural Network Downwash Prediction,<br>
+CDC, 2023</p>
+</blockquote>
+</li>
+<li>
+<p>2023.12 - <strong>会议展示</strong> - [<a href=/pdfs/CDC23_WorkShop_Jinjie.pdf target=_blank>slides</a>] [<a href="https://youtu.be/UYdkRnGr8eM?si=8eTKfDeqOQu1nYnJ&t=11802" target=_blank>recording</a>]</p>
+<blockquote>
+<p>The Open-Source Development of UTokyo Aerial Robot Team: From Hardware to Software,<br>
+CDC Workshop on Benchmarking, Reproducibility, and Open-Source Code in Controls, 2023</p>
 </blockquote>
 </li>
 <li>
 <p>2022.04 - <strong>Zotero的简介&技巧</strong> - [<a href=/pdfs/20220430_Intro_Zotero.pdf target=_blank>PPT</a>]</p>
 </li>
 <li>
-<p>2022.03 - <strong>成果分享</strong> - [<a href=/pdfs/20220312_Work_Sharing.pdf target=_blank>PPT</a>]</p>
+<p>2022.03 - <strong>会议展示</strong> - [<a href=/pdfs/ICRA22_Oral_Jinjie.pdf target=_blank>slides</a>] [<a href="https://youtu.be/wKmIjXNx7yY?si=J5-n_s9jgJW9rBhL" target=_blank>recording</a>]</p>
 <blockquote>
 <p>Indoor Localization for Quadrotors using Invisible Projected Tags, ICRA, 2022</p>
+</blockquote>
+</li>
+</ul>
+<details>
+<summary><b>文献分享</b></summary>
+<ul>
+<li>
+<p>2022.12 - <strong>文献分享</strong> - [<a href=/pdfs/20221203_Literature_Sharing.pdf target=_blank>PPT</a>]</p>
+<blockquote>
+<p>Accommodating unobservability to control flight attitude with optic flow, Nature, 2022</p>
 </blockquote>
 </li>
 <li>
@@ -254,6 +289,7 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 </blockquote>
 </li>
 </ul>
+</details>
 <h2 id=爱好>爱好</h2>
 <p>以前我喜欢航模，现在很幸运它已经变成我的研究方向。此外我喜欢旅行🌏、摄影📷、滑雪⛷️ 🏂和各种球类运动🎾🏓🏸🏀。如果你对下面的图片感兴趣，可以进入<a href=https://500px.com.cn/lijinjie>我的摄影主页</a>查看更多。</p>
 <p><a href=https://500px.com.cn/lijinjie><img src=/imgs/pictures.jpg alt="my photos" border=0></a></p>

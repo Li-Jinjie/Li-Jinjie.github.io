@@ -142,8 +142,25 @@ Research Interests: Robotics, Model Predictive Control, Aerial Manipulation
 </details>
 <h2 id=research>Research</h2>
 <style>*{box-sizing:border-box}.text_column{float:left;width:calc(100% - 310px);padding:0}.gif_column{float:right;width:300px;padding:0}@media screen and (max-width:760px){.text_column{width:100%}.gif_column{width:100%;text-align:center}}</style>
+<style>.title{font-size:1.2em;font-weight:700}</style>
 <div class=text_column>
-<font size=4><b>Learning-Based MPC for Close Formation Tracking of Quadrotors<br></b></font>
+<span class=title><b>Servo Integrated Nonlinear Model Predictive Control for Overactuated Tiltable-Quadrotors<br></b></span>
+&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Junichiro Sugihara, Moju Zhao<br>
+&#8201;▪️&#8201;&#8201;<i>Submitted to IEEE Robotics and Automation Letters (RA-L)</i><br>
+🕗&#8201;Oct. 2023 - Now<br>
+🔗&#8201;[<a href=https://arxiv.org/pdf/2405.09871>arXiv</a>]
+</div>
+<div class=gif_column>
+<img src=/imgs/beetle_nmpc.gif alt=Beetle-NMPC>
+</div>
+<p>Design an actuator-level NMPC for tiltable-quadrotors, which can track both position and attitude trajectories with high performance.</p>
+<details>
+<summary><b>Abstract</b></summary>
+Quadrotors are widely employed across various domains, yet the conventional type faces limitations due to underactuation, where attitude control is closely tied to positional adjustments. In contrast, quadrotors equipped with tiltable rotors offer overactuation, empowering them to track both position and attitude trajectories. However, the nonlinear dynamics of the drone body and the sluggish response of tilting servos pose challenges for conventional cascade controllers. In this study, we propose a control methodology for tilting-rotor quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional approaches, our method preserves the full dynamics without simplification and utilizes actuator commands directly as control inputs. Notably, we incorporate a first-order servo model within the NMPC framework. Through simulation, we observe that integrating the servo dynamics not only enhances control performance but also accelerates convergence. To assess the efficacy of our approach, we fabricate a tiltable-quadrotor and deploy the algorithm onboard at a frequency of 100Hz. Extensive real-world experiments demonstrate rapid, robust, and smooth pose tracking performance.
+</details>
+<br>
+<div class=text_column>
+<span class=title><b>Learning-Based MPC for Close Formation Tracking of Quadrotors<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Haoyang Yu, et al.<br>
 &#8201;▪️&#8201;&#8201;<i>IEEE Conference on Decision and Control (<b>CDC23</b>); Master’s Thesis</i><br>
 🕗&#8201;Nov. 2021 - May 2023<br>
@@ -160,7 +177,7 @@ Swarm aerial robots are required to maintain close proximity to successfully tra
 </details>
 <br>
 <div class=text_column>
-<font size=4><b>Development of a Data-Oriented Programming 3D Simulator for Heterogeneous Mobile Robots<br></b></font>
+<span class=title><b>Development of a Data-Oriented Programming 3D Simulator for Heterogeneous Mobile Robots<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Haoyang Yu, et al.<br>
 &#8201;▪️&#8201;&#8201;<i>ICRA 2023 Workshop on <q>The Role of Robotics Simulators for Unmanned Aerial Vehicles</q></i><br>
 🕗&#8201;Sept. 2020 - Mar. 2023<br>
@@ -176,7 +193,7 @@ Large-scale simulation with realistic nonlinear dynamic models is crucial for al
 </details>
 <br>
 <div class=text_column>
-<font size=4><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br></b></font>
+<span class=title><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Zhang Ren<br>
 &#8201;▪️&#8201;&#8201;<i>IEEE International Conference on Robotics and Automation (<b>ICRA22</b>)</i><br>
 🕗&#8201;May 2021 - Feb. 2022<br>
@@ -192,7 +209,7 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 </details>
 <h2 id=projects>Projects</h2>
 <div class=text_column>
-<font size=4><b>Formation Control for Quadrotors with Dyna-Q Algorithm and AprilTag Localization<br></b></font>
+<span class=title><b>Formation Control for Quadrotors with Dyna-Q Algorithm and AprilTag Localization<br></b></span>
 &#8201;▪️&#8201;&#8201;<i>Bachelor’s Thesis</i>, <u>Outstanding Bachelor’s Thesis Award</u><br>
 🕗&#8201;Dec. 2019 - June 2020<br>
 🔗&#8201;[<a href=/pdfs/bachelor_thesis_zh.pdf target=_blank>thesis_zh</a>] [<a href=https://github.com/Li-Jinjie/gazebo_drone_tutorials>code</a>]
@@ -210,7 +227,7 @@ The thesis contains three parts. For the first part, the basic principles of vis
 </details>
 <br>
 <div class=text_column>
-<font size=4><b>Design of Heavy Load and High Maneuverability Aircrafts<br></b></font>
+<span class=title><b>Design of Heavy Load and High Maneuverability Aircrafts<br></b></span>
 &#8201;▪️&#8201;&#8201;<i>China Aeromodelling Design Challenge (CADC)</i>, <u>Leader of the Composite Material Team & Pilot</u><br>
 🕗&#8201;July 2017 - Oct. 2018<br>
 🔗&#8201;[<a href=/pdfs/BMFA_August_2021_p22-26.pdf target=_blank>BMFA News Magazine report</a>] [<a href=/posts/3kg/>tech details & video</a>] [<a href=/posts/solar_aircraft/>pilot training & video</a>]
@@ -221,7 +238,7 @@ The thesis contains three parts. For the first part, the basic principles of vis
 <p>Designed and produced the composite part of a 5m-wingspan aircraft with the maximum load of 24kg, the maximum take-off weight of 27.5kg, and the nominal airspeed of 15m/s. Applied the carbon-PMI-carbon sandwich structure to make the 130g-weighted single wing beam, outer twined with the Kevlar line; utilized carbon and glass fiber reinforced polymer (CGFRP) to make D-box structure, increasing the torsional rigidity to 261.07%. Won the <b>top three places</b> in the 2018 CADC (Time-limited Airdrop Project), <b>the best record in history</b>. Served as the pilot of solar aircrafts as well.</p>
 <br>
 <div class=text_column>
-<font size=4><b>Development of a Water Heater with a Settable Temperature Controller<br></b></font>
+<span class=title><b>Development of a Water Heater with a Settable Temperature Controller<br></b></span>
 &#8201;▪️&#8201;&#8201;<i>Course: Fundamentals of Analog Electronics</i>, <u>Team Leader</u><br>
 🕗&#8201;Feb. 2018 - June 2018<br>
 🔗&#8201;[<a href="https://www.youtube.com/watch?v=2ZQEtcWF97I">video</a>] [<a href=/posts/water_tank/>details</a>] [<a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller>code & PCB</a>]
