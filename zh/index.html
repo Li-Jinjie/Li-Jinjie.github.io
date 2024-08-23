@@ -125,17 +125,17 @@
 <div class=text_column>
 <span class=title><b>Servo Integrated Nonlinear Model Predictive Control for Overactuated Tiltable-Quadrotors<br></b></span>
 &#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Junichiro Sugihara, Moju Zhao<br>
-&#8201;▪️&#8201;&#8201;<i>Submitted to IEEE Robotics and Automation Letters (RA-L)</i><br>
-🕗&#8201;Oct. 2023 - Now<br>
+&#8201;▪️&#8201;&#8201;<i>Accepted by IEEE Robotics and Automation Letters (RA-L)</i><br>
+🕗&#8201;Oct. 2023 - Aug. 2024<br>
 🔗&#8201;[<a href=https://arxiv.org/pdf/2405.09871>arXiv</a>]
 </div>
 <div class=gif_column>
 <img src=/imgs/beetle_nmpc.gif alt=Beetle-NMPC>
 </div>
-<p>Design an actuator-level NMPC for tiltable-quadrotors, which can track both position and attitude trajectories with high performance.</p>
+<p>Design an actuator-level NMPC controller for tiltable-quadrotors, which can track both position and attitude trajectories with good performance.</p>
 <details>
 <summary><b>Abstract</b></summary>
-Quadrotors are widely employed across various domains, yet the conventional type faces limitations due to underactuation, where attitude control is closely tied to positional adjustments. In contrast, quadrotors equipped with tiltable rotors offer overactuation, empowering them to track both position and attitude trajectories. However, the nonlinear dynamics of the drone body and the sluggish response of tilting servos pose challenges for conventional cascade controllers. In this study, we propose a control methodology for tilting-rotor quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional approaches, our method preserves the full dynamics without simplification and utilizes actuator commands directly as control inputs. Notably, we incorporate a first-order servo model within the NMPC framework. Through simulation, we observe that integrating the servo dynamics not only enhances control performance but also accelerates convergence. To assess the efficacy of our approach, we fabricate a tiltable-quadrotor and deploy the algorithm onboard at a frequency of 100Hz. Extensive real-world experiments demonstrate rapid, robust, and smooth pose tracking performance.
+Utilizing a servo to tilt each rotor transforms quadrotors from underactuated to overactuated systems, allowing for independent control of both attitude and position, which provides advantages for aerial manipulation. However, this enhancement also introduces model nonlinearity, sluggish servo response, and limited operational range into the system, posing challenges to dynamic control. In this study, we propose a control approach for tiltable-quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional cascade methods, our approach preserves the full dynamics without simplification. It directly uses rotor thrust and servo angle as control inputs, where their limited working ranges are considered input constraints. Notably, we incorporate a first-order servo model within the NMPC framework. Simulation reveals that integrating the servo dynamics is not only an enhancement to control performance but also a critical factor for optimization convergence. To evaluate the effectiveness of our approach, we fabricate a tiltable-quadrotor and deploy the algorithm onboard at 100 Hz. Extensive real-world experiments demonstrate rapid, robust, and smooth pose-tracking performance.
 </details>
 <br>
 <div class=text_column>
