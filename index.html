@@ -155,7 +155,7 @@ Research Interests: Robotics, Model Predictive Control, Aerial Manipulation
 <div class=gif_column>
 <img src=/imgs/beetle_nmpc.gif alt=Beetle-NMPC>
 </div>
-<p>Design an actuator-level NMPC controller for tiltable-quadrotors, which can track both position and attitude trajectories with good performance.</p>
+<p>To the best of the authors’ knowledge, this is the first time an actuator-level NMPC is verified on a real tiltable-quadrotor.</p>
 <details>
 <summary><b>Abstract</b></summary>
 Utilizing a servo to tilt each rotor transforms quadrotors from underactuated to overactuated systems, allowing for independent control of both attitude and position, which provides advantages for aerial manipulation. However, this enhancement also introduces model nonlinearity, sluggish servo response, and limited operational range into the system, posing challenges to dynamic control. In this study, we propose a control approach for tiltable-quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional cascade methods, our approach preserves the full dynamics without simplification. It directly uses rotor thrust and servo angle as control inputs, where their limited working ranges are considered input constraints. Notably, we incorporate a first-order servo model within the NMPC framework. Simulation reveals that integrating the servo dynamics is not only an enhancement to control performance but also a critical factor for optimization convergence. To evaluate the effectiveness of our approach, we fabricate a tiltable-quadrotor and deploy the algorithm onboard at 100 Hz. Extensive real-world experiments demonstrate rapid, robust, and smooth pose-tracking performance.
