@@ -150,7 +150,7 @@ Research Interests: Robotics, Model Predictive Control, Aerial Manipulation
 </ul>
 </details>
 <h2 id=research>Research</h2>
-<style>.project-block{overflow:hidden}.project-img{float:right;width:300px;max-width:40%;margin:0 0 0 .05em}.title{font-size:1.2em;font-weight:700}.lead{margin:.5em 0}@media(max-width:760px){.project-img{float:none;display:block;margin:0 auto 1em;width:100%;max-width:100%}}</style>
+<style>.project-block{overflow:hidden;margin:0 0 2em}.project-img{float:right;width:300px;max-width:40%;margin:0 0 0 .05em}.title{font-size:1.2em;font-weight:700}.lead{margin:.5em 0}@media(max-width:760px){.project-img{float:none;display:block;margin:0 auto 1em;width:100%;max-width:100%}}</style>
 <div class=project-block>
 <img src=/imgs/IROS25.gif alt="Six‑DoF teleoperation demo" class=project-img>
 <p><span class=title>Six‑DoF Hand‑Based Teleoperation for Omnidirectional Aerial Robots</span><br>
@@ -164,7 +164,6 @@ Research Interests: Robotics, Model Predictive Control, Aerial Manipulation
 Omnidirectional aerial robots offer full 6-DoF independent control over position and orientation, making them popular for aerial manipulation. Although advancements in robotic autonomy, operating by human remains essential in complex aerial environments. Existing teleoperation approaches for multirotors fail to fully leverage the additional DoFs provided by omnidirectional rotation. Additionally, the dexterity of human fingers should be exploited for more engaged interaction. In this work, we propose an aerial teleoperation system that brings the omnidirectionality of human hands into the unbounded aerial workspace. Our system includes two motion-tracking marker sets — one on the shoulder and one on the hand — along with a data glove to capture hand gestures. Using these inputs, we design four interaction modes for different tasks, including Spherical Mode and Cartesian Mode for long‑range moving as well as Operation Mode and Locking Mode for precise manipulation, where the hand gestures are utilized for seamless mode switching. We evaluate our system on a valve‑turning task in real world, demonstrating how each mode contributes to effective aerial manipulation. This interaction framework bridges human dexterity with aerial robotics, paving the way for enhanced teleoperated aerial manipulation in unstructured environments.
 </details>
 </div>
-<br>
 <div class=project-block>
 <img src=/imgs/beetle_nmpc.gif alt=Beetle‑NMPC class=project-img>
 <p><span class=title>Servo Integrated Nonlinear Model Predictive Control for Overactuated Tiltable‑Quadrotors</span><br>
@@ -178,7 +177,6 @@ Omnidirectional aerial robots offer full 6-DoF independent control over position
 Utilizing a servo to tilt each rotor transforms quadrotors from underactuated to overactuated systems, allowing for independent control of both attitude and position, which provides advantages for aerial manipulation. However, this enhancement also introduces model nonlinearity, sluggish servo response, and limited operational range into the system, posing challenges to dynamic control. In this study, we propose a control approach for tiltable‑quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional cascade methods, our approach preserves the full dynamics without simplification. It directly uses rotor thrust and servo angle as control inputs, where their limited working ranges are considered input constraints. Notably, we incorporate a first‑order servo model within the NMPC framework. Simulation reveals that integrating the servo dynamics is not only an enhancement to control performance but also a critical factor for optimization convergence. To evaluate the effectiveness of our approach, we fabricate a tiltable‑quadrotor and deploy the algorithm onboard at 100 Hz. Extensive real‑world experiments demonstrate rapid, robust, and smooth pose‑tracking performance.
 </details>
 </div>
-<br>
 <div class=project-block>
 <img src=/imgs/NDP-NMPC.gif alt=NDP‑NMPC class=project-img>
 <p><span class=title>Learning‑Based NMPC for Close Formation Tracking of Quadrotors</span><br>
@@ -194,7 +192,6 @@ Swarm aerial robots are required to maintain close proximity to successfully tra
 To address these challenges, we propose an approach that integrates a Neural network Downwash Predictor with Nonlinear Model Predictive Control (NDP‑NMPC). The neural network is trained with spectral normalization to ensure robustness and safety in uncollected cases. The predicted disturbances are then incorporated into the optimization scheme in NMPC, which enforces constraints to ensure that states and inputs remain within safe limits. We also design a quadrotor system, identify its parameters, and implement the proposed method on board. Finally, we conduct a prediction experiment to validate the safety and effectiveness of the network. In addition, a real‑time trajectory tracking experiment is performed with the entire system, demonstrating a 75.37% reduction in tracking error in height under the downwash effect.
 </details>
 </div>
-<br>
 <div class=project-block>
 <img src=/imgs/triangle_sim.gif alt="triangle sim" class=project-img>
 <p><span class=title>Development of a Data‑Oriented Programming 3D Simulator for Heterogeneous Mobile Robots</span><br>
@@ -208,7 +205,6 @@ To address these challenges, we propose an approach that integrates a Neural net
 Large‑scale simulation with realistic nonlinear dynamic models is crucial for algorithms development for swarm robotics. However, existing platforms are mainly developed based on Object‑Oriented Programming (OOP) and either use simple kinematic models to pursue a large number of simulating nodes or implement realistic dynamic models with limited simulating nodes. In this paper, we develop a simulator based on Data‑Oriented Programming (DOP) that utilizes GPU parallel computing to achieve large‑scale swarm robotic simulations. Specifically, we use a multi‑process approach to simulate different kinds of agents and leverage PyTorch with GPU to simulate one kind of agents with a large number to achieve large-scale parallel computing for swarm robotics. We test our approach using a nonlinear quadrotor model and demonstrate that this DOP approach can maintain almost the same computational speed when quadrotors are less than 5,000. We also provide two examples to demonstrate the functionality of the platform.
 </details>
 </div>
-<br>
 <div class=project-block>
 <img src=/imgs/IPT.gif alt="Invisible Projected Tags demo" class=project-img>
 <p><span class=title>Indoor Localization for Quadrotors using Invisible Projected Tags</span><br>
@@ -236,7 +232,6 @@ In recent years, the vigorous development of computer vision and artificial inte
 The thesis contains three parts. For the first part, the basic principles of visual positioning are studied. Then, the basic knowledge of computer vision is applied to achieve camera calibration, tags detection, decoding, and pose solving to obtain pose data. Next, the pose data is integrated with an inertial measurement unit (IMU) to provide continuous and accurate positions in the sparse-tag scenario. For the second part, the formation problem is decomposed into a target tracking task and a collision avoidance task, which are designed as Markov Decision Processes (MDPs), respectively. Then the Dyna-Q algorithm is utilized for training these tasks. Finally, the positioning and formation control task of five drones are completed in a ROS/Gazebo-based simulation platform, achieving less than 3 cm formation error.
 </details>
 </div>
-<br>
 <div class=project-block>
 <img src=/imgs/3kg.gif alt="Composite‑wing heavy‑load aircraft" class=project-img>
 <p><span class=title>Design of Heavy Load and High Maneuverability Aircrafts</span><br>
@@ -249,7 +244,6 @@ The thesis contains three parts. For the first part, the basic principles of vis
 Designed and produced the composite part of a 5 m‑wingspan aircraft with a maximum load of 24 kg, maximum take‑off weight of 27.5 kg, and nominal airspeed of 15 m/s. Applied a carbon‑PMI‑carbon sandwich structure to build a 130 g single wing spar, wrapped with Kevlar; used carbon & glass fiber reinforced polymer for the D‑box, raising torsional rigidity by 261 %. Won the <b>top three places</b> in the 2018 CADC (Time-limited Airdrop Project), <b>the best record in history</b>. Served as the pilot of solar aircrafts as well.
 </details>
 </div>
-<br>
 <div class=project-block>
 <img src=/imgs/water_tank_short.gif alt="Smart water‑heater prototype" class=project-img>
 <p><span class=title>Development of a Water Heater with a Settable Temperature Controller</span><br>
