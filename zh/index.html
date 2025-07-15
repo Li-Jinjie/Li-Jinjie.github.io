@@ -116,132 +116,115 @@
 </div>
 <div class=content>
 <h2 id=关于我>关于我</h2>
-<p>你好！我是一名博士研究生，目前就读于<a href=https://www.u-tokyo.ac.jp/en/>东京大学</a><a href="https://www2.mech.t.u-tokyo.ac.jp/?lang=en">机械工程学院</a>，师从<a href=http://www.jsk.t.u-tokyo.ac.jp/~chou/><i>Lecturer</i> Moju ZHAO</a>。</p>
+<p>你好！我是一名博士研究生，目前就读于<a href=https://www.u-tokyo.ac.jp/en/>东京大学</a><a href="https://www2.mech.t.u-tokyo.ac.jp/?lang=en">机械工程学院</a>，师从<a href=http://www.dragon.t.u-tokyo.ac.jp/author/moju-zhao/><i>Lecturer</i> Moju ZHAO</a>。</p>
 <p>我的研究兴趣为基于优化的控制方法，并将其应用到空中操作领域。我致力于将空中机器人从空中的眼睛拓展到空中的操作手，从而为低空环境提供劳动力。</p>
 <p>我在北京航空航天大学获得本科（2020，自动化）和硕士（2023，控制科学与工程）学位。关于我的更多信息，可以查看<a href=/pdfs/CV_Jinjie_Li.pdf target=_blank>简历</a>。</p>
 <h2 id=科研>科研</h2>
-<style>*{box-sizing:border-box}.text_column{float:left;width:calc(100% - 310px);padding:0}.gif_column{float:right;width:300px;padding:0}@media screen and (max-width:760px){.text_column{width:100%}.gif_column{width:100%;text-align:center}}</style>
-<style>.title{font-size:1.2em;font-weight:700}</style>
-<div class=text_column>
-<span class=title>Six-DoF Hand-Based Teleoperation for Omnidirectional Aerial Robots</span><br>
-&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b><sup>†</sup>, Jiaxuan Li<sup>†</sup>, Kotaro Kaneko, Liming Shu, Moju Zhao<br>
-&#8201;▪️&#8201;&#8201;<i>IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS 25</b>)</i><br>
-🕗&#8201;Nov. 2024 – Mar. 2025<br>
-🔗&#8201;[<a href=https://arxiv.org/abs/2506.15009>paper</a>] [<a href="https://youtu.be/n0IQEnjPzrw?si=K_WfeU4WGDnSLufG">video</a>] [<a href=https://spectrum.ieee.org/video-friday-cyborg-beetles>IEEE Spectrum Video Friday</a>]
-</div>
-<div class=gif_column>
-<img src=/imgs/IROS25.gif alt="IROS25 demo GIF">
-</div>
-<p>Propose an aerial teleoperation system that brings the omnidirectionality of human hands into the unbounded aerial workspace.</p>
+<style>.project-block{overflow:hidden;margin:0 0 2em}.project-img{float:right;width:300px;max-width:40%;margin:0 0 0 .05em}.title{font-size:1.2em;font-weight:700}.lead{margin:.5em 0}@media(max-width:760px){.project-img{float:none;display:block;margin:1em auto .5em;width:100%;max-width:100%}}</style>
+<div class=project-block>
+<img src=/imgs/IROS25.gif alt="Six‑DoF teleoperation demo" class=project-img>
+<p><span class=title>Six‑DoF Hand‑Based Teleoperation for Omnidirectional Aerial Robots</span><br>
+▪️ <b>Jinjie Li</b><sup>†</sup>, Jiaxuan Li<sup>†</sup>, Kotaro Kaneko, Liming Shu, Moju Zhao<br>
+▪️ <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS'25</b>)</i><br>
+🕗 Nov. 2024 – Mar. 2025<br>
+🔗 [<a href=https://arxiv.org/abs/2506.15009>paper</a>] [<a href="https://youtu.be/n0IQEnjPzrw?si=K_WfeU4WGDnSLufG">video</a>] [<a href=https://spectrum.ieee.org/video-friday-cyborg-beetles>IEEE Spectrum Video Friday</a>]</p>
+<p class=lead>We propose an aerial teleoperation system that transfers the omnidirectionality of human hands into the unbounded aerial workspace.</p>
 <details>
 <summary><b>Abstract</b></summary>
-Omnidirectional aerial robots offer full 6-DoF independent control over position and orientation, making them popular for aerial manipulation. Although advancements in robotic autonomy, operating by human remains essential in complex aerial environments. Existing teleoperation approaches for multirotors fail to fully leverage the additional DoFs provided by omnidirectional rotation. Additionally, the dexterity of human fingers should be exploited for more engaged interaction. In this work, we propose an aerial teleoperation system that brings the omnidirectionality of human hands into the unbounded aerial workspace. Our system includes two motion-tracking marker sets -- one on the shoulder and one on the hand -- along with a data glove to capture hand gestures. Using these inputs, we design four interaction modes for different tasks, including Spherical Mode and Cartesian Mode for long-range moving as well as Operation Mode and Locking Mode for precise manipulation, where the hand gestures are utilized for seamless mode switching. We evaluate our system on a valve-turning task in real world, demonstrating how each mode contributes to effective aerial manipulation. This interaction framework bridges human dexterity with aerial robotics, paving the way for enhanced teleoperated aerial manipulation in unstructured environments.
+Omnidirectional aerial robots offer full 6-DoF independent control over position and orientation, making them popular for aerial manipulation. Although advancements in robotic autonomy, operating by human remains essential in complex aerial environments. Existing teleoperation approaches for multirotors fail to fully leverage the additional DoFs provided by omnidirectional rotation. Additionally, the dexterity of human fingers should be exploited for more engaged interaction. In this work, we propose an aerial teleoperation system that brings the omnidirectionality of human hands into the unbounded aerial workspace. Our system includes two motion-tracking marker sets — one on the shoulder and one on the hand — along with a data glove to capture hand gestures. Using these inputs, we design four interaction modes for different tasks, including Spherical Mode and Cartesian Mode for long‑range moving as well as Operation Mode and Locking Mode for precise manipulation, where the hand gestures are utilized for seamless mode switching. We evaluate our system on a valve‑turning task in real world, demonstrating how each mode contributes to effective aerial manipulation. This interaction framework bridges human dexterity with aerial robotics, paving the way for enhanced teleoperated aerial manipulation in unstructured environments.
 </details>
-<br>
-<div class=text_column>
-<span class=title><b>Servo Integrated Nonlinear Model Predictive Control for Overactuated Tiltable-Quadrotors<br></b></span>
-&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Junichiro Sugihara, Moju Zhao<br>
-&#8201;▪️&#8201;&#8201;<i>IEEE Robotics and Automation Letters (<b>RA-L</b>)</i><br>
-🕗&#8201;Oct. 2023 - Aug. 2024<br>
-🔗&#8201;[<a href=https://arxiv.org/abs/2405.09871>paper</a>] [<a href="https://youtu.be/8_pYdeuQnC0?si=JWOmK2JlZoobJ9iC">video</a>]
 </div>
-<div class=gif_column>
-<img src=/imgs/beetle_nmpc.gif alt=Beetle-NMPC>
-</div>
-<p>To the best of the authors’ knowledge, this is the first time an actuator-level NMPC is verified on a real tiltable-quadrotor.</p>
+<div class=project-block>
+<img src=/imgs/beetle_nmpc.gif alt=Beetle‑NMPC class=project-img>
+<p><span class=title>Servo Integrated Nonlinear Model Predictive Control for Overactuated Tiltable‑Quadrotors</span><br>
+▪️ <b>Jinjie Li</b>, Junichiro Sugihara, Moju Zhao<br>
+▪️ <i>IEEE Robotics and Automation Letters (<b>RA‑L'24</b>)</i><br>
+🕗 Oct. 2023 – Aug. 2024<br>
+🔗 [<a href=https://arxiv.org/abs/2405.09871>paper</a>] [<a href="https://youtu.be/8_pYdeuQnC0?si=JWOmK2JlZoobJ9iC">video</a>] [<a href=/pdfs/ICRA25_Poster_Jinjie.pdf>poster</a>]</p>
+<p class=lead>To the best of the authors’ knowledge, this is the first time an actuator‑ level NMPC is verified on a real tiltable‑quadrotor.</p>
 <details>
 <summary><b>Abstract</b></summary>
-Utilizing a servo to tilt each rotor transforms quadrotors from underactuated to overactuated systems, allowing for independent control of both attitude and position, which provides advantages for aerial manipulation. However, this enhancement also introduces model nonlinearity, sluggish servo response, and limited operational range into the system, posing challenges to dynamic control. In this study, we propose a control approach for tiltable-quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional cascade methods, our approach preserves the full dynamics without simplification. It directly uses rotor thrust and servo angle as control inputs, where their limited working ranges are considered input constraints. Notably, we incorporate a first-order servo model within the NMPC framework. Simulation reveals that integrating the servo dynamics is not only an enhancement to control performance but also a critical factor for optimization convergence. To evaluate the effectiveness of our approach, we fabricate a tiltable-quadrotor and deploy the algorithm onboard at 100 Hz. Extensive real-world experiments demonstrate rapid, robust, and smooth pose-tracking performance.
+Utilizing a servo to tilt each rotor transforms quadrotors from underactuated to overactuated systems, allowing for independent control of both attitude and position, which provides advantages for aerial manipulation. However, this enhancement also introduces model nonlinearity, sluggish servo response, and limited operational range into the system, posing challenges to dynamic control. In this study, we propose a control approach for tiltable‑quadrotors based on nonlinear model predictive control (NMPC). Unlike conventional cascade methods, our approach preserves the full dynamics without simplification. It directly uses rotor thrust and servo angle as control inputs, where their limited working ranges are considered input constraints. Notably, we incorporate a first‑order servo model within the NMPC framework. Simulation reveals that integrating the servo dynamics is not only an enhancement to control performance but also a critical factor for optimization convergence. To evaluate the effectiveness of our approach, we fabricate a tiltable‑quadrotor and deploy the algorithm onboard at 100 Hz. Extensive real‑world experiments demonstrate rapid, robust, and smooth pose‑tracking performance.
 </details>
-<br>
-<div class=text_column>
-<span class=title><b>基于模型预测的无人机密集编队跟踪控制算法研究<br></b></span>
-&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Haoyang Yu, et al.<br>
-&#8201;▪️&#8201;&#8201;<i>硕士学位论文; IEEE Conference on Decision and Control (<b>CDC23</b>)</i><br>
-🕗&#8201;2021.11 - 2023.5<br>
-🔗&#8201;[<a href=/pdfs/master_thesis_zh.pdf target=_blank>中文论文</a>] [<a href=https://arxiv.org/abs/2304.07794>paper</a>] [<a href=https://github.com/Li-Jinjie/ndp_nmpc_qd>code</a>]
 </div>
-<div class=gif_column>
-<img src=/imgs/NDP-NMPC.gif alt=NDP-NMPC>
-</div>
-<p>本课题将从拓展多无人机编队技术实际应用场景出发，研究包含气动扰动建模补偿的多无人机密集编队跟踪问题。</p>
+<div class=project-block>
+<img src=/imgs/NDP-NMPC.gif alt="NDP-NMPC 中文" class=project-img>
+<p><span class=title>基于模型预测的无人机密集编队跟踪控制算法研究</span><br>
+▪️ <b>Jinjie Li</b>, Liang Han, Haoyang Yu, <i>et al.</i><br>
+▪️ <i>硕士学位论文; IEEE Conference on Decision and Control (<b>CDC'23</b>)</i><br>
+🕗 2021.11 – 2023.5<br>
+🔗 [<a href=/pdfs/master_thesis_zh.pdf target=_blank>中文论文</a>] [<a href=https://arxiv.org/abs/2304.07794>paper</a>] [<a href=https://github.com/Li-Jinjie/ndp_nmpc_qd>code</a>]</p>
+<p class=lead>本课题将从拓展多无人机编队技术实际应用场景出发，研究包含气动扰动建模补偿的多无人机密集编队跟踪问题。</p>
 <details>
 <summary><b>摘要</b></summary>
 &emsp;&emsp;多旋翼无人机集群常常以编队飞行的方式移动。当无人机集群在城市、森林等充满障碍的复杂环境中穿行时，需要收缩队形进行密集编队以提高在狭窄空间中的穿越能力。然而，多旋翼无人机通过旋翼向下方吹动空气以产生升力，这种下洗气流气动效应容易干扰近距离飞行的其他无人机，从而威胁密集编队飞行安全。为解决上述问题，本文以四旋翼无人机为研究对象，通过神经网络建模机间下洗气流扰动，同时结合非线性模型预测控制（MPC）方法提出密集编队跟踪控制算法，最终通过仿真与实物飞行验证算法有效性。
 </details>
-<br>
-<div class=text_column>
-<span class=title><b>Development of a Data-Oriented Programming 3D Simulator for Heterogeneous Mobile Robots<br></b></span>
-&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Haoyang Yu, et al.<br>
-&#8201;▪️&#8201;&#8201;<i>ICRA 2023 Workshop on <q>The Role of Robotics Simulators for Unmanned Aerial Vehicles</q></i><br>
-🕗&#8201;Sept. 2020 - Mar. 2023<br>
-🔗&#8201;[<a href=https://imrclab.github.io/workshop-uav-sims-icra2023/papers/RS4UAVs_paper_8.pdf>paper</a>] [<a href=https://imrclab.github.io/workshop-uav-sims-icra2023/papers/RS4UAVs_poster_8.pdf>poster</a>]
 </div>
-<div class=gif_column>
-<img src=/imgs/triangle_sim.gif alt="triangle sim">
-</div>
-<p>Develop a simulation platform for mobile robotics based on data-oriented programming, supporting the simulation of over 1000 nodes.</p>
+<div class=project-block>
+<img src=/imgs/triangle_sim.gif alt="triangle sim" class=project-img>
+<p><span class=title>Development of a Data‑Oriented Programming 3D Simulator for Heterogeneous Mobile Robots</span><br>
+▪️ <b>Jinjie Li</b>, Liang Han, Haoyang Yu, <i>et al.</i><br>
+▪️ <i>ICRA 2023 Workshop on <q>The Role of Robotics Simulators for Unmanned Aerial Vehicles</q></i><br>
+🕗 Sept. 2020 – Mar. 2023<br>
+🔗 [<a href=https://imrclab.github.io/workshop-uav-sims-icra2023/papers/RS4UAVs_paper_8.pdf>paper</a>] [<a href=https://imrclab.github.io/workshop-uav-sims-icra2023/papers/RS4UAVs_poster_8.pdf>poster</a>] [<a href=https://github.com/Li-Jinjie/dop_sim>code</a>]</p>
+<p class=lead>Develop a simulation platform for mobile robots based on data‑oriented programming, supporting simulations with well over&nbsp;1 000 nodes.</p>
 <details>
 <summary><b>Abstract</b></summary>
-Large-scale simulation with realistic nonlinear dynamic models is crucial for algorithms development for swarm robotics. However, existing platforms are mainly developed based on Object-Oriented Programming (OOP) and either use simple kinematic models to pursue a large number of simulating nodes or implement realistic dynamic models with limited simulating nodes. In this paper, we develop a simulator based on Data-Oriented Programming (DOP) that utilizes GPU parallel computing to achieve large-scale swarm robotic simulations. Specifically, we use a multi-process approach to simulate different kinds of agents and leverage PyTorch with GPU to simulate one kind of agents with a large number to achieve large-scale parallel computing for swarm robotics. We test our approach using a nonlinear quadrotor model and demonstrate that this DOP approach can maintain almost the same computational speed when quadrotors are less than 5,000. We also provide two examples to demonstrate the functionality of the platform.
+Large‑scale simulation with realistic nonlinear dynamic models is crucial for algorithms development for swarm robotics. However, existing platforms are mainly developed based on Object‑Oriented Programming (OOP) and either use simple kinematic models to pursue a large number of simulating nodes or implement realistic dynamic models with limited simulating nodes. In this paper, we develop a simulator based on Data‑Oriented Programming (DOP) that utilizes GPU parallel computing to achieve large‑scale swarm robotic simulations. Specifically, we use a multi‑process approach to simulate different kinds of agents and leverage PyTorch with GPU to simulate one kind of agents with a large number to achieve large-scale parallel computing for swarm robotics. We test our approach using a nonlinear quadrotor model and demonstrate that this DOP approach can maintain almost the same computational speed when quadrotors are less than 5,000. We also provide two examples to demonstrate the functionality of the platform.
 </details>
-<br>
-<div class=text_column>
-<span class=title><b>Indoor Localization for Quadrotors using Invisible Projected Tags<br></b></span>
-&#8201;▪️&#8201;&#8201;<b>Jinjie Li</b>, Liang Han, Zhang Ren<br>
-&#8201;▪️&#8201;&#8201;<i>IEEE International Conference on Robotics and Automation (<b>ICRA22</b>)</i><br>
-🕗&#8201;May 2021 - Feb. 2022<br>
-🔗&#8201;[<a href=https://youtu.be/wKmIjXNx7yY>oral</a>] [<a href=https://arxiv.org/abs/2203.00356>paper</a>] [<a href=https://youtu.be/nOV_zPmYvCs>video</a>]
 </div>
-<div class=gif_column>
-<img src=/imgs/IPT.gif alt=IPT>
-</div>
-<p>This work proposes a real-time centimeter-level indoor localization method based on invisible projected tags (IPT).</p>
+<div class=project-block>
+<img src=/imgs/IPT.gif alt="Invisible Projected Tags demo" class=project-img>
+<p><span class=title>Indoor Localization for Quadrotors using Invisible Projected Tags</span><br>
+▪️ <b>Jinjie Li</b>, Liang Han, Zhang Ren<br>
+▪️ <i>IEEE International Conference on Robotics and Automation (<b>ICRA'22</b>)</i><br>
+🕗 May 2021 – Feb. 2022<br>
+🔗 [<a href=https://youtu.be/wKmIjXNx7yY>oral</a>] [<a href=https://arxiv.org/abs/2203.00356>paper</a>] [<a href=https://youtu.be/nOV_zPmYvCs>video</a>]</p>
+<p class=lead>This work proposes a real‑time centimeter‑level indoor localization method based on invisible projected tags (IPT).</p>
 <details>
 <summary><b>Abstract</b></summary>
 Augmented reality (AR) technology has been introduced into the robotics field to narrow the visual gap between indoor and outdoor environments. However, without signals from satellite navigation systems, flight experiments in these indoor AR scenarios need other accurate localization approaches. This work proposes a real-time centimeter-level indoor localization method based on psycho-visually invisible projected tags (IPT), requiring a projector as the sender and quadrotors with high-speed cameras as the receiver. The method includes a modulation process for the sender, as well as demodulation and pose estimation steps for the receiver, where screen-camera communication technology is applied to hide fiducial tags using human vision property. Experiments have demonstrated that IPT can achieve accuracy within ten centimeters and a speed of about ten FPS. Compared with other localization methods for AR robotics platforms, IPT is affordable by using only a projector and high-speed cameras as hardware consumption and convenient by omitting a coordinate alignment step. To the authors' best knowledge, this is the first time screen-camera communication is utilized for AR robot localization.
 </details>
+</div>
 <h2 id=项目>项目</h2>
-<div class=text_column>
-<span class=title><b>基于视觉定位的多无人机编队控制方法研究<br></b></span>
-&#8201;▪️&#8201;&#8201;<i>本科学位论文</i>，<u>院级优秀学士学位论文</u><br>
-🕗&#8201;2019.12 - 2020.06<br>
-🔗&#8201;[<a href=/pdfs/bachelor_thesis_zh.pdf target=_blank>中文论文</a>] [<a href=https://github.com/Li-Jinjie/gazebo_drone_tutorials>代码</a>]
-</div>
-<div class=gif_column>
-<img src=/imgs/formation_control.gif alt="formation control">
-</div>
-<p>毕设内容主要包括（1）拍摄下方的二维码以进行视觉定位，并与IMU信息组合以提升定位可靠性；（2）应用Dyna-Q强化学习算法实现多架无人机编队控制任务的训练与部署；（3）在ROS-Gazebo仿真环境中进行算法验证。论文得分<b>本专业第一</b>。</p>
+<div class=project-block>
+<img src=/imgs/formation_control.gif alt="formation control 中文" class=project-img>
+<p><span class=title>基于视觉定位的多无人机编队控制方法研究</span><br>
+▪️ <i>本科学位论文</i>，<u>院级优秀学士学位论文</u><br>
+🕗 2019.12 – 2020.06<br>
+🔗 [<a href=/pdfs/bachelor_thesis_zh.pdf target=_blank>中文论文</a>] [<a href=https://github.com/Li-Jinjie/gazebo_drone_tutorials>代码</a>]</p>
+<p class=lead>毕设内容主要包括（1）二维码视觉定位与IMU融合；（2）Dyna‑Q 强化学习训练多机编队；（3）ROS/Gazebo 平台仿真验证。论文得分 <b>本专业第一</b>。</p>
 <details>
 <summary><b>摘要</b></summary>
 &emsp;&emsp;随着近几年计算机视觉技术和人工智能技术的蓬勃发展，集群化、自主化、智能化将成为无人机发展的重要方向。本论文将视觉定位技术与人工智能算法应用于无人机集群领域，实现了一种基于视觉定位与强化学习的多无人机编队控制系统，提升了无人机执行任务的自主性与抗干扰能力。论文的主要研究内容如下：
-<br>
-<br>
-&emsp;&emsp;首先，研究视觉定位的基本原理并建立视觉模型，进而应用计算机视觉技术，实现摄像头标定、二维码检测、解码和位姿求解等步骤以获得视觉定位信息，并与惯性导航方式进行信息融合，以在Gazebo仿真环境中搭建的稀疏二维码场景下实现自主、连续、精确的定位效果。其次，研究强化学习的基本原理，将编队问题分解为目标跟踪任务与避碰任务并分别设计状态空间、动作空间和奖励函数，并结合Dyna-Q强化学习算法设计训练流程。进而基于ROS/Gazebo仿真环境搭建虚拟现实仿真平台，分别完成对目标追踪算法与避碰算法的训练。最后，应用视觉定位算法与强化学习编队算法，完成五架无人机包含内部避碰的协同定位与控制任务，取得良好的协同编队效果。
+<br><br>
+&emsp;&emsp;首先，研究视觉定位的基本原理并建立视觉模型，进而应用计算机视觉技术，实现摄像头标定、二维码检测、解码和位姿求解等步骤以获得视觉定位信息，并与惯性导航方式进行信息融合，以在Gazebo仿真环境中搭建的稀疏二维码场景下实现自主、连续、精确的定位效果。其次，研究强化学习的基本原理，将编队问题分解为目标跟踪任务与避碰任务并分别设计状态空间、动作空间和奖励函数，并结合 Dyna‑Q 强化学习算法设计训练流程。进而基于 ROS/Gazebo 仿真环境搭建虚拟现实仿真平台，分别完成对目标追踪算法与避碰算法的训练。最后，应用视觉定位算法与强化学习编队算法，完成五架无人机包含内部避碰的协同定位与控制任务，取得良好的协同编队效果。
 </details>
-<br>
-<div class=text_column>
-<span class=title><b>限时载运空投飞机设计与优化<br></b></span>
-&#8201;▪️&#8201;&#8201;<i>中国国际飞行器设计挑战赛 (CADC)</i>，<u>复材组组长、太阳能飞手</u><br>
-🕗&#8201;2017.07 - 2018.10<br>
-🔗&#8201;[<a href=/pdfs/BMFA_August_2021_p22-26.pdf target=_blank>BMFA News Magazine 杂志报道</a>] [<a href=/posts/3kg/>技术细节 & 视频</a>] [<a href=/posts/solar_aircraft/>操纵手训练 & 视频</a>]
 </div>
-<div class=gif_column>
-<img src=/imgs/3kg.gif alt=aeromodelling>
+<div class=project-block>
+<img src=/imgs/3kg.gif alt="CADC heavy-load aircraft 中文" class=project-img>
+<p><span class=title>限时载运空投飞机设计与优化</span><br>
+▪️ <i>中国国际飞行器设计挑战赛 (CADC)</i>，<u>复材组组长、太阳能飞手</u><br>
+🕗 2017.07 – 2018.10<br>
+🔗 [<a href=/pdfs/BMFA_August_2021_p22-26.pdf target=_blank>BMFA News Magazine 杂志报道</a>] [<a href=/posts/3kg/>技术细节 & 视频</a>] [<a href=/posts/solar_aircraft/>操纵手训练 & 视频</a>]</p>
+<p class=lead>参与设计并制作 5 米翼展复合材料飞机，载重 24 kg，荣获 CADC 三项个人前三与团体冠军，<b>创历史最佳战绩</b>。此外，作为太阳能飞机的飞手参加比赛。</p>
+<details>
+<summary><b>摘要</b></summary>
+协作完成高机动载重飞机的设计与制作，飞机翼展 5 米，最大载重量 24 kg，起飞重量 27.5 kg，常规飞行速度 15 m/s，可用过载 3g。负责复合材料部分的技术攻关，机翼主梁采用碳纤维‑PMI‑碳纤维夹心结构，外缠凯夫拉线加强；机翼 D 型盒采用碳纤维与玻纤夹心泡沫技术（CGFRP）制作。材料的改进使得机翼最大扭矩在原基础上提升 161.07%，显著提升飞机性能。在 2018 年中国国际飞行器设计挑战赛（CADC）限时载运空投项目中，北航航模队三个机组包揽 <b>个人前三与团体冠军</b>，为 <b>历史最好成绩</b>。此外，作为太阳能飞机的飞手参加比赛。
+</details>
 </div>
-<p>完成高机动载重飞机的设计与制作，飞机翼展 5 米，最大载重量 24kg，起飞重量 27.5kg，常规飞行速度 15m/s，可用过载 3g。负责复合材料部分的技术攻关，机翼主梁采用碳纤维-PMI-碳纤维夹心结构，外缠凯夫拉线加强；机翼 D 型盒采用碳纤维与玻纤夹心泡沫技术（CGFRP）制作。材料的改进使得机翼最大扭矩在原基础上提升 161.07%，显著提升飞机性能。在 2018 年中国国际飞行器设计挑
-战赛（CADC）限时载运空投项目中，北航航模队三个机组包揽<b>个人前三与团体冠军</b>，为<b>历史最好成绩</b>。此外，作为太阳能飞机的飞手参加比赛。</p>
-<br>
-<div class=text_column>
-<span class=title><b>可调节恒温控制系统的设计与制作<br></b></span>
-&#8201;▪️&#8201;&#8201;<i>模拟电子技术基础-课程设计</i>，<u>组长</u><br>
-🕗&#8201;2018.03 - 2018.06<br>
-🔗&#8201;[<a href=https://v.qq.com/x/page/z0698ro9htz.html>视频</a>] [<a href=/posts/water_tank/>技术细节</a>] [<a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller>代码 & PCB</a>]
+<div class=project-block>
+<img src=/imgs/water_tank_short.gif alt="water heater 中文" class=project-img>
+<p><span class=title>可调节恒温控制系统的设计与制作</span><br>
+▪️ <i>模拟电子技术基础 – 课程设计</i>，<u>组长</u><br>
+🕗 2018.03 – 2018.06<br>
+🔗 [<a href=https://v.qq.com/x/page/z0698ro9htz.html>视频</a>] [<a href=/posts/water_tank/>技术细节</a>] [<a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller>代码 & PCB</a>]</p>
+<p class=lead>该系统从零开始设计制作，可通过蓝牙控制在 50°C~100°C 范围内设定温度，5 分钟内完成升降温。项目得分 <b>本专业第一</b>。</p>
+<details>
+<summary><b>摘要</b></summary>
+从零开始设计、制作一个可设定温度的恒温控制系统实物。该系统采用 220V 供电，可在 50°C~100°C 之间设置温度，可通过手机蓝牙控制，并且能在五分钟内快速升温或降温到指定温度。项目得分 <b>本专业第一</b>。
+</details>
 </div>
-<div class=gif_column>
-<img src=/imgs/water_tank_short.gif alt="water heater">
-</div>
-<p>从零开始设计、制作一个可设定温度的恒温控制系统实物。该系统采用 220V 供电，可在 50°C~100°C之间设置温度，可通过手机蓝牙控制，并且能在五分钟内快速升温或降温到指定温度。项目得分<b>本专业第一</b>。</p>
 <h2 id=分享>分享</h2>
 <ul>
 <li>
