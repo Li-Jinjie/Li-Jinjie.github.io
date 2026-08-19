@@ -122,6 +122,25 @@
 <h2 id=科研>科研</h2>
 <style>.project-block{overflow:hidden;margin:0 0 2em}.project-img{float:right;width:300px;max-width:40%;margin:0 0 0 .05em}.title{font-size:1.2em;font-weight:700}.lead{margin:.5em 0}@media(max-width:760px){.project-img{float:none;display:block;margin:1em auto .5em;width:100%;max-width:100%}}</style>
 <div class=project-block>
+<img src=/imgs/T-RO26.gif alt="Effector-centric NMPC for aerial manipulation" class=project-img>
+<p><span class=title>Effector-Centric NMPC of Tiltable-Multirotors for Offset-Free Omnidirectional Aerial Manipulation</span><br>
+▪️ <b>Jinjie Li</b>, Yicheng Chen, Johannes Kübel, <i>et al.</i><br>
+▪️ <i>IEEE Transactions on Robotics (<b>T-RO'26</b>)</i><br>
+🕗 Nov. 2024 – Aug. 2026<br>
+🔗 [<a href=https://arxiv.org/abs/2608.17819>paper</a>] [<a href=https://youtu.be/mhxIxy8PfEM>video part 1</a>] [<a href=https://youtu.be/B-POuBdU_J4>video part 2</a>] [<a href=https://youtu.be/ypnl0iJvEA4>video part 3</a>]</p>
+<p class=lead>To the best of our knowledge, this is the first experimental demonstration of wrench-based omnidirectional aerial manipulation with singularity traversal on a one-DoF-per-arm tiltable-quadrotor.</p>
+<details>
+<summary><b>Abstract</b></summary>
+Aerial manipulation extends robotic operations to previously inaccessible aerial environments. Unlike arm-equipped aerial systems, tiltable-multirotors can directly generate six-degree-of-freedom wrenches through their flight bases, enabling both efficient movement and omnidirectional operation by tilting the thrust direction.
+<br>
+<br>
+This work presents a design analysis and a wrench-based control framework for tiltable-multirotors in aerial manipulation. We show that a four-rotor tiltable configuration provides a balance between interference-free propeller sizing and hovering efficiency across different attitudes, and its null-space redundancy is crucial for traversing singular configurations under physical constraints. We further show that an upward end-effector placement yields a favorable trade-off between geometric clearance and available wrench. To address disturbances, we propose a dual strategy consisting of a modified integral term for model error and an acceleration-based estimator for external wrenches. Building on these insights, we develop an effector-centric nonlinear model predictive control (NMPC) framework that integrates design choices, singularity handling, and disturbance compensation into a unified formulation.
+<br>
+<br>
+The proposed framework runs fully onboard at 100 Hz on a custom-built tiltable-quadrotor. Real-world experiments, including a 90-deg step cartwheel rotation, whiteboard pushing, and continuous 360-deg valve turning, demonstrate the feasibility of wrench-based omnidirectional manipulation with singularity traversal on a one-DoF-per-arm tiltable-quadrotor.
+</details>
+</div>
+<div class=project-block>
 <img src=/imgs/IROS25.gif alt="Six‑DoF teleoperation demo" class=project-img>
 <p><span class=title>Six‑DoF Hand‑Based Teleoperation for Omnidirectional Aerial Robots</span><br>
 ▪️ <b>Jinjie Li</b><sup>†</sup>, Jiaxuan Li<sup>†</sup>, Kotaro Kaneko, <i>et al.</i><br>
@@ -190,6 +209,14 @@ Augmented reality (AR) technology has been introduced into the robotics field to
 <h3 id=共同作者>共同作者</h3>
 <div class=coauthored-section>
 <div class=co-grid>
+<div class=co-item>
+<div class=co-title>SCP Planner</div>
+<div class=co-links>
+T-ASE'26 [<a href=https://ieeexplore.ieee.org/abstract/document/11648202>paper</a>]
+[<a href="https://youtu.be/cOVmbD0oLGU?si=GayzvstMmk7z4pja" target=_blank>video</a>]
+</div>
+<img src=/imgs/T-ASE26_SCP.gif class=co-img>
+</div>
 <div class=co-item>
 <div class=co-title>Hydrus Planner</div>
 <div class=co-links>
