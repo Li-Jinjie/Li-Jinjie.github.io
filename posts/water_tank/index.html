@@ -2,14 +2,14 @@
 <meta name=viewport content="width=device-width">
 <title>Development of a Settable Constant Temperature Controller | Jinjie LI</title>
 <meta name=generator content="Hugo Eureka 0.9.0">
-<link rel=stylesheet href=/css/eureka.min.css>
-<script defer src=/js/eureka.min.js></script>
+<link rel=stylesheet href=https://jinjie.li/css/eureka.min.css>
+<script defer src=https://jinjie.li/js/eureka.min.js></script>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" as=style onload="this.onload=null,this.rel='stylesheet'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css media=print onload="this.media='all',this.onload=null" crossorigin>
 <script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js crossorigin></script>
 <script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js crossorigin></script>
-<script defer type=text/javascript src=/js/fontawesome.min.4cba50a6308ebe5a68c469565d0964bcda040e1c707108d21524bd0c2b81e542553ecc6a53f4f4663750806da0c81d28.js integrity=sha384-TLpQpjCOvlpoxGlWXQlkvNoEDhxwcQjSFSS9DCuB5UJVPsxqU/T0ZjdQgG2gyB0o></script>
+<script defer type=text/javascript src=https://jinjie.li/js/fontawesome.min.4cba50a6308ebe5a68c469565d0964bcda040e1c707108d21524bd0c2b81e542553ecc6a53f4f4663750806da0c81d28.js integrity=sha384-TLpQpjCOvlpoxGlWXQlkvNoEDhxwcQjSFSS9DCuB5UJVPsxqU/T0ZjdQgG2gyB0o></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X media=print onload="this.media='all',this.onload=null" crossorigin>
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin></script>
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin></script>
@@ -18,20 +18,25 @@
 <link rel=preconnect href=https://www.google-analytics.com crossorigin>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMF0SGGT5M"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-TMF0SGGT5M')</script>
-<link rel=icon type=image/png sizes=32x32 href=/images/icon_hu3bc56a1f268dd5fcad0decc4ab38c1f8_17446_32x32_fill_box_center_3.png>
-<link rel=apple-touch-icon sizes=180x180 href=/images/icon_hu3bc56a1f268dd5fcad0decc4ab38c1f8_17446_180x180_fill_box_center_3.png>
+<link rel=stylesheet href=/css/homepage.min.25cf0380893c12fc364fec8f13edf1f94d6309973ebbdfbde6c23f08e1636119958d474743674c69782e1c335c84ae40.css integrity=sha384-Jc8DgIk8Evw2T+yPE+3x+U1jCZc+u9+95sI/COFjYRmVjUdHQ2dMaXguHDNchK5A>
+<link rel=canonical href=https://jinjie.li/posts/water_tank/>
+<link rel=icon type=image/png sizes=32x32 href=https://jinjie.li/images/icon_hu3bc56a1f268dd5fcad0decc4ab38c1f8_17446_32x32_fill_box_center_3.png>
+<link rel=apple-touch-icon sizes=180x180 href=https://jinjie.li/images/icon_hu3bc56a1f268dd5fcad0decc4ab38c1f8_17446_180x180_fill_box_center_3.png>
 <meta name=description content="Requirements Duration: Feb. 2018 - Jun. 2018
 Design and manufacture a constant temperature control system that can be set to a specific temperature:
  Set the temperature in grades (at least three) The range of heat is from 50 to 100 degrees, and the error should not exceed ±5 degrees. (Score according to the accuracy) Use a cellphone to set and display the temperature. Powered by 220V AC.  Achievements We shot this video to present the functions.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"/posts/"},{"@type":"ListItem","position":2,"name":"Development of a Settable Constant Temperature Controller","item":"/posts/water_tank/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/water_tank/"},"headline":"Development of a Settable Constant Temperature Controller | Jinjie LI","datePublished":"2018-07-05T00:00:00+00:00","dateModified":"2018-07-05T00:00:00+00:00","wordCount":916,"publisher":{"@type":"Person","name":"Jinjie LI","logo":{"@type":"ImageObject","url":"/images/icon.png"}},"description":"Requirements Duration: Feb. 2018 - Jun. 2018\nDesign and manufacture a constant temperature control system that can be set to a specific temperature:\n Set the temperature in grades (at least three) The range of heat is from 50 to 100 degrees, and the error should not exceed ±5 degrees. (Score according to the accuracy) Use a cellphone to set and display the temperature. Powered by 220V AC.  Achievements We shot this video to present the functions."}</script><meta property="og:title" content="Development of a Settable Constant Temperature Controller | Jinjie LI">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://jinjie.li/posts/"},{"@type":"ListItem","position":2,"name":"Development of a Settable Constant Temperature Controller","item":"https://jinjie.li/posts/water_tank/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://jinjie.li/posts/water_tank/"},"headline":"Development of a Settable Constant Temperature Controller | Jinjie LI","datePublished":"2018-07-05T00:00:00+00:00","dateModified":"2018-07-05T00:00:00+00:00","wordCount":930,"publisher":{"@type":"Person","name":"Jinjie LI","logo":{"@type":"ImageObject","url":"https://jinjie.li/images/icon.png"}},"description":"Requirements Duration: Feb. 2018 - Jun. 2018\nDesign and manufacture a constant temperature control system that can be set to a specific temperature:\n Set the temperature in grades (at least three) The range of heat is from 50 to 100 degrees, and the error should not exceed ±5 degrees. (Score according to the accuracy) Use a cellphone to set and display the temperature. Powered by 220V AC.  Achievements We shot this video to present the functions."}</script><meta property="og:title" content="Development of a Settable Constant Temperature Controller | Jinjie LI">
 <meta property="og:type" content="article">
-<meta property="og:image" content="/images/icon.png">
-<meta property="og:url" content="/posts/water_tank/">
-<meta property="og:description" content="Requirements Duration: Feb. 2018 - Jun. 2018
-Design and manufacture a constant temperature control system that can be set to a specific temperature:
- Set the temperature in grades (at least three) The range of heat is from 50 to 100 degrees, and the error should not exceed ±5 degrees. (Score according to the accuracy) Use a cellphone to set and display the temperature. Powered by 220V AC.  Achievements We shot this video to present the functions.">
-<meta property="og:locale" content="en">
+<meta property="og:url" content="https://jinjie.li/posts/water_tank/">
+<meta property="og:image" content="https://jinjie.li/images/og-jinjie-li-en.png">
+<meta property="og:image:secure_url" content="https://jinjie.li/images/og-jinjie-li-en.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Jinjie Li — Aerial Robotics, Model Predictive Control, and Aerial Manipulation">
+<meta property="og:description" content="Personal academic website of Jinjie Li, featuring research in aerial robotics, model predictive control, and aerial manipulation.">
+<meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Jinjie LI">
 <meta property="article:published_time" content="2018-07-05T00:00:00+00:00">
 <meta property="article:modified_time" content="2018-07-05T00:00:00+00:00">
@@ -121,7 +126,8 @@ Design and manufacture a constant temperature control system that can be set to 
 <p>Adjustment time: <code>Approximately 5min</code> (Depending on the environment and how much water is loaded)</p>
 <p>Simulation: <code>Multism</code></p>
 <p>PCB design: <code>Altium designer</code></p>
-<p>MCU program: <code>STM32CubeMX</code>, <code>Keil 5</code> 👉See the program <a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master>here</a>.</p>
+<p>MCU program: <code>STM32CubeMX</code>, <code>Keil 5</code> 👉See the program <a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master target=_blank rel=noopener>here<span class=sr-only> (opens in a new tab)</span></a>
+.</p>
 <h3 id=implementation>Implementation</h3>
 <ol>
 <li>
@@ -234,7 +240,8 @@ conversion, the analog signal can be converted into a digital signal which can b
 </li>
 <li>
 <p><strong>PCB boards</strong></p>
-<p>We drew two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from <a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board>here</a>.</p>
+<p>We drew two 10cm*10cm PCB boards to actuate the whole circuits and connect the two boards with an MCU board. The PCB boards are as follows and you can download them from <a href=https://github.com/Li-Jinjie/Design-of-Settable-Constant-Temperature-Controller/tree/master/PCB%20Board target=_blank rel=noopener>here<span class=sr-only> (opens in a new tab)</span></a>
+.</p>
 <table>
 <thead>
 <tr>
@@ -279,7 +286,8 @@ conversion, the analog signal can be converted into a digital signal which can b
 </tbody>
 </table>
 <h3 id=summary>Summary</h3>
-<p>Finally, this project was ranked No.1 in my class! And we were invited by <a href=http://www.lss-lab.bme.buaa.edu.cn/English/enindex.htm>Lunar Palace 1 Lab</a> to design and develop several temperature control systems for plant cultivation.</p>
+<p>Finally, this project was ranked No.1 in my class! And we were invited by <a href=http://www.lss-lab.bme.buaa.edu.cn/English/enindex.htm target=_blank rel=noopener>Lunar Palace 1 Lab<span class=sr-only> (opens in a new tab)</span></a>
+to design and develop several temperature control systems for plant cultivation.</p>
 <table>
 <thead>
 <tr>
@@ -298,7 +306,7 @@ conversion, the analog signal can be converted into a digital signal which can b
 <div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
 <div>
 <span class="block font-bold">Previous</span>
-<a href=/posts/3kg/ class=block>Designing and Optimization of Heavy Load and High Maneuverability Aircrafts (Composite material part)</a>
+<a href=https://jinjie.li/posts/3kg/ class=block>Design and Optimization of a Heavy-Load, High-Maneuverability Aircraft (Composite Material Part)</a>
 </div>
 <div class="md:text-right mt-4 md:mt-0">
 </div>
@@ -311,8 +319,9 @@ conversion, the analog signal can be converted into a digital signal which can b
 </main>
 <footer class=ps-scrollbar>
 <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
-<p class="text-sm text-tertiary-text"> Powered by the <a href=https://github.com/wangchucheng/hugo-eureka class=hover:text-eureka>Eureka</a> theme for <a href=https://gohugo.io class=hover:text-eureka>Hugo</a></p>
-</div></div>
+<p class="text-sm text-tertiary-text"> Powered by the <a href=https://github.com/wangchucheng/hugo-eureka class=hover:text-eureka target=_blank rel=noopener>Eureka<span class=sr-only> (opens in a new tab)</span></a> theme for <a href=https://gohugo.io class=hover:text-eureka target=_blank rel=noopener>Hugo<span class=sr-only> (opens in a new tab)</span></a></p>
+</div>
+</div>
 </footer>
 </body>
 </html>
